@@ -1,0 +1,8 @@
+EN clkcon NULL C:/Users/gnocuil/Desktop/cpld/clkcon.vhd sub00/vhpl04 1341301734
+EN rcvr NULL C:/Users/gnocuil/Desktop/cpld/rcvr.vhd sub00/vhpl02 1341301732
+AR txmit v1 C:/Users/gnocuil/Desktop/cpld/txmit.vhd sub00/vhpl01 1341301731
+AR uart v1 C:/Users/gnocuil/Desktop/cpld/uart.vhd sub00/vhpl07 1341301737
+EN txmit NULL C:/Users/gnocuil/Desktop/cpld/txmit.vhd sub00/vhpl00 1341301730
+EN uart NULL C:/Users/gnocuil/Desktop/cpld/uart.vhd sub00/vhpl06 1341301736
+AR rcvr v1 C:/Users/gnocuil/Desktop/cpld/rcvr.vhd sub00/vhpl03 1341301733
+AR clkcon v1 C:/Users/gnocuil/Desktop/cpld/clkcon.vhd sub00/vhpl05 1341301735

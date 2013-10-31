@@ -1,0 +1,4 @@
+vhdtdtfi -lib work IDRegABypass.vhd -prj Project -o IDRegABypass.spl -module IDRegABypass -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDRegABypass.spl {D:/VHDL/Computer Arti/Project/IDRegABypass.sym} 
+vhdtdtfi -lib work IDRegABypass.vhd -prj Project -o IDRegABypass.spl -module IDRegABypass -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDRegABypass.spl {D:/VHDL/Computer Arti/Project/IDRegABypass.sym} 

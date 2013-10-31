@@ -1,0 +1,7 @@
+[Inputs]
+TInput
+=RegAInput[15:0]=
+=InstInput[15:0]=
+[Outputs]
+=Output[1:0]=
+[BiDir]

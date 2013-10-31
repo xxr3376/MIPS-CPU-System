@@ -1,0 +1,171 @@
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o serial_port_map.ncd serial_port.ngd serial_port.pcf 
+par -w -intstyle ise -ol high -t 1 serial_port_map.ncd serial_port.ncd serial_port.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml serial_port.twx serial_port.ncd -o serial_port.twr serial_port.pcf -ucf serial_port.ucf 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/serial_port/serial_port.xst" -ofn "D:/VHDL/Computer Arti/serial_port/serial_port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc serial_port.ucf -p xc3s1200e-fg320-4 "serial_port.ngc" serial_port.ngd  
+bitgen -intstyle ise -f serial_port.ut serial_port.ncd 

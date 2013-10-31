@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Tue Oct 23 22:38:47 2012
+# Process ID: 2236
+# Log file: D:/VHDL/Computer Arti/serial_port/planAhead_run_1/planAhead.log
+# Journal file: D:/VHDL/Computer Arti/serial_port/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/VHDL/Computer Arti/serial_port/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin U11 [get_ports key1]
+endgroup
+startgroup
+set_property package_pin U14 [get_ports key2]
+endgroup
+startgroup
+set_property package_pin V14 [get_ports key3]
+endgroup
+save_design

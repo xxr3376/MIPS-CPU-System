@@ -1,0 +1,385 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o
+MemoryController.twr MemoryController.pcf -ucf main.ucf
+
+Design file:              MemoryController.ncd
+Physical constraint file: MemoryController.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+-----------------+------------+------------+------------------+--------+
+                 |Max Setup to|Max Hold to |                  | Clock  |
+Source           | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+-----------------+------------+------------+------------------+--------+
+address2<0>      |    3.482(R)|   -0.134(R)|clock_BUFGP       |   0.000|
+address2<1>      |    7.795(R)|   -2.567(R)|clock_BUFGP       |   0.000|
+address2<2>      |    7.017(R)|   -1.944(R)|clock_BUFGP       |   0.000|
+address2<3>      |    6.989(R)|   -1.923(R)|clock_BUFGP       |   0.000|
+address2<4>      |    8.021(R)|   -2.748(R)|clock_BUFGP       |   0.000|
+address2<5>      |    6.171(R)|   -1.269(R)|clock_BUFGP       |   0.000|
+address2<6>      |    6.382(R)|   -1.436(R)|clock_BUFGP       |   0.000|
+address2<7>      |    6.697(R)|   -1.690(R)|clock_BUFGP       |   0.000|
+address2<8>      |    5.873(R)|   -1.029(R)|clock_BUFGP       |   0.000|
+address2<9>      |    6.063(R)|   -1.180(R)|clock_BUFGP       |   0.000|
+address2<10>     |    6.081(R)|   -1.196(R)|clock_BUFGP       |   0.000|
+address2<11>     |    6.209(R)|   -1.298(R)|clock_BUFGP       |   0.000|
+address2<12>     |    6.453(R)|   -1.493(R)|clock_BUFGP       |   0.000|
+address2<13>     |    6.105(R)|   -1.214(R)|clock_BUFGP       |   0.000|
+address2<14>     |    5.559(R)|   -0.778(R)|clock_BUFGP       |   0.000|
+address2<15>     |    6.582(R)|   -1.595(R)|clock_BUFGP       |   0.000|
+basicDatabus<0>  |    2.165(R)|   -0.483(R)|clock_BUFGP       |   0.000|
+basicDatabus<1>  |    1.784(R)|   -0.134(R)|clock_BUFGP       |   0.000|
+basicDatabus<2>  |    0.874(R)|    0.560(R)|clock_BUFGP       |   0.000|
+basicDatabus<3>  |    0.567(R)|    0.806(R)|clock_BUFGP       |   0.000|
+basicDatabus<4>  |    0.598(R)|    0.781(R)|clock_BUFGP       |   0.000|
+basicDatabus<5>  |    0.241(R)|    1.067(R)|clock_BUFGP       |   0.000|
+basicDatabus<6>  |    0.606(R)|    0.772(R)|clock_BUFGP       |   0.000|
+basicDatabus<7>  |    0.698(R)|    0.699(R)|clock_BUFGP       |   0.000|
+extendDatabus<0> |    1.904(R)|    0.485(R)|clock_BUFGP       |   0.000|
+extendDatabus<1> |    2.655(R)|    0.250(R)|clock_BUFGP       |   0.000|
+extendDatabus<2> |    2.066(R)|   -0.097(R)|clock_BUFGP       |   0.000|
+extendDatabus<3> |    2.255(R)|   -0.497(R)|clock_BUFGP       |   0.000|
+extendDatabus<4> |    2.525(R)|   -0.194(R)|clock_BUFGP       |   0.000|
+extendDatabus<5> |    2.906(R)|   -0.402(R)|clock_BUFGP       |   0.000|
+extendDatabus<6> |    1.791(R)|    0.190(R)|clock_BUFGP       |   0.000|
+extendDatabus<7> |    2.083(R)|    0.250(R)|clock_BUFGP       |   0.000|
+extendDatabus<8> |    2.136(R)|    0.972(R)|clock_BUFGP       |   0.000|
+extendDatabus<9> |    2.352(R)|    0.156(R)|clock_BUFGP       |   0.000|
+extendDatabus<10>|    1.643(R)|    1.034(R)|clock_BUFGP       |   0.000|
+extendDatabus<11>|    2.104(R)|    0.775(R)|clock_BUFGP       |   0.000|
+extendDatabus<12>|    1.503(R)|    1.292(R)|clock_BUFGP       |   0.000|
+extendDatabus<13>|    1.363(R)|    0.303(R)|clock_BUFGP       |   0.000|
+extendDatabus<14>|    1.886(R)|    0.852(R)|clock_BUFGP       |   0.000|
+extendDatabus<15>|    2.503(R)|    1.502(R)|clock_BUFGP       |   0.000|
+flash_data<0>    |    1.489(R)|    0.037(R)|clock_BUFGP       |   0.000|
+flash_data<1>    |    1.958(R)|   -0.320(R)|clock_BUFGP       |   0.000|
+flash_data<2>    |    1.235(R)|    0.257(R)|clock_BUFGP       |   0.000|
+flash_data<3>    |    1.244(R)|    0.250(R)|clock_BUFGP       |   0.000|
+flash_data<4>    |    1.473(R)|    0.066(R)|clock_BUFGP       |   0.000|
+flash_data<5>    |    0.894(R)|    0.530(R)|clock_BUFGP       |   0.000|
+flash_data<6>    |    0.996(R)|    0.447(R)|clock_BUFGP       |   0.000|
+flash_data<7>    |    0.950(R)|    0.733(R)|clock_BUFGP       |   0.000|
+flash_data<8>    |    0.970(R)|    0.470(R)|clock_BUFGP       |   0.000|
+flash_data<9>    |    0.955(R)|    0.482(R)|clock_BUFGP       |   0.000|
+flash_data<10>   |    1.312(R)|    0.195(R)|clock_BUFGP       |   0.000|
+flash_data<11>   |    1.587(R)|   -0.025(R)|clock_BUFGP       |   0.000|
+flash_data<12>   |    1.227(R)|    0.263(R)|clock_BUFGP       |   0.000|
+flash_data<13>   |    1.173(R)|    0.306(R)|clock_BUFGP       |   0.000|
+flash_data<14>   |    1.834(R)|   -0.222(R)|clock_BUFGP       |   0.000|
+flash_data<15>   |    1.335(R)|    0.177(R)|clock_BUFGP       |   0.000|
+reset            |    5.409(R)|    0.413(R)|clock_BUFGP       |   0.000|
+serialDATA_READY |    1.333(R)|    0.194(R)|clock_BUFGP       |   0.000|
+serialTBRE       |    3.730(R)|   -1.735(R)|clock_BUFGP       |   0.000|
+serialTSRE       |    2.307(R)|   -0.597(R)|clock_BUFGP       |   0.000|
+-----------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+-----------------+------------+------------------+--------+
+                 | clk (edge) |                  | Clock  |
+Destination      |   to PAD   |Internal Clock(s) | Phase  |
+-----------------+------------+------------------+--------+
+basicDatabus<0>  |   13.544(R)|clock_BUFGP       |   0.000|
+basicDatabus<1>  |   13.586(R)|clock_BUFGP       |   0.000|
+basicDatabus<2>  |   14.126(R)|clock_BUFGP       |   0.000|
+basicDatabus<3>  |   13.292(R)|clock_BUFGP       |   0.000|
+basicDatabus<4>  |   14.375(R)|clock_BUFGP       |   0.000|
+basicDatabus<5>  |   13.583(R)|clock_BUFGP       |   0.000|
+basicDatabus<6>  |   13.496(R)|clock_BUFGP       |   0.000|
+basicDatabus<7>  |   13.464(R)|clock_BUFGP       |   0.000|
+extendDatabus<0> |   16.276(R)|clock_BUFGP       |   0.000|
+extendDatabus<1> |   16.551(R)|clock_BUFGP       |   0.000|
+extendDatabus<2> |   17.014(R)|clock_BUFGP       |   0.000|
+extendDatabus<3> |   17.687(R)|clock_BUFGP       |   0.000|
+extendDatabus<4> |   15.315(R)|clock_BUFGP       |   0.000|
+extendDatabus<5> |   15.078(R)|clock_BUFGP       |   0.000|
+extendDatabus<6> |   16.532(R)|clock_BUFGP       |   0.000|
+extendDatabus<7> |   16.340(R)|clock_BUFGP       |   0.000|
+extendDatabus<8> |   15.667(R)|clock_BUFGP       |   0.000|
+extendDatabus<9> |   14.624(R)|clock_BUFGP       |   0.000|
+extendDatabus<10>|   16.817(R)|clock_BUFGP       |   0.000|
+extendDatabus<11>|   15.506(R)|clock_BUFGP       |   0.000|
+extendDatabus<12>|   15.353(R)|clock_BUFGP       |   0.000|
+extendDatabus<13>|   14.598(R)|clock_BUFGP       |   0.000|
+extendDatabus<14>|   16.147(R)|clock_BUFGP       |   0.000|
+extendDatabus<15>|   15.143(R)|clock_BUFGP       |   0.000|
+flash_addr<1>    |    8.940(R)|clock_BUFGP       |   0.000|
+flash_addr<2>    |    8.955(R)|clock_BUFGP       |   0.000|
+flash_addr<3>    |    9.142(R)|clock_BUFGP       |   0.000|
+flash_addr<4>    |    8.599(R)|clock_BUFGP       |   0.000|
+flash_addr<5>    |    8.654(R)|clock_BUFGP       |   0.000|
+flash_addr<6>    |    8.353(R)|clock_BUFGP       |   0.000|
+flash_addr<7>    |    8.992(R)|clock_BUFGP       |   0.000|
+flash_addr<8>    |    8.560(R)|clock_BUFGP       |   0.000|
+flash_addr<9>    |    8.592(R)|clock_BUFGP       |   0.000|
+flash_addr<10>   |    8.696(R)|clock_BUFGP       |   0.000|
+flash_addr<11>   |    8.729(R)|clock_BUFGP       |   0.000|
+flash_addr<12>   |    8.549(R)|clock_BUFGP       |   0.000|
+flash_addr<13>   |    8.606(R)|clock_BUFGP       |   0.000|
+flash_addr<14>   |    8.958(R)|clock_BUFGP       |   0.000|
+flash_addr<15>   |    8.491(R)|clock_BUFGP       |   0.000|
+flash_addr<16>   |    8.137(R)|clock_BUFGP       |   0.000|
+flash_data<0>    |    9.398(R)|clock_BUFGP       |   0.000|
+flash_data<1>    |    9.721(R)|clock_BUFGP       |   0.000|
+flash_data<2>    |    9.970(R)|clock_BUFGP       |   0.000|
+flash_data<3>    |    9.646(R)|clock_BUFGP       |   0.000|
+flash_data<4>    |    8.637(R)|clock_BUFGP       |   0.000|
+flash_data<5>    |    8.954(R)|clock_BUFGP       |   0.000|
+flash_data<6>    |    8.891(R)|clock_BUFGP       |   0.000|
+flash_data<7>    |    9.210(R)|clock_BUFGP       |   0.000|
+flash_data<8>    |    9.137(R)|clock_BUFGP       |   0.000|
+flash_data<9>    |    9.458(R)|clock_BUFGP       |   0.000|
+flash_data<10>   |    8.376(R)|clock_BUFGP       |   0.000|
+flash_data<11>   |    8.691(R)|clock_BUFGP       |   0.000|
+flash_data<12>   |    8.435(R)|clock_BUFGP       |   0.000|
+flash_data<13>   |    8.443(R)|clock_BUFGP       |   0.000|
+flash_data<14>   |    8.429(R)|clock_BUFGP       |   0.000|
+flash_data<15>   |    8.689(R)|clock_BUFGP       |   0.000|
+flash_oe         |    9.618(R)|clock_BUFGP       |   0.000|
+flash_we         |    9.285(R)|clock_BUFGP       |   0.000|
+memoryAddress<0> |   16.431(R)|clock_BUFGP       |   0.000|
+memoryAddress<1> |   16.108(R)|clock_BUFGP       |   0.000|
+memoryAddress<2> |   15.520(R)|clock_BUFGP       |   0.000|
+memoryAddress<3> |   16.582(R)|clock_BUFGP       |   0.000|
+memoryAddress<4> |   16.215(R)|clock_BUFGP       |   0.000|
+memoryAddress<5> |   15.807(R)|clock_BUFGP       |   0.000|
+memoryAddress<6> |   16.712(R)|clock_BUFGP       |   0.000|
+memoryAddress<7> |   16.940(R)|clock_BUFGP       |   0.000|
+memoryAddress<8> |   16.928(R)|clock_BUFGP       |   0.000|
+memoryAddress<9> |   21.139(R)|clock_BUFGP       |   0.000|
+memoryAddress<10>|   17.621(R)|clock_BUFGP       |   0.000|
+memoryAddress<11>|   18.414(R)|clock_BUFGP       |   0.000|
+memoryAddress<12>|   19.554(R)|clock_BUFGP       |   0.000|
+memoryAddress<13>|   19.348(R)|clock_BUFGP       |   0.000|
+memoryAddress<14>|   20.988(R)|clock_BUFGP       |   0.000|
+memoryAddress<15>|   17.654(R)|clock_BUFGP       |   0.000|
+memoryOE         |   13.676(R)|clock_BUFGP       |   0.000|
+memoryRW         |   11.304(R)|clock_BUFGP       |   0.000|
+output1<0>       |    8.876(R)|clock_BUFGP       |   0.000|
+output1<1>       |    8.848(R)|clock_BUFGP       |   0.000|
+output1<2>       |    9.021(R)|clock_BUFGP       |   0.000|
+output1<3>       |    8.807(R)|clock_BUFGP       |   0.000|
+output1<4>       |    8.417(R)|clock_BUFGP       |   0.000|
+output1<5>       |    7.894(R)|clock_BUFGP       |   0.000|
+output1<6>       |    8.556(R)|clock_BUFGP       |   0.000|
+output1<7>       |    8.369(R)|clock_BUFGP       |   0.000|
+output1<8>       |    8.359(R)|clock_BUFGP       |   0.000|
+output1<9>       |    8.809(R)|clock_BUFGP       |   0.000|
+output1<10>      |    8.837(R)|clock_BUFGP       |   0.000|
+output1<11>      |    8.810(R)|clock_BUFGP       |   0.000|
+output1<12>      |    8.497(R)|clock_BUFGP       |   0.000|
+output1<13>      |    8.410(R)|clock_BUFGP       |   0.000|
+output1<14>      |    7.543(R)|clock_BUFGP       |   0.000|
+output1<15>      |    7.895(R)|clock_BUFGP       |   0.000|
+output2<0>       |    7.859(R)|clock_BUFGP       |   0.000|
+output2<1>       |    7.278(R)|clock_BUFGP       |   0.000|
+output2<2>       |    7.273(R)|clock_BUFGP       |   0.000|
+output2<3>       |    8.577(R)|clock_BUFGP       |   0.000|
+output2<4>       |    8.499(R)|clock_BUFGP       |   0.000|
+output2<5>       |    9.204(R)|clock_BUFGP       |   0.000|
+output2<6>       |    7.804(R)|clock_BUFGP       |   0.000|
+output2<7>       |    7.269(R)|clock_BUFGP       |   0.000|
+output2<8>       |    8.196(R)|clock_BUFGP       |   0.000|
+output2<9>       |    7.948(R)|clock_BUFGP       |   0.000|
+output2<10>      |    7.939(R)|clock_BUFGP       |   0.000|
+output2<11>      |    7.943(R)|clock_BUFGP       |   0.000|
+output2<12>      |    8.747(R)|clock_BUFGP       |   0.000|
+output2<13>      |   11.199(R)|clock_BUFGP       |   0.000|
+output2<14>      |    9.889(R)|clock_BUFGP       |   0.000|
+output2<15>      |    9.880(R)|clock_BUFGP       |   0.000|
+serialRDN        |   14.586(R)|clock_BUFGP       |   0.000|
+serialWRN        |   11.445(R)|clock_BUFGP       |   0.000|
+stdClock         |   14.638(R)|clock_BUFGP       |   0.000|
+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    5.075|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+-----------------+---------+
+Source Pad     |Destination Pad  |  Delay  |
+---------------+-----------------+---------+
+MemRead        |memoryOE         |    9.740|
+MemRead        |serialRDN        |   10.281|
+MemWrite       |basicDatabus<0>  |   13.594|
+MemWrite       |basicDatabus<1>  |   13.636|
+MemWrite       |basicDatabus<2>  |   14.176|
+MemWrite       |basicDatabus<3>  |   13.342|
+MemWrite       |basicDatabus<4>  |   14.425|
+MemWrite       |basicDatabus<5>  |   13.633|
+MemWrite       |basicDatabus<6>  |   13.546|
+MemWrite       |basicDatabus<7>  |   13.514|
+MemWrite       |extendDatabus<0> |   10.246|
+MemWrite       |extendDatabus<1> |   10.060|
+MemWrite       |extendDatabus<2> |   10.005|
+MemWrite       |extendDatabus<3> |    9.730|
+MemWrite       |extendDatabus<4> |   10.252|
+MemWrite       |extendDatabus<5> |   10.470|
+MemWrite       |extendDatabus<6> |   10.609|
+MemWrite       |extendDatabus<7> |   10.502|
+MemWrite       |extendDatabus<8> |   11.421|
+MemWrite       |extendDatabus<9> |   11.771|
+MemWrite       |extendDatabus<10>|    9.633|
+MemWrite       |extendDatabus<11>|   10.194|
+MemWrite       |extendDatabus<12>|   11.158|
+MemWrite       |extendDatabus<13>|   12.089|
+MemWrite       |extendDatabus<14>|    9.941|
+MemWrite       |extendDatabus<15>|   11.390|
+MemWrite       |memoryRW         |    9.759|
+MemWrite       |serialWRN        |   11.140|
+address1<0>    |memoryAddress<0> |   10.653|
+address1<1>    |memoryAddress<1> |   10.019|
+address1<2>    |memoryAddress<2> |    9.266|
+address1<3>    |memoryAddress<3> |    9.773|
+address1<4>    |memoryAddress<4> |    9.600|
+address1<5>    |memoryAddress<5> |    9.792|
+address1<6>    |memoryAddress<6> |   10.414|
+address1<7>    |memoryAddress<7> |    9.445|
+address1<8>    |memoryAddress<8> |   10.086|
+address1<9>    |memoryAddress<9> |   13.427|
+address1<10>   |memoryAddress<10>|   10.962|
+address1<11>   |memoryAddress<11>|   13.047|
+address1<12>   |memoryAddress<12>|   13.090|
+address1<13>   |memoryAddress<13>|   11.454|
+address1<14>   |memoryAddress<14>|   12.567|
+address1<15>   |memoryAddress<15>|   11.285|
+address2<0>    |memoryAddress<0> |   11.615|
+address2<0>    |memoryRW         |   11.257|
+address2<0>    |serialRDN        |   13.949|
+address2<0>    |serialWRN        |   11.499|
+address2<1>    |memoryAddress<1> |    8.381|
+address2<1>    |memoryRW         |   16.336|
+address2<1>    |serialRDN        |   19.028|
+address2<1>    |serialWRN        |   16.369|
+address2<2>    |memoryAddress<2> |    7.754|
+address2<2>    |memoryRW         |   15.558|
+address2<2>    |serialRDN        |   18.250|
+address2<2>    |serialWRN        |   15.591|
+address2<3>    |memoryAddress<3> |    8.270|
+address2<3>    |memoryRW         |   15.530|
+address2<3>    |serialRDN        |   18.222|
+address2<3>    |serialWRN        |   15.563|
+address2<4>    |memoryAddress<4> |    8.227|
+address2<4>    |memoryRW         |   16.562|
+address2<4>    |serialRDN        |   19.254|
+address2<4>    |serialWRN        |   16.595|
+address2<5>    |memoryAddress<5> |    8.066|
+address2<5>    |memoryRW         |   14.712|
+address2<5>    |serialRDN        |   17.404|
+address2<5>    |serialWRN        |   14.745|
+address2<6>    |memoryAddress<6> |    8.461|
+address2<6>    |memoryRW         |   14.923|
+address2<6>    |serialRDN        |   17.615|
+address2<6>    |serialWRN        |   14.956|
+address2<7>    |memoryAddress<7> |    8.933|
+address2<7>    |memoryRW         |   15.238|
+address2<7>    |serialRDN        |   17.930|
+address2<7>    |serialWRN        |   15.271|
+address2<8>    |memoryAddress<8> |    9.103|
+address2<8>    |memoryRW         |   14.414|
+address2<8>    |serialRDN        |   17.106|
+address2<8>    |serialWRN        |   14.447|
+address2<9>    |memoryAddress<9> |   12.910|
+address2<9>    |memoryRW         |   14.604|
+address2<9>    |serialRDN        |   17.296|
+address2<9>    |serialWRN        |   14.637|
+address2<10>   |memoryAddress<10>|    9.387|
+address2<10>   |memoryRW         |   14.622|
+address2<10>   |serialRDN        |   17.314|
+address2<10>   |serialWRN        |   14.655|
+address2<11>   |memoryAddress<11>|   11.442|
+address2<11>   |memoryRW         |   14.750|
+address2<11>   |serialRDN        |   17.442|
+address2<11>   |serialWRN        |   14.783|
+address2<12>   |memoryAddress<12>|   12.299|
+address2<12>   |memoryRW         |   14.994|
+address2<12>   |serialRDN        |   17.686|
+address2<12>   |serialWRN        |   15.027|
+address2<13>   |memoryAddress<13>|   10.803|
+address2<13>   |memoryRW         |   14.646|
+address2<13>   |serialRDN        |   17.338|
+address2<13>   |serialWRN        |   14.679|
+address2<14>   |memoryAddress<14>|   11.431|
+address2<14>   |memoryRW         |   14.100|
+address2<14>   |serialRDN        |   16.792|
+address2<14>   |serialWRN        |   14.133|
+address2<15>   |memoryAddress<15>|   11.480|
+address2<15>   |memoryRW         |   15.123|
+address2<15>   |serialRDN        |   17.815|
+address2<15>   |serialWRN        |   15.156|
+dataInput<0>   |basicDatabus<0>  |    9.472|
+dataInput<0>   |extendDatabus<0> |    9.949|
+dataInput<1>   |basicDatabus<1>  |    9.356|
+dataInput<1>   |extendDatabus<1> |    9.483|
+dataInput<2>   |basicDatabus<2>  |    9.582|
+dataInput<2>   |extendDatabus<2> |    9.792|
+dataInput<3>   |basicDatabus<3>  |    9.800|
+dataInput<3>   |extendDatabus<3> |    9.644|
+dataInput<4>   |basicDatabus<4>  |    9.620|
+dataInput<4>   |extendDatabus<4> |    8.979|
+dataInput<5>   |basicDatabus<5>  |    9.202|
+dataInput<5>   |extendDatabus<5> |    7.992|
+dataInput<6>   |basicDatabus<6>  |   10.684|
+dataInput<6>   |extendDatabus<6> |    9.290|
+dataInput<7>   |basicDatabus<7>  |    8.358|
+dataInput<7>   |extendDatabus<7> |    9.243|
+dataInput<8>   |extendDatabus<8> |    7.949|
+dataInput<9>   |extendDatabus<9> |    6.676|
+dataInput<10>  |extendDatabus<10>|    8.570|
+dataInput<11>  |extendDatabus<11>|    7.391|
+dataInput<12>  |extendDatabus<12>|    7.639|
+dataInput<13>  |extendDatabus<13>|    6.942|
+dataInput<14>  |extendDatabus<14>|    7.125|
+dataInput<15>  |extendDatabus<15>|    6.179|
+---------------+-----------------+---------+
+
+
+Analysis completed Sun Nov 25 02:15:10 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 180 MB
+
+
+

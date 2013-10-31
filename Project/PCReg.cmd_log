@@ -1,0 +1,4 @@
+vhdtdtfi -lib work PCReg.vhd -prj Project -o PCReg.spl -module PCReg -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PCReg.spl {D:/VHDL/Computer Arti/Project/PCReg.sym} 
+vhdtdtfi -lib work PCReg.vhd -prj Project -o PCReg.spl -module PCReg -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PCReg.spl {D:/VHDL/Computer Arti/Project/PCReg.sym} 

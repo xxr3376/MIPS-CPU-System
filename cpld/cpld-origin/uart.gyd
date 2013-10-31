@@ -1,0 +1,65 @@
+Pin Freeze File:  version P.28xd
+
+95144XL100 XC95144XL-5-TQ100
+clk S:PIN1
+ps2clock S:PIN71
+ps2data S:PIN70
+rdn S:PIN43
+rst S:PIN4
+rxd S:PIN58
+wrn S:PIN40
+interconn7 S:PIN39
+interconn8 S:PIN37
+sdo S:PIN54
+tbre S:PIN42
+tsre S:PIN41
+data_ready S:PIN50
+framing_error S:PIN49
+parity_error S:PIN46
+data<0> S:PIN6
+data<1> S:PIN7
+data<2> S:PIN8
+data<3> S:PIN9
+data<4> S:PIN10
+data<5> S:PIN11
+data<6> S:PIN12
+data<7> S:PIN13
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 u2/data_ready/u2/data_ready_RSTF__$INT u2/rbr<5> u2/rbr<6> u3/cnt72<24>
+		 u2/rbr<7> u3/cnt72<23> u3/cnt72<22> u3/cnt72<21>
+		 u3/cnt72<20> u3/cnt72<19> u3/cnt72<18> u3/cnt72<17>
+		 u3/cnt72<16> u3/cnt72<15> u3/cnt72<14> u3/cnt72<13>
+		 u3/cnt72<12> u3/cnt72<11>
+PARTITION FB2_1 u2/clk1x_enable/u2/clk1x_enable_RSTF u2/no_bits_rcvd<0> u2/newdata u2/clkdiv<3>
+		 u1/wrn2 u1/no_bits_sent<3> u1/no_bits_sent<2> u1/no_bits_sent<1>
+		 u2/no_bits_rcvd<3> u2/no_bits_rcvd<2> u2/rbr<0> u2/rbr<1>
+		 u2/no_bits_rcvd<1> u2/rbr<2> u2/rbr<3> u2/isRead
+		 u2/rbr<4> u1/tbre_t
+PARTITION FB3_1 u3/cnt72<9> u3/cnt72<8> u3/cnt72<7> u3/cnt72<5>
+		 u3/cnt72<4> u3/cnt72<31> u3/cnt72<30> u3/cnt72<2>
+		 u3/cnt72<29> u3/cnt72<28> u3/cnt72<27> u3/cnt72<26>
+		 u3/cnt72<25> u3/cnt72<1> u3/cnt72<10> sclk
+		 u3/cnt72<6> u3/cnt72<3>
+PARTITION FB4_1 u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT u2/rxd2 u2/rxd1 u2/clk1x_enable
+		 u1/wrn1 u1/wrn0 u1/tbr<7> u1/tbr<6>
+		 u1/tbr<5> u1/tbr<4> u1/tbr<3> u1/tbr<2>
+		 u1/tbr<1> u1/tbr<0> u1/clkdiv<0> u1/clkdiv<3>
+		 u1/clkdiv<2> u1/clkdiv<1>
+PARTITION FB5_1 u1/tsr<0> EXP10_ u2/rsr<7> u2/rsr<6>
+		 u2/parity interconn8_OBUF$BUF0 u2/rsr<5> interconn7_OBUF$BUF0
+		 u2/rsr<4> u2/rsr<3> tsre_OBUF tbre_OBUF
+		 u2/rsr<2> u2/rsr<1> u2/parity_error u2/rsr<0>
+		 u2/framing_error EXP11_
+PARTITION FB6_12 u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT u3/cnt72<0> u2/clkdiv<0>
+		 u1/no_bits_sent<0> u2/clkdiv<2> u2/clkdiv<1>
+PARTITION FB7_1 u1/tsr<1> u2/data_ready u1/tsr<7> u1/clk1x_enable
+		 u1/parity EXP12_ u1/tsr<6> sdo_OBUF
+		 EXP13_ EXP14_ u1/tsr<5> EXP15_
+		 u1/tsr<4> EXP16_ u1/tsr<3> EXP17_
+		 u1/tsr<2> EXP18_
+
+

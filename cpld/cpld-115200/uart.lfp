@@ -1,0 +1,5 @@
+# begin LFP file E:\TEC_test\UARTtest\1200e-uarttest\cpldtest\uart.lfp
+designfile uart.vhd
+parttype xc95144xl-tq100-5
+bus_delimiter 0;
+set_busdelim_onsave 1;

@@ -1,0 +1,28 @@
+Release 14.2 - par P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Nov 28 15:13:46 2012
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 16 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   CLOCK_11M_IBUF
+   KEY16_INPUT<0>_IBUF
+   KEY16_INPUT<10>_IBUF
+   KEY16_INPUT<11>_IBUF
+   KEY16_INPUT<12>_IBUF
+   KEY16_INPUT<13>_IBUF
+   KEY16_INPUT<14>_IBUF
+   KEY16_INPUT<15>_IBUF
+   KEY16_INPUT<1>_IBUF
+   KEY16_INPUT<2>_IBUF
+   KEY16_INPUT<3>_IBUF
+   KEY16_INPUT<5>_IBUF
+   KEY16_INPUT<6>_IBUF
+   KEY16_INPUT<7>_IBUF
+   KEY16_INPUT<8>_IBUF
+   KEY16_INPUT<9>_IBUF
+
+

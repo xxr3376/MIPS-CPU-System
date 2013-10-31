@@ -1,0 +1,7 @@
+[Inputs]
+AutoCLK
+clk
+automatic
+[Outputs]
+out_clock
+[BiDir]

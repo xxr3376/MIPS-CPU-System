@@ -1,0 +1,12 @@
+vhdtdtfi -lib work BranchSelector.vhd -prj Project -o BranchSelector.spl -module BranchSelector -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BranchSelector.spl {D:/VHDL/Computer Arti/Project/BranchSelector.sym} 
+vhdtdtfi -lib work BranchSelector.vhd -prj Project -o BranchSelector.spl -module BranchSelector -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BranchSelector.spl {D:/VHDL/Computer Arti/Project/BranchSelector.sym} 
+vhdtdtfi -lib work BranchSelector.vhd -prj Project -o BranchSelector.spl -module BranchSelector -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BranchSelector.spl {D:/VHDL/Computer Arti/Project/BranchSelector.sym} 
+vhdtdtfi -lib work BranchSelector.vhd -prj Project -o BranchSelector.spl -module BranchSelector -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BranchSelector.spl {D:/VHDL/Computer Arti/Project/BranchSelector.sym} 
+vhdtdtfi -lib work BranchSelector.vhd -prj Project -o BranchSelector.spl -module BranchSelector -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BranchSelector.spl {D:/VHDL/Computer Arti/Project/BranchSelector.sym} 
+vhdtdtfi -lib work BranchSelector.vhd -prj Project -o BranchSelector.spl -module BranchSelector -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e BranchSelector.spl {D:/VHDL/Computer Arti/Project/BranchSelector.sym} 

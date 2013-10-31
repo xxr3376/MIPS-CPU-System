@@ -1,0 +1,2 @@
+vhdl work "flash_io.vhd"
+vhdl work "MemoryController.vhd"

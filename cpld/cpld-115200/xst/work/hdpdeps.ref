@@ -1,0 +1,24 @@
+V3 15
+FL C:/Users/gnocuil/Desktop/cpld/clkcon.vhd 2012/07/03.15:48:35 P.15xf
+EN work/clkcon 1341301734 FL C:/Users/gnocuil/Desktop/cpld/clkcon.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/clkcon/v1 1341301735 \
+      FL C:/Users/gnocuil/Desktop/cpld/clkcon.vhd EN work/clkcon 1341301734
+FL C:/Users/gnocuil/Desktop/cpld/rcvr.vhd 2011/11/26.16:07:30 P.15xf
+EN work/rcvr 1341301732 FL C:/Users/gnocuil/Desktop/cpld/rcvr.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623
+AR work/rcvr/v1 1341301733 \
+      FL C:/Users/gnocuil/Desktop/cpld/rcvr.vhd EN work/rcvr 1341301732
+FL C:/Users/gnocuil/Desktop/cpld/txmit.vhd 2011/11/30.22:22:52 P.15xf
+EN work/txmit 1341301730 FL C:/Users/gnocuil/Desktop/cpld/txmit.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623
+AR work/txmit/v1 1341301731 \
+      FL C:/Users/gnocuil/Desktop/cpld/txmit.vhd EN work/txmit 1341301730
+FL C:/Users/gnocuil/Desktop/cpld/uart.vhd 2011/11/23.14:00:46 P.15xf
+EN work/uart 1341301736 FL C:/Users/gnocuil/Desktop/cpld/uart.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/uart/v1 1341301737 \
+      FL C:/Users/gnocuil/Desktop/cpld/uart.vhd EN work/uart 1341301736 CP txmit \
+      CP rcvr CP clkcon

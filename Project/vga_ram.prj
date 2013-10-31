@@ -1,0 +1,4 @@
+vhdl work "vga_mem.vhd"
+vhdl work "vga_640480.vhd"
+vhdl work "blk_mem_gen_v6_1.vhd"
+vhdl work "vga_ram.vhd"

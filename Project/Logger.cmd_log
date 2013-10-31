@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Logger.vhd -prj Project -o Logger.spl -module Logger -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Logger.spl {D:/VHDL/Computer Arti/Project/Logger.sym} 

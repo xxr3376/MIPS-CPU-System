@@ -1,0 +1,161 @@
+
+================================================================================
+Timing constraint: Autotimespec constraint for clock net CLOCK_11M_BUFGP
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 190 paths analyzed, 45 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.955ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Autotimespec constraint for clock net XLXI_68/storage<18>
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   1.652ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Autotimespec constraint for clock net CPU_CLOCK
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 618018 paths analyzed, 971 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  19.230ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Autotimespec constraint for clock net XLXI_74/vga/clk
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 521 paths analyzed, 98 endpoints analyzed, 1 failing endpoint
+ 1 timing error detected. (1 setup error, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   8.620ns.
+--------------------------------------------------------------------------------
+Slack:                  -0.880 (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram.A (RAM)
+  Destination:          XLXI_74/vga/g1_0 (FF)
+  Requirement:          7.740
+  Data Path Delay:      8.548 (Levels of Logic = 4)
+  Clock Path Skew:      -0.072ns (0.278 - 0.350)
+  Source Clock:         XLXI_74/vga/clk rising at 0.000ns
+  Destination Clock:    XLXI_74/vga/clk rising at 7.740ns
+  Clock Uncertainty:    0.000
+
+  Maximum Data Path: XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram.A to XLXI_74/vga/g1_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X1Y2.DOA0     Tbcko                 2.812   XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram.A
+    SLICE_X71Y24.G4      net (fanout=2)        0.946   XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.ram_douta
+    SLICE_X71Y24.X       Tif5x                 1.025   XLXI_74/q
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.ram_douta_rt_pack_1
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux1_f5
+    SLICE_X57Y27.G4      net (fanout=1)        0.963   XLXI_74/q
+    SLICE_X57Y27.Y       Tilo                  0.704   XLXI_74/vga/g1_mux0000<0>36
+                                                       XLXI_74/vga/g1_mux0000<0>12
+    SLICE_X57Y27.F4      net (fanout=1)        0.023   XLXI_74/vga/g1_mux0000<0>12
+    SLICE_X57Y27.X       Tilo                  0.704   XLXI_74/vga/g1_mux0000<0>36
+                                                       XLXI_74/vga/g1_mux0000<0>36
+    SLICE_X56Y26.G4      net (fanout=1)        0.086   XLXI_74/vga/g1_mux0000<0>36
+    SLICE_X56Y26.CLK     Tgck                  1.285   XLXI_74/vga/g1<0>
+                                                       XLXI_74/vga/g1_mux0000<0>1092
+                                                       XLXI_74/vga/g1_mux0000<0>109_f5
+                                                       XLXI_74/vga/g1_0
+    -------------------------------------------------  ---------------------------
+
+--------------------------------------------------------------------------------
+Slack:                  -0.877 (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram.A (RAM)
+  Destination:          XLXI_74/vga/g1_0 (FF)
+  Requirement:          7.740
+  Data Path Delay:      8.545 (Levels of Logic = 4)
+  Clock Path Skew:      -0.072ns (0.278 - 0.350)
+  Source Clock:         XLXI_74/vga/clk rising at 0.000ns
+  Destination Clock:    XLXI_74/vga/clk rising at 7.740ns
+  Clock Uncertainty:    0.000
+
+  Maximum Data Path: XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram.A to XLXI_74/vga/g1_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X1Y2.DOA0     Tbcko                 2.812   XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram.A
+    SLICE_X71Y24.F4      net (fanout=2)        0.943   XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.ram_douta
+    SLICE_X71Y24.X       Tif5x                 1.025   XLXI_74/q
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.ram_douta_rt
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux1_f5
+    SLICE_X57Y27.G4      net (fanout=1)        0.963   XLXI_74/q
+    SLICE_X57Y27.Y       Tilo                  0.704   XLXI_74/vga/g1_mux0000<0>36
+                                                       XLXI_74/vga/g1_mux0000<0>12
+    SLICE_X57Y27.F4      net (fanout=1)        0.023   XLXI_74/vga/g1_mux0000<0>12
+    SLICE_X57Y27.X       Tilo                  0.704   XLXI_74/vga/g1_mux0000<0>36
+                                                       XLXI_74/vga/g1_mux0000<0>36
+    SLICE_X56Y26.G4      net (fanout=1)        0.086   XLXI_74/vga/g1_mux0000<0>36
+    SLICE_X56Y26.CLK     Tgck                  1.285   XLXI_74/vga/g1<0>
+                                                       XLXI_74/vga/g1_mux0000<0>1092
+                                                       XLXI_74/vga/g1_mux0000<0>109_f5
+                                                       XLXI_74/vga/g1_0
+    -------------------------------------------------  ---------------------------
+
+--------------------------------------------------------------------------------
+Slack:                  -0.600 (requirement - (data path - clock path skew + uncertainty))
+  Source:               XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s3_init.ram/dpram.dp1x1.ram.A (RAM)
+  Destination:          XLXI_74/vga/g1_0 (FF)
+  Requirement:          7.740
+  Data Path Delay:      8.340 (Levels of Logic = 4)
+  Clock Path Skew:      0.000ns
+  Source Clock:         XLXI_74/vga/clk rising at 0.000ns
+  Destination Clock:    XLXI_74/vga/clk rising at 7.740ns
+  Clock Uncertainty:    0.000
+
+  Maximum Data Path: XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s3_init.ram/dpram.dp1x1.ram.A to XLXI_74/vga/g1_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X1Y3.DOA0     Tbcko                 2.812   XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s3_init.ram/dpram.dp1x1.ram
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/s3_init.ram/dpram.dp1x1.ram.A
+    SLICE_X71Y24.BX      net (fanout=1)        1.024   XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.ram_douta
+    SLICE_X71Y24.X       Tbxx                  0.739   XLXI_74/q
+                                                       XLXI_74/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux1_f5
+    SLICE_X57Y27.G4      net (fanout=1)        0.963   XLXI_74/q
+    SLICE_X57Y27.Y       Tilo                  0.704   XLXI_74/vga/g1_mux0000<0>36
+                                                       XLXI_74/vga/g1_mux0000<0>12
+    SLICE_X57Y27.F4      net (fanout=1)        0.023   XLXI_74/vga/g1_mux0000<0>12
+    SLICE_X57Y27.X       Tilo                  0.704   XLXI_74/vga/g1_mux0000<0>36
+                                                       XLXI_74/vga/g1_mux0000<0>36
+    SLICE_X56Y26.G4      net (fanout=1)        0.086   XLXI_74/vga/g1_mux0000<0>36
+    SLICE_X56Y26.CLK     Tgck                  1.285   XLXI_74/vga/g1<0>
+                                                       XLXI_74/vga/g1_mux0000<0>1092
+                                                       XLXI_74/vga/g1_mux0000<0>109_f5
+                                                       XLXI_74/vga/g1_0
+    -------------------------------------------------  ---------------------------
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Autotimespec constraint for clock net XLXN_851
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 37 paths analyzed, 37 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   5.090ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: Autotimespec constraint for clock net CLOCK_50M_BUFGP
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   2.224ns.
+--------------------------------------------------------------------------------
+
+
+1 constraint not met.
+
+
+

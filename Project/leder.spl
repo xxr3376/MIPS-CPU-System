@@ -1,0 +1,7 @@
+[Inputs]
+clock
+=input16[15:0]=
+[Outputs]
+=led1[6:0]=
+=led2[6:0]=
+[BiDir]

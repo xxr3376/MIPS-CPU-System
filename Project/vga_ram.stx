@@ -1,0 +1,44 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/VHDL/Computer Arti/Project/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to D:/VHDL/Computer Arti/Project/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/vga_640480.vhd" in Library work.
+Entity <vga640480> compiled.
+Entity <vga640480> (Architecture <behavior>) compiled.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/blk_mem_gen_v6_1.vhd" in Library work.
+Entity <blk_mem_gen_v6_1> compiled.
+Entity <blk_mem_gen_v6_1> (Architecture <blk_mem_gen_v6_1_a>) compiled.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/vga_mem.vhd" in Library work.
+Entity <vga_mem> compiled.
+Entity <vga_mem> (Architecture <vga_mem_a>) compiled.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/vga_ram.vhd" in Library work.
+Entity <vga_ram> compiled.
+Entity <vga_ram> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.35 secs
+ 
+--> 
+
+Total memory usage is 211276 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

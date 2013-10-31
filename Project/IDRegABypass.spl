@@ -1,0 +1,12 @@
+[Inputs]
+ALURegWrite
+MemRegWrite
+=RegA[15:0]=
+=SelectA[3:0]=
+=ALURegA[15:0]=
+=MemRegA[15:0]=
+=ALUDest[3:0]=
+=MemDest[3:0]=
+[Outputs]
+=RegAOutput[15:0]=
+[BiDir]

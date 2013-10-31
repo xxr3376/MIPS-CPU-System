@@ -1,0 +1,128 @@
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/FlashTester/MemoryController.xst" -ofn "D:/VHDL/Computer Arti/FlashTester/MemoryController.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc main.ucf -p xc3s1200e-fg320-4 "MemoryController.ngc" MemoryController.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o MemoryController_map.ncd MemoryController.ngd MemoryController.pcf 
+par -w -intstyle ise -ol high -t 1 MemoryController_map.ncd MemoryController.ncd MemoryController.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MemoryController.twx MemoryController.ncd -o MemoryController.twr MemoryController.pcf -ucf main.ucf 
+bitgen -intstyle ise -f MemoryController.ut MemoryController.ncd 

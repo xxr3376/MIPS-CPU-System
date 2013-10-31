@@ -1,0 +1,7 @@
+vhdtdtfi -lib work Reg16.vhd -prj Project -o Reg16.spl -module Reg16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Reg16.spl {D:/VHDL/Computer Arti/Project/Reg16.sym} 
+vhdtdtfi -prj Project -o "D:/VHDL/Computer Arti/Project/Reg16.vhi" -module Reg16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Reg16.vhd 
+vhdtdtfi -lib work Reg16.vhd -prj Project -o Reg16.spl -module Reg16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Reg16.spl {D:/VHDL/Computer Arti/Project/Reg16.sym} 
+vhdtdtfi -lib work Reg16.vhd -prj Project -o Reg16.spl -module Reg16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Reg16.spl {D:/VHDL/Computer Arti/Project/Reg16.sym} 

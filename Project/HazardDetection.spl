@@ -1,0 +1,9 @@
+[Inputs]
+IDEXMemRead
+=Instruction[15:0]=
+=IDEXRegDest[3:0]=
+[Outputs]
+PCWrite
+IFIDWrite
+CtrlSignal
+[BiDir]

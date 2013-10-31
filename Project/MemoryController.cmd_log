@@ -1,0 +1,14 @@
+vhdtdtfi -lib work MemoryController.vhd -prj Project -o MemoryController.spl -module MemoryController -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MemoryController.spl {D:/VHDL/Computer Arti/Project/MemoryController.sym} 
+vhdtdtfi -lib work MemoryController.vhd -prj Project -o MemoryController.spl -module MemoryController -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MemoryController.spl {D:/VHDL/Computer Arti/Project/MemoryController.sym} 
+vhdtdtfi -lib work MemoryController.vhd -prj Project -o MemoryController.spl -module MemoryController -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MemoryController.spl {D:/VHDL/Computer Arti/Project/MemoryController.sym} 
+vhdtdtfi -lib work flash_io.vhd -lib work MemoryController.vhd -prj Project -o MemoryController.spl -module MemoryController -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MemoryController.spl {D:/VHDL/Computer Arti/Project/MemoryController.sym} 
+vhdtdtfi -lib work flash_io.vhd -lib work MemoryController.vhd -prj Project -o MemoryController.spl -module MemoryController -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MemoryController.spl {D:/VHDL/Computer Arti/Project/MemoryController.sym} 
+vhdtdtfi -lib work flash_io.vhd -lib work MemoryController.vhd -prj Project -o MemoryController.spl -module MemoryController -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MemoryController.spl {D:/VHDL/Computer Arti/Project/MemoryController.sym} 
+vhdtdtfi -lib work flash_io.vhd -lib work MemoryController.vhd -prj Project -o MemoryController.spl -module MemoryController -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MemoryController.spl {D:/VHDL/Computer Arti/Project/MemoryController.sym} 

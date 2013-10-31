@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="cpldtest.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="_impact.cmd"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="_impact.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="uart.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="uart.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="uart.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="uart.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="uart.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="uart.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="uart.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="uart.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="uart.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="uart.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="uart.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="uart.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="uart.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="uart.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="uart.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="uart.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="uart.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="uart.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="uart.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="uart.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="uart.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="uart_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="uart_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="uart_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="uart_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="uart_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="uart_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="uart_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="uart_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1341301725" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1341301725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1341301725" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="569163037306731715" xil_pn:start_ts="1341301725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1341301736" xil_pn:in_ck="1332488199480929513" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="3806761919238691275" xil_pn:start_ts="1341301725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="uart.lso"/>
+      <outfile xil_pn:name="uart.ngc"/>
+      <outfile xil_pn:name="uart.ngr"/>
+      <outfile xil_pn:name="uart.prj"/>
+      <outfile xil_pn:name="uart.stx"/>
+      <outfile xil_pn:name="uart.syr"/>
+      <outfile xil_pn:name="uart.xst"/>
+      <outfile xil_pn:name="uart_vhdl.prj"/>
+      <outfile xil_pn:name="uart_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1341301736" xil_pn:in_ck="5116231006824" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="671693641153071134" xil_pn:start_ts="1341301736">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1341301741" xil_pn:in_ck="8356286781038483850" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-492989249246236380" xil_pn:start_ts="1341301736">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="uart.bld"/>
+      <outfile xil_pn:name="uart.ngd"/>
+      <outfile xil_pn:name="uart_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1341301777" xil_pn:in_ck="5116230999331" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-1791694202430664807" xil_pn:start_ts="1341301741">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="uart.gyd"/>
+      <outfile xil_pn:name="uart.mfd"/>
+      <outfile xil_pn:name="uart.nga"/>
+      <outfile xil_pn:name="uart.pad"/>
+      <outfile xil_pn:name="uart.pnx"/>
+      <outfile xil_pn:name="uart.rpt"/>
+      <outfile xil_pn:name="uart.tim"/>
+      <outfile xil_pn:name="uart.tspec"/>
+      <outfile xil_pn:name="uart.vm6"/>
+      <outfile xil_pn:name="uart.xml"/>
+      <outfile xil_pn:name="uart_build.xml"/>
+      <outfile xil_pn:name="uart_html"/>
+      <outfile xil_pn:name="uart_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1341301782" xil_pn:in_ck="5116231008195" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1341301777">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="uart.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1353521351" xil_pn:in_ck="5116230994909" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-154879694275837835" xil_pn:start_ts="1353521349">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_impact.cmd"/>
+      <outfile xil_pn:name="_impact.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1341301776" xil_pn:in_ck="5116231008195" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1341301771">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

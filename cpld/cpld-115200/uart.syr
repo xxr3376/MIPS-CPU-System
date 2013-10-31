@@ -1,0 +1,319 @@
+Release 14.1 - xst P.15xf (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.28 secs
+ 
+--> Reading design: uart.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "uart.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "uart"
+Output Format                      : NGC
+Target Device                      : XC9500XL CPLDs
+
+---- Source Options
+Top Module Name                    : uart
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/gnocuil/Desktop/cpld/txmit.vhd" in Library work.
+Entity <txmit> compiled.
+Entity <txmit> (Architecture <v1>) compiled.
+Compiling vhdl file "C:/Users/gnocuil/Desktop/cpld/rcvr.vhd" in Library work.
+Entity <rcvr> compiled.
+Entity <rcvr> (Architecture <v1>) compiled.
+Compiling vhdl file "C:/Users/gnocuil/Desktop/cpld/clkcon.vhd" in Library work.
+Entity <clkcon> compiled.
+Entity <clkcon> (Architecture <v1>) compiled.
+Compiling vhdl file "C:/Users/gnocuil/Desktop/cpld/uart.vhd" in Library work.
+Entity <uart> compiled.
+Entity <uart> (Architecture <v1>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <uart> in library <work> (architecture <v1>).
+
+Analyzing hierarchy for entity <txmit> in library <work> (architecture <v1>).
+
+Analyzing hierarchy for entity <rcvr> in library <work> (architecture <v1>).
+
+Analyzing hierarchy for entity <clkcon> in library <work> (architecture <v1>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <uart> in library <work> (Architecture <v1>).
+Entity <uart> analyzed. Unit <uart> generated.
+
+Analyzing Entity <txmit> in library <work> (Architecture <v1>).
+WARNING:Xst:819 - "C:/Users/gnocuil/Desktop/cpld/txmit.vhd" line 97: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <wrn>
+Entity <txmit> analyzed. Unit <txmit> generated.
+
+Analyzing Entity <rcvr> in library <work> (Architecture <v1>).
+Entity <rcvr> analyzed. Unit <rcvr> generated.
+
+Analyzing Entity <clkcon> in library <work> (Architecture <v1>).
+Entity <clkcon> analyzed. Unit <clkcon> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <txmit>.
+    Related source file is "C:/Users/gnocuil/Desktop/cpld/txmit.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <wrn0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit register for signal <tsre>.
+    Found 1-bit register for signal <sdo>.
+    Found 1-bit register for signal <clk1x_enable>.
+    Found 4-bit up counter for signal <clkdiv>.
+    Found 4-bit up counter for signal <no_bits_sent>.
+    Found 1-bit register for signal <parity>.
+    Found 4-bit comparator greater for signal <parity$cmp_gt0000> created at line 122.
+    Found 4-bit comparator less for signal <parity$cmp_lt0000> created at line 122.
+    Found 1-bit xor2 for signal <parity$xor0000> created at line 126.
+    Found 4-bit comparator greatequal for signal <sdo$cmp_ge0000> created at line 122.
+    Found 4-bit comparator lessequal for signal <sdo$cmp_le0000> created at line 122.
+    Found 8-bit register for signal <tbr>.
+    Found 1-bit register for signal <tbre_t>.
+    Found 8-bit register for signal <tsr>.
+    Found 1-bit register for signal <wrn1>.
+    Found 1-bit register for signal <wrn2>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   7 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred   1 Xor(s).
+Unit <txmit> synthesized.
+
+
+Synthesizing Unit <rcvr>.
+    Related source file is "C:/Users/gnocuil/Desktop/cpld/rcvr.vhd".
+    Found 1-bit register for signal <parity_error>.
+    Found 1-bit register for signal <data_ready>.
+    Found 1-bit register for signal <framing_error>.
+    Found 8-bit tristate buffer for signal <dout>.
+    Found 1-bit register for signal <clk1x_enable>.
+    Found 4-bit up counter for signal <clkdiv>.
+    Found 1-bit register for signal <isRead>.
+    Found 1-bit register for signal <newdata>.
+    Found 4-bit up counter for signal <no_bits_rcvd>.
+    Found 1-bit register for signal <parity>.
+    Found 1-bit xor2 for signal <parity$xor0000> created at line 109.
+    Found 8-bit register for signal <rbr>.
+    Found 8-bit register for signal <rsr>.
+    Found 4-bit comparator greatequal for signal <rsr_0$cmp_ge0000> created at line 106.
+    Found 4-bit comparator lessequal for signal <rsr_0$cmp_le0000> created at line 106.
+    Found 1-bit register for signal <rxd1>.
+    Found 1-bit register for signal <rxd2>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   1 Xor(s).
+	inferred   8 Tristate(s).
+Unit <rcvr> synthesized.
+
+
+Synthesizing Unit <clkcon>.
+    Related source file is "C:/Users/gnocuil/Desktop/cpld/clkcon.vhd".
+    Found 1-bit register for signal <clk>.
+    Found 32-bit register for signal <cnt72>.
+    Found 32-bit adder for signal <cnt72$addsub0000> created at line 41.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <clkcon> synthesized.
+
+
+Synthesizing Unit <uart>.
+    Related source file is "C:/Users/gnocuil/Desktop/cpld/uart.vhd".
+Unit <uart> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 4
+ 4-bit up counter                                      : 4
+# Registers                                            : 29
+ 1-bit register                                        : 25
+ 32-bit register                                       : 1
+ 8-bit register                                        : 3
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+# Comparators                                          : 6
+ 4-bit comparator greatequal                           : 2
+ 4-bit comparator greater                              : 1
+ 4-bit comparator less                                 : 1
+ 4-bit comparator lessequal                            : 2
+# Tristates                                            : 1
+ 8-bit tristate buffer                                 : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 4
+ 4-bit up counter                                      : 4
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+# Latches                                              : 1
+ 1-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1348 - Unit rcvr is merged (output interface has tristates)
+
+Optimizing unit <uart> ...
+
+Optimizing unit <clkcon> ...
+
+Optimizing unit <txmit> ...
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : uart.ngr
+Top Level Output File Name         : uart
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : XC9500XL CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 23
+
+Cell Usage :
+# BELS                             : 591
+#      AND2                        : 168
+#      AND3                        : 39
+#      AND4                        : 3
+#      AND8                        : 7
+#      GND                         : 3
+#      INV                         : 250
+#      OR2                         : 72
+#      OR3                         : 3
+#      VCC                         : 1
+#      XOR2                        : 45
+# FlipFlops/Latches                : 98
+#      FDC                         : 56
+#      FDCE                        : 32
+#      FDP                         : 6
+#      FDPE                        : 3
+#      LDP                         : 1
+# IO Buffers                       : 23
+#      IBUF                        : 7
+#      IOBUFE                      : 8
+#      OBUF                        : 8
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.16 secs
+ 
+--> 
+
+Total memory usage is 199292 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,5 @@
+[Inputs]
+=INPUT[15:0]=
+[Outputs]
+=LED_OUTPUT[15:0]=
+[BiDir]

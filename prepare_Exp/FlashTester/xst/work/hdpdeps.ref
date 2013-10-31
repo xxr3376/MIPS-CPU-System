@@ -1,0 +1,14 @@
+V3 7
+FL "D:/VHDL/Computer Arti/FlashTester/flash_io.vhd" 2011/11/15.14:10:56 P.28xd
+EN work/flash_io 1353780856 FL "D:/VHDL/Computer Arti/FlashTester/flash_io.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/flash_io/Behavioral 1353780857 \
+      FL "D:/VHDL/Computer Arti/FlashTester/flash_io.vhd" EN work/flash_io 1353780856
+FL "D:/VHDL/Computer Arti/FlashTester/MemoryController.vhd" 2012/11/25.02:13:30 P.28xd
+EN work/MemoryController 1353780858 \
+      FL "D:/VHDL/Computer Arti/FlashTester/MemoryController.vhd" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/MemoryController/Behavioral 1353780859 \
+      FL "D:/VHDL/Computer Arti/FlashTester/MemoryController.vhd" \
+      EN work/MemoryController 1353780858 CP flash_io

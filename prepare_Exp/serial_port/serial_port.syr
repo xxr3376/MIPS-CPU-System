@@ -1,0 +1,561 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: serial_port.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "serial_port.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "serial_port"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : serial_port
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/VHDL/Computer Arti/serial_port/seg7.vhd" in Library work.
+Architecture behavioral7 of Entity seg7 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/serial_port/timer.vhd" in Library work.
+Architecture behavioral of Entity timer is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/serial_port/serial_port.vhd" in Library work.
+Entity <serial_port> compiled.
+Entity <serial_port> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <serial_port> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <seg7> in library <work> (architecture <behavioral7>).
+
+Analyzing hierarchy for entity <timer> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <serial_port> in library <work> (Architecture <behavioral>).
+Entity <serial_port> analyzed. Unit <serial_port> generated.
+
+Analyzing Entity <seg7> in library <work> (Architecture <behavioral7>).
+Entity <seg7> analyzed. Unit <seg7> generated.
+
+Analyzing Entity <timer> in library <work> (Architecture <behavioral>).
+Entity <timer> analyzed. Unit <timer> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <seg7>.
+    Related source file is "D:/VHDL/Computer Arti/serial_port/seg7.vhd".
+    Found 16x7-bit ROM for signal <Flip>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <seg7> synthesized.
+
+
+Synthesizing Unit <timer>.
+    Related source file is "D:/VHDL/Computer Arti/serial_port/timer.vhd".
+    Found 21-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <timer> synthesized.
+
+
+Synthesizing Unit <serial_port>.
+    Related source file is "D:/VHDL/Computer Arti/serial_port/serial_port.vhd".
+    Found finite state machine <FSM_0> for signal <read_status>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 6                                              |
+    | Clock              | scan_signal               (rising_edge)        |
+    | Clock enable       | read_status$cmp_eq0000    (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 3-bit latch for signal <mode>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 4-bit latch for signal <status>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Using one-hot encoding for signal <mode>.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <mode> of Case statement line 94 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <mode> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <mode> of Case statement line 94 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <mode> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <mode> of Case statement line 94 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <mode> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found 8-bit tristate buffer for signal <databus>.
+    Found 1-bit register for signal <wrn>.
+    Found 1-bit register for signal <rdn>.
+    Found 8-bit register for signal <holder>.
+    Found 1-bit register for signal <output_flag>.
+    Found 8-bit register for signal <storage>.
+    Found 8-bit adder for signal <storage$add0000> created at line 122.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  19 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 Tristate(s).
+Unit <serial_port> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 21-bit up counter                                     : 1
+# Registers                                            : 5
+ 1-bit register                                        : 3
+ 8-bit register                                        : 2
+# Latches                                              : 2
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 1
+# Tristates                                            : 1
+ 8-bit tristate buffer                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <read_status/FSM> on signal <read_status[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0001
+ 01    | 0010
+ 10    | 0100
+ 11    | 1000
+-------------------
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 21-bit up counter                                     : 1
+# Registers                                            : 19
+ Flip-Flops                                            : 19
+# Latches                                              : 2
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <status_2> in Unit <serial_port> is equivalent to the following FF/Latch, which will be removed : <status_3> 
+WARNING:Xst:1710 - FF/Latch <status_2> (without init value) has a constant value of 0 in block <serial_port>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <serial_port> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block serial_port, actual ratio is 0.
+Latch status_1 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 44
+ Flip-Flops                                            : 44
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : serial_port.ngr
+Top Level Output File Name         : serial_port
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 40
+
+Cell Usage :
+# BELS                             : 111
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 20
+#      LUT2                        : 12
+#      LUT3                        : 14
+#      LUT4                        : 13
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 20
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 21
+# FlipFlops/Latches                : 50
+#      FD                          : 21
+#      FDE                         : 12
+#      FDS                         : 11
+#      LDC_1                       : 2
+#      LDCP_1                      : 4
+# Clock Buffers                    : 3
+#      BUFG                        : 1
+#      BUFGP                       : 2
+# IO Buffers                       : 38
+#      IBUF                        : 12
+#      IOBUF                       : 8
+#      OBUF                        : 18
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                       38  out of   8672     0%  
+ Number of Slice Flip Flops:             49  out of  17344     0%  
+ Number of 4 input LUTs:                 67  out of  17344     0%  
+ Number of IOs:                          40
+ Number of bonded IOBs:                  40  out of    250    16%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+scan_timer/counter_201             | BUFG                   | 23    |
+key3                               | BUFGP                  | 6     |
+clk                                | BUFGP                  | 21    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------+------------------------+-------+
+Control Signal                           | Buffer(FF name)        | Load  |
+-----------------------------------------+------------------------+-------+
+mode_0__or0000(mode_0__or00001_INV_0:O)  | NONE(mode_0)           | 3     |
+mode_2__or0000(mode_2__or00001:O)        | NONE(mode_2)           | 3     |
+mode_1__and0000(mode_1__and00001_INV_0:O)| NONE(mode_1)           | 2     |
+N0(XST_GND:G)                            | NONE(mode_2)           | 1     |
+mode_0__and0000(mode_0__and00001:O)      | NONE(mode_0)           | 1     |
+-----------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.029ns (Maximum Frequency: 198.847MHz)
+   Minimum input arrival time before clock: 5.651ns
+   Maximum output required time after clock: 5.861ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'scan_timer/counter_201'
+  Clock period: 5.029ns (frequency: 198.847MHz)
+  Total number of paths / destination ports: 54 / 33
+-------------------------------------------------------------------------
+Delay:               5.029ns (Levels of Logic = 2)
+  Source:            read_status_FSM_FFd2 (FF)
+  Destination:       holder_7 (FF)
+  Source Clock:      scan_timer/counter_201 rising
+  Destination Clock: scan_timer/counter_201 rising
+
+  Data Path: read_status_FSM_FFd2 to holder_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             13   0.591   0.987  read_status_FSM_FFd2 (read_status_FSM_FFd2)
+     LUT4_D:I3->O          7   0.704   0.712  holder_mux0000<0>11 (N01)
+     LUT4:I3->O            1   0.704   0.420  holder_mux0000<7>_SW0 (N4)
+     FDS:S                     0.911          holder_7
+    ----------------------------------------
+    Total                      5.029ns (2.910ns logic, 2.119ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.528ns (frequency: 220.848MHz)
+  Total number of paths / destination ports: 231 / 21
+-------------------------------------------------------------------------
+Delay:               4.528ns (Levels of Logic = 21)
+  Source:            scan_timer/counter_1 (FF)
+  Destination:       scan_timer/counter_20 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: scan_timer/counter_1 to scan_timer/counter_20
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.595  scan_timer/counter_1 (scan_timer/counter_1)
+     LUT1:I0->O            1   0.704   0.000  scan_timer/Mcount_counter_cy<1>_rt (scan_timer/Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  scan_timer/Mcount_counter_cy<1> (scan_timer/Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<2> (scan_timer/Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<3> (scan_timer/Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<4> (scan_timer/Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<5> (scan_timer/Mcount_counter_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<6> (scan_timer/Mcount_counter_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<7> (scan_timer/Mcount_counter_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<8> (scan_timer/Mcount_counter_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<9> (scan_timer/Mcount_counter_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<10> (scan_timer/Mcount_counter_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<11> (scan_timer/Mcount_counter_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<12> (scan_timer/Mcount_counter_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<13> (scan_timer/Mcount_counter_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<14> (scan_timer/Mcount_counter_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<15> (scan_timer/Mcount_counter_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<16> (scan_timer/Mcount_counter_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<17> (scan_timer/Mcount_counter_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<18> (scan_timer/Mcount_counter_cy<18>)
+     MUXCY:CI->O           0   0.059   0.000  scan_timer/Mcount_counter_cy<19> (scan_timer/Mcount_counter_cy<19>)
+     XORCY:CI->O           1   0.804   0.000  scan_timer/Mcount_counter_xor<20> (Result<20>)
+     FD:D                      0.308          scan_timer/counter_20
+    ----------------------------------------
+    Total                      4.528ns (3.933ns logic, 0.595ns route)
+                                       (86.9% logic, 13.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'scan_timer/counter_201'
+  Total number of paths / destination ports: 67 / 21
+-------------------------------------------------------------------------
+Offset:              5.651ns (Levels of Logic = 3)
+  Source:            key_clk (PAD)
+  Destination:       holder_7 (FF)
+  Destination Clock: scan_timer/counter_201 rising
+
+  Data Path: key_clk to holder_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  key_clk_IBUF (key_clk_IBUF)
+     LUT2:I0->O            8   0.704   0.932  output_flag_mux000121 (N2)
+     LUT4:I0->O            1   0.704   0.420  holder_mux0000<7>_SW0 (N4)
+     FDS:S                     0.911          holder_7
+    ----------------------------------------
+    Total                      5.651ns (3.537ns logic, 2.114ns route)
+                                       (62.6% logic, 37.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'key3'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              3.348ns (Levels of Logic = 2)
+  Source:            key2 (PAD)
+  Destination:       mode_1 (LATCH)
+  Destination Clock: key3 rising
+
+  Data Path: key2 to mode_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.587  key2_IBUF (key2_IBUF)
+     INV:I->O              3   0.704   0.531  mode_1__and00001_INV_0 (mode_1__and0000)
+     LDCP_1:D                  0.308          mode_1
+    ----------------------------------------
+    Total                      3.348ns (2.230ns logic, 1.118ns route)
+                                       (66.6% logic, 33.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'scan_timer/counter_201'
+  Total number of paths / destination ports: 26 / 18
+-------------------------------------------------------------------------
+Offset:              5.771ns (Levels of Logic = 2)
+  Source:            output_flag (FF)
+  Destination:       databus<7> (PAD)
+  Source Clock:      scan_timer/counter_201 rising
+
+  Data Path: output_flag to databus<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q              2   0.591   0.447  output_flag (output_flag)
+     INV:I->O              8   0.704   0.757  output_flag_inv1_INV_0 (output_flag_inv)
+     IOBUF:T->IO               3.272          databus_7_IOBUF (databus<7>)
+    ----------------------------------------
+    Total                      5.771ns (4.567ns logic, 1.204ns route)
+                                       (79.1% logic, 20.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'key3'
+  Total number of paths / destination ports: 10 / 6
+-------------------------------------------------------------------------
+Offset:              5.861ns (Levels of Logic = 2)
+  Source:            status_0 (LATCH)
+  Destination:       seg<3> (PAD)
+  Source Clock:      key3 rising
+
+  Data Path: status_0 to seg<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP_1:G->Q           4   0.676   0.762  status_0 (status_0)
+     LUT2:I0->O            2   0.704   0.447  seg<3>1 (seg_3_OBUF)
+     OBUF:I->O                 3.272          seg_3_OBUF (seg<3>)
+    ----------------------------------------
+    Total                      5.861ns (4.652ns logic, 1.209ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.09 secs
+ 
+--> 
+
+Total memory usage is 272916 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

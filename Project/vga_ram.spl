@@ -1,0 +1,13 @@
+[Inputs]
+reset
+clk_0
+=addr10_in[9:0]=
+=char_in[7:0]=
+=wea_in[0:0]=
+[Outputs]
+hs
+vs
+=r[2:0]=
+=g[2:0]=
+=b[2:0]=
+[BiDir]

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (TTL|LVTTL|LVCMOS2|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xc9500xl" device="XC95144XL" pkg="TQ100" spg="-5"/><pin dir="input" nm="rst" no="4"/><pin dir="input" nm="rdn" no="43"/><pin dir="input" nm="clk" no="1"/><pin dir="input" nm="rxd" no="58"/><pin dir="input" nm="wrn" no="40"/><pin dir="input" nm="ps2clock" no="71"/><pin dir="input" nm="ps2data" no="70"/><pin dir="output" nm="sdo" no="54" sr="fast"/><pin dir="output" nm="tsre" no="41" sr="fast"/><pin dir="output" nm="data_ready" no="50" sr="fast"/><pin dir="output" nm="framing_error" no="49" sr="fast"/><pin dir="output" nm="parity_error" no="46" sr="fast"/><pin dir="output" nm="tbre" no="42" sr="fast"/><pin dir="output" nm="interconn7" no="39" sr="fast"/><pin dir="output" nm="interconn8" no="37" sr="fast"/><pin dir="bidir" nm="data&lt;0&gt;" no="6" sr="fast"/><pin dir="bidir" nm="data&lt;1&gt;" no="7" sr="fast"/><pin dir="bidir" nm="data&lt;2&gt;" no="8" sr="fast"/><pin dir="bidir" nm="data&lt;3&gt;" no="9" sr="fast"/><pin dir="bidir" nm="data&lt;4&gt;" no="10" sr="fast"/><pin dir="bidir" nm="data&lt;5&gt;" no="11" sr="fast"/><pin dir="bidir" nm="data&lt;6&gt;" no="12" sr="fast"/><pin dir="bidir" nm="data&lt;7&gt;" no="13" sr="fast"/></ibis>

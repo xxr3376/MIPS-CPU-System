@@ -1,0 +1,20 @@
+V3 11
+FL "D:/VHDL/Computer Arti/serial_port/seg7.vhd" 2012/10/18.23:55:14 P.28xd
+EN work/seg7 1351082202 FL "D:/VHDL/Computer Arti/serial_port/seg7.vhd" \
+      PB ieee/std_logic_1164 1341906176
+AR work/seg7/Behavioral7 1351082203 \
+      FL "D:/VHDL/Computer Arti/serial_port/seg7.vhd" EN work/seg7 1351082202
+FL "D:/VHDL/Computer Arti/serial_port/serial_port.vhd" 2012/10/24.20:36:36 P.28xd
+EN work/serial_port 1351082206 \
+      FL "D:/VHDL/Computer Arti/serial_port/serial_port.vhd" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/serial_port/Behavioral 1351082207 \
+      FL "D:/VHDL/Computer Arti/serial_port/serial_port.vhd" EN work/serial_port 1351082206 \
+      CP seg7 CP timer
+FL "D:/VHDL/Computer Arti/serial_port/timer.vhd" 2012/10/20.12:12:07 P.28xd
+EN work/timer 1351082204 FL "D:/VHDL/Computer Arti/serial_port/timer.vhd" \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/timer/Behavioral 1351082205 \
+      FL "D:/VHDL/Computer Arti/serial_port/timer.vhd" EN work/timer 1351082204

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\VHDL\Computer Arti\cpld\impact.xsl
+OUTFILE=D:\VHDL\Computer Arti\cpld\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\VHDL\Computer Arti\cpld
+LICENSE=iMPACT
+USER_INFO=iMPACT

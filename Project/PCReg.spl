@@ -1,0 +1,8 @@
+[Inputs]
+clk
+rst
+WriteIN
+=Input[15:0]=
+[Outputs]
+=Output[15:0]=
+[BiDir]

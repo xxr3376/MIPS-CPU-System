@@ -1,0 +1,6 @@
+[Inputs]
+=KEY_INPUT[15:0]=
+[Outputs]
+ClockSelection
+=Output0_3[3:0]=
+[BiDir]

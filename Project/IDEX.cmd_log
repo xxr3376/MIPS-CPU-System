@@ -1,0 +1,30 @@
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -prj tmp -o "D:/VHDL/Computer Arti/tmp/IDEX.vhi" -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work IDEX.vhd 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj tmp -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/tmp/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj Project -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/Project/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj Project -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/Project/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj Project -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/Project/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj Project -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/Project/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj Project -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/Project/IDEX.sym} 
+vhdtdtfi -lib work IDEX.vhd -prj Project -o IDEX.spl -module IDEX -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IDEX.spl {D:/VHDL/Computer Arti/Project/IDEX.sym} 

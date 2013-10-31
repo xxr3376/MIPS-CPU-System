@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2 (64-bit)
+# Build 194362 by xbuild on Fri Jul 20 18:52:11 MDT 2012
+# Start of session at: Sat Oct 20 02:56:53 2012
+# Process ID: 9192
+# Log file: D:/VHDL/ram1/planAhead_run_1/planAhead.log
+# Journal file: D:/VHDL/ram1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/VHDL/ram1/pa.fromNetlist.tcl

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\VHDL\Computer Arti\serial_port\serial_port.ncd
+OUTFILE=D:\VHDL\Computer Arti\serial_port\serial_port.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=D:\VHDL\Computer Arti\serial_port
+LICENSE=WebPack
+USER_INFO=__0_0_0

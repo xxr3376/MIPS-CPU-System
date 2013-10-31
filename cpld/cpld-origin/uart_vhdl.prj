@@ -1,0 +1,4 @@
+vhdl work "D:\VHDL\Computer Arti\cpld\txmit.vhd"
+vhdl work "D:\VHDL\Computer Arti\cpld\rcvr.vhd"
+vhdl work "D:\VHDL\Computer Arti\cpld\clkcon.vhd"
+vhdl work "D:\VHDL\Computer Arti\cpld\uart.vhd"

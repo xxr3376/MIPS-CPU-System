@@ -1,0 +1,6 @@
+vhdtdtfi -lib work bypassControl.vhd -prj Project -o bypassControl.spl -module bypassControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bypassControl.spl {D:/VHDL/Computer Arti/Project/bypassControl.sym} 
+vhdtdtfi -lib work bypassControl.vhd -prj Project -o bypassControl.spl -module bypassControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bypassControl.spl {D:/VHDL/Computer Arti/Project/bypassControl.sym} 
+vhdtdtfi -lib work bypassControl.vhd -prj Project -o bypassControl.spl -module bypassControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bypassControl.spl {D:/VHDL/Computer Arti/Project/bypassControl.sym} 

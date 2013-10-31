@@ -1,0 +1,603 @@
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 
+xst -intstyle ise -ifn "D:/VHDL/Computer Arti/Project/Project.xst" -ofn "D:/VHDL/Computer Arti/Project/Project.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p xc3s1200e-fg320-4 "Project.ngc" Project.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Project_map.ncd Project.ngd Project.pcf 
+par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
+bitgen -intstyle ise -f Project.ut Project.ncd 

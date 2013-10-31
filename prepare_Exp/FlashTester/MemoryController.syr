@@ -1,0 +1,629 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: MemoryController.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MemoryController.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MemoryController"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : MemoryController
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/VHDL/Computer Arti/FlashTester/flash_io.vhd" in Library work.
+Architecture behavioral of Entity flash_io is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/FlashTester/MemoryController.vhd" in Library work.
+Entity <memorycontroller> compiled.
+Entity <memorycontroller> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MemoryController> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <flash_io> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MemoryController> in library <work> (Architecture <behavioral>).
+WARNING:Xst:1610 - "D:/VHDL/Computer Arti/FlashTester/MemoryController.vhd" line 198: Width mismatch. <flash_addr_input> has a width of 22 bits but assigned expression is 16-bit wide.
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/FlashTester/MemoryController.vhd" line 185: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <extendDatabus>
+Entity <MemoryController> analyzed. Unit <MemoryController> generated.
+
+Analyzing Entity <flash_io> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/FlashTester/flash_io.vhd" line 75: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <ctl_read>, <ctl_write>, <ctl_erase>
+Entity <flash_io> analyzed. Unit <flash_io> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <flash_io>.
+    Related source file is "D:/VHDL/Computer Arti/FlashTester/flash_io.vhd".
+    Using one-hot encoding for signal <state>.
+    Found 16-bit tristate buffer for signal <flash_data>.
+    Found 1-bit register for signal <flash_we>.
+    Found 22-bit register for signal <flash_addr>.
+    Found 16-bit register for signal <data_out>.
+    Found 1-bit register for signal <flash_oe>.
+    Found 1-bit register for signal <ctl_erase_last>.
+    Found 1-bit register for signal <ctl_read_last>.
+    Found 1-bit register for signal <ctl_write_last>.
+    Found 1-bit xor2 for signal <data_out_0$xor0000> created at line 91.
+    Found 16-bit register for signal <Mtridata_flash_data> created at line 85.
+    Found 1-bit register for signal <Mtrien_flash_data> created at line 85.
+    Found 25-bit register for signal <next_state>.
+    Found 25-bit register for signal <state>.
+    Summary:
+	inferred  60 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <flash_io> synthesized.
+
+
+Synthesizing Unit <MemoryController>.
+    Related source file is "D:/VHDL/Computer Arti/FlashTester/MemoryController.vhd".
+WARNING:Xst:1780 - Signal <readin> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <flash_data_input> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+WARNING:Xst:1780 - Signal <clk_flash> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | boot                                           |
+    | Power Up State     | boot                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16-bit tristate buffer for signal <extendDatabus>.
+    Found 8-bit tristate buffer for signal <basicDatabus>.
+    Found 16-bit register for signal <buffer1>.
+    Found 16-bit register for signal <buffer2>.
+    Found 22-bit register for signal <flash_addr_input>.
+    Found 16-bit adder for signal <flash_addr_input$add0000> created at line 198.
+    Found 8-bit register for signal <FLASH_COUNTER>.
+    Found 8-bit adder for signal <FLASH_COUNTER$addsub0000> created at line 206.
+    Found 16-bit register for signal <FLASH_HOLDER>.
+    Found 16-bit up counter for signal <FLASHPC>.
+    Found 16-bit comparator less for signal <state$cmp_lt0000> created at line 211.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  78 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred  24 Tristate(s).
+Unit <MemoryController> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 16-bit up counter                                     : 1
+# Registers                                            : 46
+ 1-bit register                                        : 38
+ 16-bit register                                       : 3
+ 22-bit register                                       : 2
+ 25-bit register                                       : 2
+ 8-bit register                                        : 1
+# Comparators                                          : 1
+ 16-bit comparator less                                : 1
+# Tristates                                            : 3
+ 16-bit tristate buffer                                : 2
+ 8-bit tristate buffer                                 : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <state/FSM> on signal <state[1:9]> with one-hot encoding.
+-------------------------
+ State      | Encoding
+-------------------------
+ boot       | 000000001
+ boot_flash | 000000010
+ boot_ram1  | 000000100
+ boot_ram2  | 000001000
+ boot_ready | 000010000
+ read1      | 001000000
+ idel1      | 000100000
+ rw2        | 010000000
+ idel2      | 100000000
+-------------------------
+INFO:Xst:2261 - The FF/Latch <Mtridata_flash_data_8> in Unit <flash> is equivalent to the following 7 FFs/Latches, which will be removed : <Mtridata_flash_data_9> <Mtridata_flash_data_10> <Mtridata_flash_data_11> <Mtridata_flash_data_12> <Mtridata_flash_data_13> <Mtridata_flash_data_14> <Mtridata_flash_data_15> 
+WARNING:Xst:638 - in unit flash Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<9> Mtridata_flash_data<9> signal will be lost.
+WARNING:Xst:638 - in unit flash Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<10> Mtridata_flash_data<10> signal will be lost.
+WARNING:Xst:638 - in unit flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<11> Mtridata_flash_data<11> signal will be lost.
+WARNING:Xst:638 - in unit flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<12> Mtridata_flash_data<12> signal will be lost.
+WARNING:Xst:638 - in unit flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<13> Mtridata_flash_data<13> signal will be lost.
+WARNING:Xst:638 - in unit flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<14> Mtridata_flash_data<14> signal will be lost.
+WARNING:Xst:638 - in unit flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<15> Mtridata_flash_data<15> signal will be lost.
+WARNING:Xst:1710 - FF/Latch <Mtridata_flash_data_8> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_17> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_18> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_19> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_20> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_21> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_22> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ctl_erase_last> (without init value) has a constant value of 1 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ctl_write_last> (without init value) has a constant value of 1 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_input_17> (without init value) has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_input_18> (without init value) has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_input_19> (without init value) has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_input_20> (without init value) has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_input_21> (without init value) has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_input_22> (without init value) has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <flash_addr_input<22:16>> (without init value) have a constant value of 0 in block <MemoryController>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 16-bit up counter                                     : 1
+# Registers                                            : 182
+ Flip-Flops                                            : 182
+# Comparators                                          : 1
+ 16-bit comparator less                                : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <ctl_write_last> (without init value) has a constant value of 1 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ctl_erase_last> (without init value) has a constant value of 1 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <Mtridata_flash_data_0> in Unit <flash_io> is equivalent to the following 3 FFs/Latches, which will be removed : <Mtridata_flash_data_1> <Mtridata_flash_data_2> <Mtridata_flash_data_3> 
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<0> and Mtridata_flash_data<1> Mtridata_flash_data<1> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<0> and Mtridata_flash_data<2> Mtridata_flash_data<2> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<0> and Mtridata_flash_data<3> Mtridata_flash_data<3> signal will be lost.
+INFO:Xst:2261 - The FF/Latch <Mtridata_flash_data_8> in Unit <flash_io> is equivalent to the following 7 FFs/Latches, which will be removed : <Mtridata_flash_data_9> <Mtridata_flash_data_10> <Mtridata_flash_data_11> <Mtridata_flash_data_12> <Mtridata_flash_data_13> <Mtridata_flash_data_14> <Mtridata_flash_data_15> 
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<9> Mtridata_flash_data<9> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<10> Mtridata_flash_data<10> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<11> Mtridata_flash_data<11> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<12> Mtridata_flash_data<12> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<13> Mtridata_flash_data<13> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<14> Mtridata_flash_data<14> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<15> Mtridata_flash_data<15> signal will be lost.
+WARNING:Xst:1710 - FF/Latch <Mtridata_flash_data_8> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_17> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_18> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_19> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_20> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_21> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_22> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <flash/next_state_19> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_20> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_22> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_23> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_1> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_2> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_3> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_6> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_4> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_5> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_7> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_8> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_18> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_21> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_19> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_20> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_22> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/state_23> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_1> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_2> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_3> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_6> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_4> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_5> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_9> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_7> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_8> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_12> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_10> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_11> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_15> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_13> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_14> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_18> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_16> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_17> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <flash/next_state_21> has a constant value of 0 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <flash/next_state_24> of sequential type is unconnected in block <MemoryController>.
+WARNING:Xst:2677 - Node <flash/state_24> of sequential type is unconnected in block <MemoryController>.
+WARNING:Xst:1293 - FF/Latch <flash/next_state_0> has a constant value of 1 in block <MemoryController>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <flash/Mtridata_flash_data_6> in Unit <MemoryController> is equivalent to the following 2 FFs/Latches, which will be removed : <flash/Mtridata_flash_data_5> <flash/Mtridata_flash_data_4> 
+WARNING:Xst:638 - in unit MemoryController Conflict on KEEP property on signal flash/Mtridata_flash_data<6> and flash/Mtridata_flash_data<5> flash/Mtridata_flash_data<5> signal will be lost.
+WARNING:Xst:638 - in unit MemoryController Conflict on KEEP property on signal flash/Mtridata_flash_data<5> and flash/Mtridata_flash_data<4> flash/Mtridata_flash_data<4> signal will be lost.
+INFO:Xst:2261 - The FF/Latch <flash/Mtridata_flash_data_7> in Unit <MemoryController> is equivalent to the following FF/Latch, which will be removed : <flash/Mtridata_flash_data_0> 
+WARNING:Xst:638 - in unit MemoryController Conflict on KEEP property on signal flash/Mtridata_flash_data<7> and flash/Mtridata_flash_data<0> flash/Mtridata_flash_data<0> signal will be lost.
+
+Optimizing unit <MemoryController> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MemoryController, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 145
+ Flip-Flops                                            : 145
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MemoryController.ngr
+Top Level Output File Name         : MemoryController
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 180
+
+Cell Usage :
+# BELS                             : 302
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 30
+#      LUT2                        : 55
+#      LUT2_D                      : 1
+#      LUT3                        : 64
+#      LUT3_D                      : 3
+#      LUT3_L                      : 2
+#      LUT4                        : 62
+#      LUT4_D                      : 4
+#      LUT4_L                      : 6
+#      MUXCY                       : 34
+#      MUXF5                       : 3
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 145
+#      FDC                         : 17
+#      FDCPE                       : 17
+#      FDE                         : 106
+#      FDP                         : 4
+#      FDPE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 179
+#      IBUF                        : 54
+#      IOBUF                       : 40
+#      OBUF                        : 85
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                      127  out of   8672     1%  
+ Number of Slice Flip Flops:            145  out of  17344     0%  
+ Number of 4 input LUTs:                231  out of  17344     1%  
+ Number of IOs:                         180
+ Number of bonded IOBs:                 180  out of    250    72%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 145   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------------+------------------------------+-------+
+Control Signal                                             | Buffer(FF name)              | Load  |
+-----------------------------------------------------------+------------------------------+-------+
+flash/reset_inv(flash/reset_inv1_INV_0:O)                  | NONE(flash/Mtrien_flash_data)| 22    |
+buffer1_0_and0000(buffer1_0_and00001:O)                    | NONE(buffer1_0)              | 1     |
+buffer1_0_and0001(buffer1_0_and00011:O)                    | NONE(buffer1_0)              | 1     |
+buffer1_10_and0000(buffer1_10_and00001:O)                  | NONE(buffer1_10)             | 1     |
+buffer1_10_and0001(buffer1_10_and00011:O)                  | NONE(buffer1_10)             | 1     |
+buffer1_11_and0000(buffer1_11_and00001:O)                  | NONE(buffer1_11)             | 1     |
+buffer1_11_and0001(buffer1_11_and00011:O)                  | NONE(buffer1_11)             | 1     |
+buffer1_12_and0000(buffer1_12_and00001:O)                  | NONE(buffer1_12)             | 1     |
+buffer1_12_and0001(buffer1_12_and00011:O)                  | NONE(buffer1_12)             | 1     |
+buffer1_13_and0000(buffer1_13_and00001:O)                  | NONE(buffer1_13)             | 1     |
+buffer1_13_and0001(buffer1_13_and00011:O)                  | NONE(buffer1_13)             | 1     |
+buffer1_14_and0000(buffer1_14_and00001:O)                  | NONE(buffer1_14)             | 1     |
+buffer1_14_and0001(buffer1_14_and00011:O)                  | NONE(buffer1_14)             | 1     |
+buffer1_15_and0000(buffer1_15_and00001:O)                  | NONE(buffer1_15)             | 1     |
+buffer1_15_and0001(buffer1_15_and00011:O)                  | NONE(buffer1_15)             | 1     |
+buffer1_1_and0000(buffer1_1_and00001:O)                    | NONE(buffer1_1)              | 1     |
+buffer1_1_and0001(buffer1_1_and00011:O)                    | NONE(buffer1_1)              | 1     |
+buffer1_2_and0000(buffer1_2_and00001:O)                    | NONE(buffer1_2)              | 1     |
+buffer1_2_and0001(buffer1_2_and00011:O)                    | NONE(buffer1_2)              | 1     |
+buffer1_3_and0000(buffer1_3_and00001:O)                    | NONE(buffer1_3)              | 1     |
+buffer1_3_and0001(buffer1_3_and00011:O)                    | NONE(buffer1_3)              | 1     |
+buffer1_4_and0000(buffer1_4_and00001:O)                    | NONE(buffer1_4)              | 1     |
+buffer1_4_and0001(buffer1_4_and00011:O)                    | NONE(buffer1_4)              | 1     |
+buffer1_5_and0000(buffer1_5_and00001:O)                    | NONE(buffer1_5)              | 1     |
+buffer1_5_and0001(buffer1_5_and00011:O)                    | NONE(buffer1_5)              | 1     |
+buffer1_6_and0000(buffer1_6_and00001:O)                    | NONE(buffer1_6)              | 1     |
+buffer1_6_and0001(buffer1_6_and00011:O)                    | NONE(buffer1_6)              | 1     |
+buffer1_7_and0000(buffer1_7_and00001:O)                    | NONE(buffer1_7)              | 1     |
+buffer1_7_and0001(buffer1_7_and00011:O)                    | NONE(buffer1_7)              | 1     |
+buffer1_8_and0000(buffer1_8_and00001:O)                    | NONE(buffer1_8)              | 1     |
+buffer1_8_and0001(buffer1_8_and00011:O)                    | NONE(buffer1_8)              | 1     |
+buffer1_9_and0000(buffer1_9_and00001:O)                    | NONE(buffer1_9)              | 1     |
+buffer1_9_and0001(buffer1_9_and00011:O)                    | NONE(buffer1_9)              | 1     |
+flash/ctl_read_last_and0000(flash/ctl_read_last_and00001:O)| NONE(flash/ctl_read_last)    | 1     |
+flash/ctl_read_last_and0001(flash/ctl_read_last_and00011:O)| NONE(flash/ctl_read_last)    | 1     |
+-----------------------------------------------------------+------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 5.129ns (Maximum Frequency: 194.970MHz)
+   Minimum input arrival time before clock: 6.436ns
+   Maximum output required time after clock: 9.363ns
+   Maximum combinational path delay: 10.825ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 5.129ns (frequency: 194.970MHz)
+  Total number of paths / destination ports: 1109 / 196
+-------------------------------------------------------------------------
+Delay:               5.129ns (Levels of Logic = 3)
+  Source:            FLASH_COUNTER_2 (FF)
+  Destination:       FLASH_COUNTER_2 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: FLASH_COUNTER_2 to FLASH_COUNTER_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              5   0.591   0.808  FLASH_COUNTER_2 (FLASH_COUNTER_2)
+     LUT3_D:I0->O          5   0.704   0.637  state_cmp_eq000011 (Madd_FLASH_COUNTER_addsub0000_cy<2>)
+     LUT4_D:I3->O          6   0.704   0.673  FLASH_COUNTER_mux0000<5>21 (N7)
+     LUT4:I3->O            1   0.704   0.000  FLASH_COUNTER_mux0000<2>1 (FLASH_COUNTER_mux0000<2>)
+     FDE:D                     0.308          FLASH_COUNTER_5
+    ----------------------------------------
+    Total                      5.129ns (3.011ns logic, 2.118ns route)
+                                       (58.7% logic, 41.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 431 / 154
+-------------------------------------------------------------------------
+Offset:              6.436ns (Levels of Logic = 5)
+  Source:            address2<8> (PAD)
+  Destination:       buffer2_1 (FF)
+  Destination Clock: clock rising
+
+  Data Path: address2<8> to buffer2_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  address2_8_IBUF (address2_8_IBUF)
+     LUT4:I0->O            1   0.704   0.595  memoryRW_cmp_eq000017 (memoryRW_cmp_eq000017)
+     LUT4:I0->O           19   0.704   1.260  memoryRW_cmp_eq0000158 (buffer2_and0001)
+     LUT4:I0->O            1   0.704   0.000  buffer2_mux0000<1>1 (buffer2_mux0000<1>1)
+     MUXF5:I1->O           1   0.321   0.000  buffer2_mux0000<1>_f5 (buffer2_mux0000<1>)
+     FDE:D                     0.308          buffer2_1
+    ----------------------------------------
+    Total                      6.436ns (3.959ns logic, 2.477ns route)
+                                       (61.5% logic, 38.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 398 / 111
+-------------------------------------------------------------------------
+Offset:              9.363ns (Levels of Logic = 4)
+  Source:            state_FSM_FFd3 (FF)
+  Destination:       memoryAddress<9> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: state_FSM_FFd3 to memoryAddress<9>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             18   0.591   1.147  state_FSM_FFd3 (state_FSM_FFd3)
+     LUT2:I1->O           17   0.704   1.226  stdClock1 (stdClock_OBUF)
+     LUT4:I0->O            1   0.704   0.595  addressTemp<9>_SW0 (N0)
+     LUT3:I0->O            1   0.704   0.420  addressTemp<9> (memoryAddress_9_OBUF)
+     OBUF:I->O                 3.272          memoryAddress_9_OBUF (memoryAddress<9>)
+    ----------------------------------------
+    Total                      9.363ns (5.975ns logic, 3.388ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 148 / 44
+-------------------------------------------------------------------------
+Delay:               10.825ns (Levels of Logic = 6)
+  Source:            address2<8> (PAD)
+  Destination:       serialRDN (PAD)
+
+  Data Path: address2<8> to serialRDN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  address2_8_IBUF (address2_8_IBUF)
+     LUT4:I0->O            1   0.704   0.595  memoryRW_cmp_eq000017 (memoryRW_cmp_eq000017)
+     LUT4:I0->O           19   0.704   1.260  memoryRW_cmp_eq0000158 (buffer2_and0001)
+     LUT2:I0->O            2   0.704   0.622  memoryRW_cmp_eq00002 (memoryRW_cmp_eq0000)
+     LUT4:I0->O            1   0.704   0.420  serialRDN (serialRDN_OBUF)
+     OBUF:I->O                 3.272          serialRDN_OBUF (serialRDN)
+    ----------------------------------------
+    Total                     10.825ns (7.306ns logic, 3.519ns route)
+                                       (67.5% logic, 32.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.13 secs
+ 
+--> 
+
+Total memory usage is 282196 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   91 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

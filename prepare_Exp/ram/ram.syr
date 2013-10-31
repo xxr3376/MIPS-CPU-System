@@ -1,0 +1,540 @@
+Release 14.2 - xst P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Reading design: ram.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ram.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ram"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : ram
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/2012autumn/PCO/project3/ram1.1/seg7.vhd" in Library work.
+Architecture behavioral7 of Entity seg7 is up to date.
+Compiling vhdl file "F:/2012autumn/PCO/project3/ram1.1/timer.vhd" in Library work.
+Architecture behavioral of Entity timer is up to date.
+Compiling vhdl file "F:/2012autumn/PCO/project3/ram1.1/ram.vhd" in Library work.
+Entity <ram> compiled.
+Entity <ram> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ram> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <seg7> in library <work> (architecture <behavioral7>).
+
+Analyzing hierarchy for entity <timer> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ram> in library <work> (Architecture <behavioral>).
+Entity <ram> analyzed. Unit <ram> generated.
+
+Analyzing Entity <seg7> in library <work> (Architecture <behavioral7>).
+Entity <seg7> analyzed. Unit <seg7> generated.
+
+Analyzing Entity <timer> in library <work> (Architecture <behavioral>).
+Entity <timer> analyzed. Unit <timer> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <seg7>.
+    Related source file is "F:/2012autumn/PCO/project3/ram1.1/seg7.vhd".
+    Found 16x7-bit ROM for signal <Flip>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <seg7> synthesized.
+
+
+Synthesizing Unit <timer>.
+    Related source file is "F:/2012autumn/PCO/project3/ram1.1/timer.vhd".
+    Found 21-bit up counter for signal <counter>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <timer> synthesized.
+
+
+Synthesizing Unit <ram>.
+    Related source file is "F:/2012autumn/PCO/project3/ram1.1/ram.vhd".
+INFO:Xst:1799 - State sub_write_st is never reached in FSM <c_st>.
+    Found finite state machine <FSM_0> for signal <c_st>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 30                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 9                                              |
+    | Clock              | scan_signal               (rising_edge)        |
+    | Clock enable       | c_st$and0000              (negative)           |
+    | Power Up State     | addr_st                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <rst_st>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 5                                              |
+    | Clock              | scan_signal               (rising_edge)        |
+    | Clock enable       | rst                       (negative)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 18-bit register for signal <address>.
+    Found 18-bit register for signal <address2>.
+    Found 16-bit tristate buffer for signal <data>.
+    Found 16-bit tristate buffer for signal <data2>.
+    Found 16-bit register for signal <output_led>.
+    Found 1-bit register for signal <oe>.
+    Found 1-bit register for signal <oe2>.
+    Found 18-bit adder for signal <address$add0000> created at line 143.
+    Found 18-bit register for signal <address0>.
+    Found 18-bit register for signal <address_tmp>.
+    Found 16-bit register for signal <data_tmp>.
+    Found 16-bit register for signal <holder>.
+    Found 16-bit adder for signal <holder$add0000> created at line 132.
+    Found 16-bit subtractor for signal <holder$sub0000> created at line 132.
+    Found 16-bit register for signal <holder2>.
+    Found 16-bit subtractor for signal <holder2$sub0000> created at line 152.
+    Found 1-bit register for signal <rw2_flag>.
+    Found 1-bit register for signal <rw_flag>.
+    Summary:
+	inferred   2 Finite State Machine(s).
+	inferred 140 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  32 Tristate(s).
+Unit <ram> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 16-bit adder                                          : 1
+ 16-bit subtractor                                     : 2
+ 18-bit adder                                          : 1
+# Counters                                             : 1
+ 21-bit up counter                                     : 1
+# Registers                                            : 12
+ 1-bit register                                        : 4
+ 16-bit register                                       : 4
+ 18-bit register                                       : 4
+# Tristates                                            : 2
+ 16-bit tristate buffer                                : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <rst_st/FSM> on signal <rst_st[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0001
+ 01    | 0010
+ 10    | 0100
+ 11    | 1000
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <c_st/FSM> on signal <c_st[1:6]> with one-hot encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ addr_st      | 000001
+ data_st      | 010000
+ inc_st       | 100000
+ show1_st     | 000010
+ sub_st       | 000100
+ sub_write_st | unreached
+ show2_st     | 001000
+--------------------------
+WARNING:Xst:1710 - FF/Latch <address0_16> (without init value) has a constant value of 0 in block <ram>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <address0_17> (without init value) has a constant value of 0 in block <ram>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <address0<17:16>> (without init value) have a constant value of 0 in block <ram>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 4
+ 16-bit adder                                          : 1
+ 16-bit subtractor                                     : 2
+ 18-bit adder                                          : 1
+# Counters                                             : 1
+ 21-bit up counter                                     : 1
+# Registers                                            : 138
+ Flip-Flops                                            : 138
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ram> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ram, actual ratio is 2.
+FlipFlop c_st_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop c_st_FSM_FFd3 has been replicated 1 time(s)
+FlipFlop c_st_FSM_FFd4 has been replicated 2 time(s)
+FlipFlop c_st_FSM_FFd5 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 174
+ Flip-Flops                                            : 174
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ram.ngr
+Top Level Output File Name         : ram
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 118
+
+Cell Usage :
+# BELS                             : 597
+#      GND                         : 1
+#      INV                         : 34
+#      LUT1                        : 54
+#      LUT2                        : 13
+#      LUT2_D                      : 7
+#      LUT2_L                      : 9
+#      LUT3                        : 81
+#      LUT3_D                      : 4
+#      LUT3_L                      : 7
+#      LUT4                        : 128
+#      LUT4_D                      : 4
+#      LUT4_L                      : 57
+#      MUXCY                       : 82
+#      MUXF5                       : 28
+#      VCC                         : 1
+#      XORCY                       : 87
+# FlipFlops/Latches                : 174
+#      FD                          : 21
+#      FDE                         : 153
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 117
+#      IBUF                        : 18
+#      IOBUF                       : 32
+#      OBUF                        : 67
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                      205  out of   8672     2%  
+ Number of Slice Flip Flops:            174  out of  17344     1%  
+ Number of 4 input LUTs:                398  out of  17344     2%  
+ Number of IOs:                         118
+ Number of bonded IOBs:                 118  out of    250    47%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+scan_timer/counter_201             | BUFG                   | 153   |
+auto_clk                           | BUFGP                  | 21    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.865ns (Maximum Frequency: 145.672MHz)
+   Minimum input arrival time before clock: 8.184ns
+   Maximum output required time after clock: 6.364ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'scan_timer/counter_201'
+  Clock period: 6.865ns (frequency: 145.672MHz)
+  Total number of paths / destination ports: 2686 / 171
+-------------------------------------------------------------------------
+Delay:               6.865ns (Levels of Logic = 4)
+  Source:            c_st_FSM_FFd3 (FF)
+  Destination:       address_17 (FF)
+  Source Clock:      scan_timer/counter_201 rising
+  Destination Clock: scan_timer/counter_201 rising
+
+  Data Path: c_st_FSM_FFd3 to address_17
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             40   0.591   1.269  c_st_FSM_FFd3 (c_st_FSM_FFd3)
+     LUT4_D:I3->O         25   0.704   1.295  address_or00011 (address_or0001)
+     LUT3_D:I2->O          2   0.704   0.451  address_mux0000<0>22 (N7)
+     LUT4_L:I3->LO         1   0.704   0.135  address_mux0000<17>_SW0 (N120)
+     LUT3:I2->O            1   0.704   0.000  address_mux0000<17> (address_mux0000<17>)
+     FDE:D                     0.308          address_17
+    ----------------------------------------
+    Total                      6.865ns (3.715ns logic, 3.150ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'auto_clk'
+  Clock period: 4.528ns (frequency: 220.848MHz)
+  Total number of paths / destination ports: 231 / 21
+-------------------------------------------------------------------------
+Delay:               4.528ns (Levels of Logic = 21)
+  Source:            scan_timer/counter_1 (FF)
+  Destination:       scan_timer/counter_20 (FF)
+  Source Clock:      auto_clk rising
+  Destination Clock: auto_clk rising
+
+  Data Path: scan_timer/counter_1 to scan_timer/counter_20
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.595  scan_timer/counter_1 (scan_timer/counter_1)
+     LUT1:I0->O            1   0.704   0.000  scan_timer/Mcount_counter_cy<1>_rt (scan_timer/Mcount_counter_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  scan_timer/Mcount_counter_cy<1> (scan_timer/Mcount_counter_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<2> (scan_timer/Mcount_counter_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<3> (scan_timer/Mcount_counter_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<4> (scan_timer/Mcount_counter_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<5> (scan_timer/Mcount_counter_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<6> (scan_timer/Mcount_counter_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<7> (scan_timer/Mcount_counter_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<8> (scan_timer/Mcount_counter_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<9> (scan_timer/Mcount_counter_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<10> (scan_timer/Mcount_counter_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<11> (scan_timer/Mcount_counter_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<12> (scan_timer/Mcount_counter_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<13> (scan_timer/Mcount_counter_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<14> (scan_timer/Mcount_counter_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<15> (scan_timer/Mcount_counter_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<16> (scan_timer/Mcount_counter_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<17> (scan_timer/Mcount_counter_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  scan_timer/Mcount_counter_cy<18> (scan_timer/Mcount_counter_cy<18>)
+     MUXCY:CI->O           0   0.059   0.000  scan_timer/Mcount_counter_cy<19> (scan_timer/Mcount_counter_cy<19>)
+     XORCY:CI->O           1   0.804   0.000  scan_timer/Mcount_counter_xor<20> (Result<20>)
+     FD:D                      0.308          scan_timer/counter_20
+    ----------------------------------------
+    Total                      4.528ns (3.933ns logic, 0.595ns route)
+                                       (86.9% logic, 13.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'scan_timer/counter_201'
+  Total number of paths / destination ports: 896 / 286
+-------------------------------------------------------------------------
+Offset:              8.184ns (Levels of Logic = 6)
+  Source:            rst (PAD)
+  Destination:       address_tmp_7 (FF)
+  Destination Clock: scan_timer/counter_201 rising
+
+  Data Path: rst to address_tmp_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            97   1.218   1.458  rst_IBUF (rst_IBUF)
+     LUT3_D:I0->LO         1   0.704   0.104  address_tmp_mux0000<0>111 (N306)
+     LUT4:I3->O            2   0.704   0.451  address_tmp_mux0000<0>141 (N23)
+     LUT4_D:I3->O         15   0.704   1.021  address_tmp_mux0000<0>1 (N6)
+     LUT4_L:I3->LO         1   0.704   0.104  address_tmp_mux0000<8>_SW0 (N72)
+     LUT4:I3->O            1   0.704   0.000  address_tmp_mux0000<8> (address_tmp_mux0000<8>)
+     FDE:D                     0.308          address_tmp_8
+    ----------------------------------------
+    Total                      8.184ns (5.046ns logic, 3.138ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'scan_timer/counter_201'
+  Total number of paths / destination ports: 136 / 94
+-------------------------------------------------------------------------
+Offset:              6.364ns (Levels of Logic = 2)
+  Source:            rst_st_FSM_FFd3 (FF)
+  Destination:       seg<4> (PAD)
+  Source Clock:      scan_timer/counter_201 rising
+
+  Data Path: rst_st_FSM_FFd3 to seg<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             23   0.591   1.377  rst_st_FSM_FFd3 (rst_st_FSM_FFd3)
+     LUT2:I0->O            1   0.704   0.420  s1/Mrom_Flip41 (seg_4_OBUF)
+     OBUF:I->O                 3.272          seg_4_OBUF (seg<4>)
+    ----------------------------------------
+    Total                      6.364ns (4.567ns logic, 1.797ns route)
+                                       (71.8% logic, 28.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.06 secs
+ 
+--> 
+
+Total memory usage is 214948 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

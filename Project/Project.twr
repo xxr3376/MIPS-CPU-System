@@ -1,0 +1,220 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf
+Project.ucf
+
+Design file:              Project.ncd
+Physical constraint file: Project.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock KEY16_INPUT<4>
+-----------------+------------+------------+------------------+--------+
+                 |Max Setup to|Max Hold to |                  | Clock  |
+Source           | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+-----------------+------------+------------+------------------+--------+
+basicDatabus<0>  |   -3.581(R)|    6.667(R)|XLXN_851          |   0.000|
+basicDatabus<1>  |   -3.259(R)|    6.410(R)|XLXN_851          |   0.000|
+basicDatabus<2>  |   -4.328(R)|    7.265(R)|XLXN_851          |   0.000|
+basicDatabus<3>  |   -4.031(R)|    7.027(R)|XLXN_851          |   0.000|
+basicDatabus<4>  |   -4.553(R)|    7.442(R)|XLXN_851          |   0.000|
+basicDatabus<5>  |   -4.455(R)|    7.364(R)|XLXN_851          |   0.000|
+basicDatabus<6>  |   -3.935(R)|    6.935(R)|XLXN_851          |   0.000|
+basicDatabus<7>  |   -3.892(R)|    6.900(R)|XLXN_851          |   0.000|
+dataReady        |   -1.477(R)|    4.984(R)|XLXN_851          |   0.000|
+flash_data<0>    |   -4.007(R)|    7.006(R)|XLXN_851          |   0.000|
+flash_data<1>    |   -3.868(R)|    6.881(R)|XLXN_851          |   0.000|
+flash_data<2>    |   -3.534(R)|    6.614(R)|XLXN_851          |   0.000|
+flash_data<3>    |   -4.558(R)|    7.433(R)|XLXN_851          |   0.000|
+flash_data<4>    |   -4.729(R)|    7.582(R)|XLXN_851          |   0.000|
+flash_data<5>    |   -4.782(R)|    7.624(R)|XLXN_851          |   0.000|
+flash_data<6>    |   -4.528(R)|    7.403(R)|XLXN_851          |   0.000|
+flash_data<7>    |   -3.320(R)|    6.843(R)|XLXN_851          |   0.000|
+flash_data<8>    |   -5.009(R)|    7.806(R)|XLXN_851          |   0.000|
+flash_data<9>    |   -4.726(R)|    7.580(R)|XLXN_851          |   0.000|
+flash_data<10>   |   -4.936(R)|    7.735(R)|XLXN_851          |   0.000|
+flash_data<11>   |   -4.415(R)|    7.319(R)|XLXN_851          |   0.000|
+flash_data<12>   |   -4.109(R)|    7.073(R)|XLXN_851          |   0.000|
+flash_data<13>   |   -4.722(R)|    7.564(R)|XLXN_851          |   0.000|
+flash_data<14>   |   -4.395(R)|    7.302(R)|XLXN_851          |   0.000|
+flash_data<15>   |   -4.171(R)|    7.123(R)|XLXN_851          |   0.000|
+memoryDatabus<0> |   -2.081(R)|    7.922(R)|XLXN_851          |   0.000|
+memoryDatabus<1> |   -3.337(R)|    8.063(R)|XLXN_851          |   0.000|
+memoryDatabus<2> |   -3.047(R)|    7.719(R)|XLXN_851          |   0.000|
+memoryDatabus<3> |   -2.817(R)|    7.931(R)|XLXN_851          |   0.000|
+memoryDatabus<4> |   -2.824(R)|    7.108(R)|XLXN_851          |   0.000|
+memoryDatabus<5> |   -2.315(R)|    7.960(R)|XLXN_851          |   0.000|
+memoryDatabus<6> |   -2.099(R)|    7.185(R)|XLXN_851          |   0.000|
+memoryDatabus<7> |   -1.742(R)|    6.982(R)|XLXN_851          |   0.000|
+memoryDatabus<8> |   -4.056(R)|    7.638(R)|XLXN_851          |   0.000|
+memoryDatabus<9> |   -3.057(R)|    7.349(R)|XLXN_851          |   0.000|
+memoryDatabus<10>|   -2.651(R)|    7.292(R)|XLXN_851          |   0.000|
+memoryDatabus<11>|   -4.496(R)|    7.962(R)|XLXN_851          |   0.000|
+memoryDatabus<12>|   -4.039(R)|    7.417(R)|XLXN_851          |   0.000|
+memoryDatabus<13>|   -4.223(R)|    7.616(R)|XLXN_851          |   0.000|
+memoryDatabus<14>|   -4.530(R)|    7.689(R)|XLXN_851          |   0.000|
+memoryDatabus<15>|   -3.923(R)|    7.432(R)|XLXN_851          |   0.000|
+reset            |    0.212(R)|    7.196(R)|XLXN_851          |   0.000|
+serialTBRE       |   -0.723(R)|    4.380(R)|XLXN_851          |   0.000|
+serialTSRE       |   -0.200(R)|    3.965(R)|XLXN_851          |   0.000|
+-----------------+------------+------------+------------------+--------+
+
+Clock CLOCK_50M to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+LED_OUTPUT<0>|    9.550(R)|CLOCK_50M_BUFGP   |   0.000|
+-------------+------------+------------------+--------+
+
+Clock KEY16_INPUT<4> to Pad
+-----------------+------------+------------------+--------+
+                 | clk (edge) |                  | Clock  |
+Destination      |   to PAD   |Internal Clock(s) | Phase  |
+-----------------+------------+------------------+--------+
+LED_OUTPUT<1>    |   19.124(R)|XLXN_851          |   0.000|
+LED_OUTPUT<2>    |   19.473(R)|XLXN_851          |   0.000|
+LED_OUTPUT<3>    |   18.670(R)|XLXN_851          |   0.000|
+LED_OUTPUT<4>    |   20.112(R)|XLXN_851          |   0.000|
+basicDatabus<0>  |   17.842(R)|XLXN_851          |   0.000|
+basicDatabus<1>  |   18.403(R)|XLXN_851          |   0.000|
+basicDatabus<2>  |   18.659(R)|XLXN_851          |   0.000|
+basicDatabus<3>  |   18.111(R)|XLXN_851          |   0.000|
+basicDatabus<4>  |   18.905(R)|XLXN_851          |   0.000|
+basicDatabus<5>  |   18.357(R)|XLXN_851          |   0.000|
+basicDatabus<6>  |   17.824(R)|XLXN_851          |   0.000|
+basicDatabus<7>  |   18.644(R)|XLXN_851          |   0.000|
+flash_addr<1>    |   15.968(R)|XLXN_851          |   0.000|
+flash_addr<2>    |   16.605(R)|XLXN_851          |   0.000|
+flash_addr<3>    |   16.323(R)|XLXN_851          |   0.000|
+flash_addr<4>    |   15.712(R)|XLXN_851          |   0.000|
+flash_addr<5>    |   15.809(R)|XLXN_851          |   0.000|
+flash_addr<6>    |   15.705(R)|XLXN_851          |   0.000|
+flash_addr<7>    |   16.328(R)|XLXN_851          |   0.000|
+flash_addr<8>    |   15.900(R)|XLXN_851          |   0.000|
+flash_addr<9>    |   15.645(R)|XLXN_851          |   0.000|
+flash_addr<10>   |   15.240(R)|XLXN_851          |   0.000|
+flash_addr<11>   |   15.842(R)|XLXN_851          |   0.000|
+flash_addr<12>   |   16.054(R)|XLXN_851          |   0.000|
+flash_addr<13>   |   15.588(R)|XLXN_851          |   0.000|
+flash_addr<14>   |   15.118(R)|XLXN_851          |   0.000|
+flash_addr<15>   |   15.108(R)|XLXN_851          |   0.000|
+flash_addr<16>   |   15.360(R)|XLXN_851          |   0.000|
+flash_data<0>    |   16.285(R)|XLXN_851          |   0.000|
+flash_data<1>    |   16.016(R)|XLXN_851          |   0.000|
+flash_data<2>    |   16.264(R)|XLXN_851          |   0.000|
+flash_data<3>    |   16.278(R)|XLXN_851          |   0.000|
+flash_data<4>    |   16.508(R)|XLXN_851          |   0.000|
+flash_data<5>    |   16.410(R)|XLXN_851          |   0.000|
+flash_data<6>    |   16.658(R)|XLXN_851          |   0.000|
+flash_data<7>    |   16.013(R)|XLXN_851          |   0.000|
+flash_data<8>    |   16.492(R)|XLXN_851          |   0.000|
+flash_data<9>    |   15.724(R)|XLXN_851          |   0.000|
+flash_data<10>   |   15.969(R)|XLXN_851          |   0.000|
+flash_data<11>   |   16.111(R)|XLXN_851          |   0.000|
+flash_data<12>   |   16.365(R)|XLXN_851          |   0.000|
+flash_data<13>   |   16.210(R)|XLXN_851          |   0.000|
+flash_data<14>   |   16.611(R)|XLXN_851          |   0.000|
+flash_data<15>   |   16.459(R)|XLXN_851          |   0.000|
+flash_oe         |   16.369(R)|XLXN_851          |   0.000|
+flash_we         |   16.917(R)|XLXN_851          |   0.000|
+memoryAddress<0> |   21.389(R)|XLXN_851          |   0.000|
+memoryAddress<1> |   21.159(R)|XLXN_851          |   0.000|
+memoryAddress<2> |   21.379(R)|XLXN_851          |   0.000|
+memoryAddress<3> |   22.593(R)|XLXN_851          |   0.000|
+memoryAddress<4> |   20.675(R)|XLXN_851          |   0.000|
+memoryAddress<5> |   21.069(R)|XLXN_851          |   0.000|
+memoryAddress<6> |   23.390(R)|XLXN_851          |   0.000|
+memoryAddress<7> |   22.104(R)|XLXN_851          |   0.000|
+memoryAddress<8> |   21.329(R)|XLXN_851          |   0.000|
+memoryAddress<9> |   22.395(R)|XLXN_851          |   0.000|
+memoryAddress<10>|   21.854(R)|XLXN_851          |   0.000|
+memoryAddress<11>|   21.628(R)|XLXN_851          |   0.000|
+memoryAddress<12>|   22.738(R)|XLXN_851          |   0.000|
+memoryAddress<13>|   21.553(R)|XLXN_851          |   0.000|
+memoryAddress<14>|   20.987(R)|XLXN_851          |   0.000|
+memoryAddress<15>|   21.038(R)|XLXN_851          |   0.000|
+memoryDatabus<0> |   19.609(R)|XLXN_851          |   0.000|
+memoryDatabus<1> |   21.005(R)|XLXN_851          |   0.000|
+memoryDatabus<2> |   20.619(R)|XLXN_851          |   0.000|
+memoryDatabus<3> |   20.321(R)|XLXN_851          |   0.000|
+memoryDatabus<4> |   20.285(R)|XLXN_851          |   0.000|
+memoryDatabus<5> |   20.290(R)|XLXN_851          |   0.000|
+memoryDatabus<6> |   20.634(R)|XLXN_851          |   0.000|
+memoryDatabus<7> |   20.170(R)|XLXN_851          |   0.000|
+memoryDatabus<8> |   20.073(R)|XLXN_851          |   0.000|
+memoryDatabus<9> |   20.987(R)|XLXN_851          |   0.000|
+memoryDatabus<10>|   19.886(R)|XLXN_851          |   0.000|
+memoryDatabus<11>|   20.174(R)|XLXN_851          |   0.000|
+memoryDatabus<12>|   20.360(R)|XLXN_851          |   0.000|
+memoryDatabus<13>|   21.518(R)|XLXN_851          |   0.000|
+memoryDatabus<14>|   20.095(R)|XLXN_851          |   0.000|
+memoryDatabus<15>|   20.600(R)|XLXN_851          |   0.000|
+memoryOE         |   19.304(R)|XLXN_851          |   0.000|
+memoryRW         |   18.745(R)|XLXN_851          |   0.000|
+serialRDN        |   19.732(R)|XLXN_851          |   0.000|
+serialWRN        |   19.138(R)|XLXN_851          |   0.000|
+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLOCK_50M
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_50M      |    4.094|         |         |         |
+KEY16_INPUT<4> |   12.623|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock KEY16_INPUT<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_50M      |    5.107|         |         |         |
+KEY16_INPUT<4> |    5.909|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Nov 28 15:13:52 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 202 MB
+
+
+

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work InstructionMemory.vhd -prj Project -o InstructionMemory.spl -module InstructionMemory -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e InstructionMemory.spl {D:/VHDL/Computer Arti/Project/InstructionMemory.sym} 

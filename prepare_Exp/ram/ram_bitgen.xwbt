@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\VHDL\ram1.2\ram.ncd
+OUTFILE=D:\VHDL\ram1.2\ram.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=D:\VHDL\ram1.2
+LICENSE=WebPack
+USER_INFO=__0_0_0

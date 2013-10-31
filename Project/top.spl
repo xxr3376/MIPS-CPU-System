@@ -1,0 +1,10 @@
+[Inputs]
+datain
+clkin
+clk50
+rst_in
+datareceived
+[Outputs]
+dataready_out
+=out_rank[5:0]=
+[BiDir]

@@ -1,0 +1,1572 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: Project.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Project.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Project"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : Project
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/Keyboard.vhd" in Library work.
+Architecture rtl of Entity keyboard is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/keytorank.vhd" in Library work.
+Entity <keytorank> compiled.
+Entity <keytorank> (Architecture <behave>) compiled.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/divEven.vhd" in Library work.
+Architecture behav of Entity diveven is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/vga_640480.vhd" in Library work.
+Architecture behavior of Entity vga640480 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/blk_mem_gen_v6_1.vhd" in Library work.
+Architecture blk_mem_gen_v6_1_a of Entity blk_mem_gen_v6_1 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/vga_mem.vhd" in Library work.
+Architecture vga_mem_a of Entity vga_mem is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/flash_io.vhd" in Library work.
+Architecture behavioral of Entity flash_io is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/seg7.vhd" in Library work.
+Architecture behavioral7 of Entity seg7 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/Reg16.vhd" in Library work.
+Architecture behavioral of Entity reg16 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/RegisterFile.vhd" in Library work.
+Architecture rf_behavioral of Entity registerfile is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/Controller.vhd" in Library work.
+Architecture controller_behavioral of Entity controller is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/IFID.vhd" in Library work.
+Architecture behavioral of Entity ifid is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/SignedExtend.vhd" in Library work.
+Architecture behavioral of Entity signedextend is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/IDEX.vhd" in Library work.
+Architecture behavioral of Entity idex is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/Mux16.vhd" in Library work.
+Architecture behavioral of Entity mux16 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/EX_MEM.vhd" in Library work.
+Architecture behavioral of Entity ex_mem is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/MEM_WB.vhd" in Library work.
+Architecture behavioral of Entity mem_wb is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/bypassControl.vhd" in Library work.
+Architecture behavioral of Entity bypasscontrol is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/MuxT16.vhd" in Library work.
+Architecture behavioral of Entity muxt16 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/Adder16.vhd" in Library work.
+Architecture behavioral of Entity adder16 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/TControl.vhd" in Library work.
+Architecture behavioral of Entity tcontrol is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/BranchSelector.vhd" in Library work.
+Architecture behavioral of Entity branchselector is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/PCReg.vhd" in Library work.
+Architecture behavioral of Entity pcreg is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/PCPlus1.vhd" in Library work.
+Architecture behavioral of Entity pcplus1 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/leder.vhd" in Library work.
+Architecture behavioral of Entity leder is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/LED16.vhd" in Library work.
+Architecture behavioral of Entity led16 is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/SmartClock.vhd" in Library work.
+Architecture behavioral of Entity smartclock is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/MemoryController.vhd" in Library work.
+Architecture behavioral of Entity memorycontroller is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/DebugInputPort.vhd" in Library work.
+Architecture behavioral of Entity debuginputport is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/Logger.vhd" in Library work.
+Architecture behavioral of Entity logger is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/IDRegABypass.vhd" in Library work.
+Architecture behavioral of Entity idregabypass is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/HazardDetection.vhd" in Library work.
+Architecture behavioral of Entity hazarddetection is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/vga_ram.vhd" in Library work.
+Architecture behavioral of Entity vga_ram is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/top.vhd" in Library work.
+Architecture behave of Entity top is up to date.
+Compiling vhdl file "D:/VHDL/Computer Arti/Project/Project.vhf" in Library work.
+Architecture behavioral of Entity project is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Project> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RegisterFile> in library <work> (architecture <rf_behavioral>).
+
+Analyzing hierarchy for entity <Controller> in library <work> (architecture <controller_behavioral>).
+
+Analyzing hierarchy for entity <IFID> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SignedExtend> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <IDEX> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <EX_MEM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MEM_WB> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <bypassControl> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MuxT16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Adder16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <TControl> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <BranchSelector> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PCReg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PCPlus1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <leder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LED16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SmartClock> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MemoryController> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DebugInputPort> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Logger> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <IDRegABypass> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <HazardDetection> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <vga_ram> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <top> in library <work> (architecture <behave>).
+
+Analyzing hierarchy for entity <Reg16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <seg7> in library <work> (architecture <behavioral7>).
+
+Analyzing hierarchy for entity <flash_io> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <vga640480> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <Keyboard> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <keytorank> in library <work> (architecture <behave>).
+
+Analyzing hierarchy for entity <divEven> in library <work> (architecture <behav>) with generics.
+	N = 20
+	half = 10
+	size = 4
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Project> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "D:/VHDL/Computer Arti/Project/Project.vhf" line 455: Unconnected output port 'DebugOutput' of component 'RegisterFile'.
+WARNING:Xst:753 - "D:/VHDL/Computer Arti/Project/Project.vhf" line 563: Unconnected output port 'MemtoRegOutput' of component 'MEM_WB'.
+WARNING:Xst:753 - "D:/VHDL/Computer Arti/Project/Project.vhf" line 563: Unconnected output port 'ReadDataOutput' of component 'MEM_WB'.
+WARNING:Xst:753 - "D:/VHDL/Computer Arti/Project/Project.vhf" line 734: Unconnected output port 'CtrlSignal' of component 'HazardDetection'.
+WARNING:Xst:753 - "D:/VHDL/Computer Arti/Project/Project.vhf" line 742: Unconnected output port 'ExtendedAddress' of component 'SignedExtend'.
+Entity <Project> analyzed. Unit <Project> generated.
+
+Analyzing Entity <RegisterFile> in library <work> (Architecture <rf_behavioral>).
+Entity <RegisterFile> analyzed. Unit <RegisterFile> generated.
+
+Analyzing Entity <Reg16> in library <work> (Architecture <behavioral>).
+Entity <Reg16> analyzed. Unit <Reg16> generated.
+
+Analyzing Entity <Controller> in library <work> (Architecture <controller_behavioral>).
+Entity <Controller> analyzed. Unit <Controller> generated.
+
+Analyzing Entity <IFID> in library <work> (Architecture <behavioral>).
+Entity <IFID> analyzed. Unit <IFID> generated.
+
+Analyzing Entity <SignedExtend> in library <work> (Architecture <behavioral>).
+Entity <SignedExtend> analyzed. Unit <SignedExtend> generated.
+
+Analyzing Entity <IDEX> in library <work> (Architecture <behavioral>).
+Entity <IDEX> analyzed. Unit <IDEX> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <Mux16> in library <work> (Architecture <behavioral>).
+Entity <Mux16> analyzed. Unit <Mux16> generated.
+
+Analyzing Entity <EX_MEM> in library <work> (Architecture <behavioral>).
+Entity <EX_MEM> analyzed. Unit <EX_MEM> generated.
+
+Analyzing Entity <MEM_WB> in library <work> (Architecture <behavioral>).
+Entity <MEM_WB> analyzed. Unit <MEM_WB> generated.
+
+Analyzing Entity <bypassControl> in library <work> (Architecture <behavioral>).
+Entity <bypassControl> analyzed. Unit <bypassControl> generated.
+
+Analyzing Entity <MuxT16> in library <work> (Architecture <behavioral>).
+Entity <MuxT16> analyzed. Unit <MuxT16> generated.
+
+Analyzing Entity <Adder16> in library <work> (Architecture <behavioral>).
+Entity <Adder16> analyzed. Unit <Adder16> generated.
+
+Analyzing Entity <TControl> in library <work> (Architecture <behavioral>).
+Entity <TControl> analyzed. Unit <TControl> generated.
+
+Analyzing Entity <BranchSelector> in library <work> (Architecture <behavioral>).
+Entity <BranchSelector> analyzed. Unit <BranchSelector> generated.
+
+Analyzing Entity <PCReg> in library <work> (Architecture <behavioral>).
+Entity <PCReg> analyzed. Unit <PCReg> generated.
+
+Analyzing Entity <PCPlus1> in library <work> (Architecture <behavioral>).
+Entity <PCPlus1> analyzed. Unit <PCPlus1> generated.
+
+Analyzing Entity <leder> in library <work> (Architecture <behavioral>).
+Entity <leder> analyzed. Unit <leder> generated.
+
+Analyzing Entity <seg7> in library <work> (Architecture <behavioral7>).
+Entity <seg7> analyzed. Unit <seg7> generated.
+
+Analyzing Entity <LED16> in library <work> (Architecture <behavioral>).
+Entity <LED16> analyzed. Unit <LED16> generated.
+
+Analyzing Entity <SmartClock> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/Project/SmartClock.vhd" line 56: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <storage<20>>
+Entity <SmartClock> analyzed. Unit <SmartClock> generated.
+
+Analyzing Entity <MemoryController> in library <work> (Architecture <behavioral>).
+WARNING:Xst:1610 - "D:/VHDL/Computer Arti/Project/MemoryController.vhd" line 215: Width mismatch. <flash_addr_input> has a width of 22 bits but assigned expression is 16-bit wide.
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/Project/MemoryController.vhd" line 202: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <extendDatabus>
+Entity <MemoryController> analyzed. Unit <MemoryController> generated.
+
+Analyzing Entity <flash_io> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/Project/flash_io.vhd" line 75: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <ctl_read>, <ctl_write>, <ctl_erase>
+Entity <flash_io> analyzed. Unit <flash_io> generated.
+
+Analyzing Entity <DebugInputPort> in library <work> (Architecture <behavioral>).
+Entity <DebugInputPort> analyzed. Unit <DebugInputPort> generated.
+
+Analyzing Entity <Logger> in library <work> (Architecture <behavioral>).
+Entity <Logger> analyzed. Unit <Logger> generated.
+
+Analyzing Entity <IDRegABypass> in library <work> (Architecture <behavioral>).
+Entity <IDRegABypass> analyzed. Unit <IDRegABypass> generated.
+
+Analyzing Entity <HazardDetection> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/Project/HazardDetection.vhd" line 50: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <EQFlag>
+Entity <HazardDetection> analyzed. Unit <HazardDetection> generated.
+
+Analyzing Entity <vga_ram> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/VHDL/Computer Arti/Project/vga_ram.vhd" line 102: Instantiating black box module <blk_mem_gen_v6_1>.
+WARNING:Xst:2211 - "D:/VHDL/Computer Arti/Project/vga_ram.vhd" line 103: Instantiating black box module <vga_mem>.
+Entity <vga_ram> analyzed. Unit <vga_ram> generated.
+
+Analyzing Entity <vga640480> in library <work> (Architecture <behavior>).
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/Project/vga_640480.vhd" line 143: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <char>
+Entity <vga640480> analyzed. Unit <vga640480> generated.
+
+Analyzing Entity <top> in library <work> (Architecture <behave>).
+Entity <top> analyzed. Unit <top> generated.
+
+Analyzing Entity <Keyboard> in library <work> (Architecture <rtl>).
+Entity <Keyboard> analyzed. Unit <Keyboard> generated.
+
+Analyzing Entity <keytorank> in library <work> (Architecture <behave>).
+Entity <keytorank> analyzed. Unit <keytorank> generated.
+
+Analyzing generic Entity <divEven> in library <work> (Architecture <behav>).
+	N = 20
+	half = 10
+	size = 4
+WARNING:Xst:819 - "D:/VHDL/Computer Arti/Project/divEven.vhd" line 16: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <result>
+Entity <divEven> analyzed. Unit <divEven> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Controller>.
+    Related source file is "D:/VHDL/Computer Arti/Project/Controller.vhd".
+Unit <Controller> synthesized.
+
+
+Synthesizing Unit <IFID>.
+    Related source file is "D:/VHDL/Computer Arti/Project/IFID.vhd".
+    Found 16-bit register for signal <Instruction>.
+    Found 16-bit register for signal <PC>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <IFID> synthesized.
+
+
+Synthesizing Unit <SignedExtend>.
+    Related source file is "D:/VHDL/Computer Arti/Project/SignedExtend.vhd".
+Unit <SignedExtend> synthesized.
+
+
+Synthesizing Unit <IDEX>.
+    Related source file is "D:/VHDL/Computer Arti/Project/IDEX.vhd".
+    Found 3-bit register for signal <ALUOP>.
+    Found 1-bit register for signal <ALUSrc1>.
+    Found 1-bit register for signal <ALUSrc2>.
+    Found 16-bit register for signal <ExtendedAddress>.
+    Found 1-bit register for signal <MemRead>.
+    Found 1-bit register for signal <MemtoReg>.
+    Found 1-bit register for signal <MemWrite>.
+    Found 16-bit register for signal <RegA>.
+    Found 16-bit register for signal <RegB>.
+    Found 4-bit register for signal <RegDst>.
+    Found 1-bit register for signal <RegtoMem>.
+    Found 1-bit register for signal <RegTWrite>.
+    Found 1-bit register for signal <RegWrite>.
+    Found 4-bit register for signal <Src1>.
+    Found 4-bit register for signal <Src2>.
+    Found 1-bit register for signal <TType>.
+    Summary:
+	inferred  72 D-type flip-flop(s).
+Unit <IDEX> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "D:/VHDL/Computer Arti/Project/ALU.vhd".
+    Found 16-bit addsub for signal <result_tmp$addsub0000>.
+    Found 16-bit shifter logical left for signal <result_tmp$shift0002> created at line 62.
+    Found 16-bit shifter arithmetic right for signal <result_tmp$shift0003> created at line 66.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <Mux16>.
+    Related source file is "D:/VHDL/Computer Arti/Project/Mux16.vhd".
+Unit <Mux16> synthesized.
+
+
+Synthesizing Unit <EX_MEM>.
+    Related source file is "D:/VHDL/Computer Arti/Project/EX_MEM.vhd".
+    Found 16-bit register for signal <Address>.
+    Found 16-bit register for signal <Data>.
+    Found 1-bit register for signal <MemRead>.
+    Found 1-bit register for signal <MemtoReg>.
+    Found 1-bit register for signal <MemWrite>.
+    Found 4-bit register for signal <RegDest>.
+    Found 1-bit register for signal <RegWrite>.
+    Summary:
+	inferred  40 D-type flip-flop(s).
+Unit <EX_MEM> synthesized.
+
+
+Synthesizing Unit <MEM_WB>.
+    Related source file is "D:/VHDL/Computer Arti/Project/MEM_WB.vhd".
+    Found 16-bit register for signal <ALUData>.
+    Found 1-bit register for signal <MemtoReg>.
+    Found 16-bit register for signal <ReadData>.
+    Found 4-bit register for signal <RegDest>.
+    Found 1-bit register for signal <RegWrite>.
+    Summary:
+	inferred  38 D-type flip-flop(s).
+Unit <MEM_WB> synthesized.
+
+
+Synthesizing Unit <bypassControl>.
+    Related source file is "D:/VHDL/Computer Arti/Project/bypassControl.vhd".
+    Found 4-bit comparator equal for signal <RegASelectOutput$cmp_eq0000> created at line 46.
+    Found 4-bit comparator equal for signal <RegASelectOutput$cmp_eq0001> created at line 46.
+    Found 4-bit comparator equal for signal <RegBSelectOutput$cmp_eq0000> created at line 49.
+    Found 4-bit comparator equal for signal <RegBSelectOutput$cmp_eq0001> created at line 49.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <bypassControl> synthesized.
+
+
+Synthesizing Unit <MuxT16>.
+    Related source file is "D:/VHDL/Computer Arti/Project/MuxT16.vhd".
+    Found 16-bit 4-to-1 multiplexer for signal <Output>.
+    Summary:
+	inferred  16 Multiplexer(s).
+Unit <MuxT16> synthesized.
+
+
+Synthesizing Unit <Adder16>.
+    Related source file is "D:/VHDL/Computer Arti/Project/Adder16.vhd".
+    Found 16-bit adder for signal <Output>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Adder16> synthesized.
+
+
+Synthesizing Unit <TControl>.
+    Related source file is "D:/VHDL/Computer Arti/Project/TControl.vhd".
+    Found 1-bit register for signal <Tholder>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <TControl> synthesized.
+
+
+Synthesizing Unit <BranchSelector>.
+    Related source file is "D:/VHDL/Computer Arti/Project/BranchSelector.vhd".
+Unit <BranchSelector> synthesized.
+
+
+Synthesizing Unit <PCReg>.
+    Related source file is "D:/VHDL/Computer Arti/Project/PCReg.vhd".
+    Found 16-bit register for signal <storage>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <PCReg> synthesized.
+
+
+Synthesizing Unit <PCPlus1>.
+    Related source file is "D:/VHDL/Computer Arti/Project/PCPlus1.vhd".
+    Found 16-bit adder for signal <Output>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <PCPlus1> synthesized.
+
+
+Synthesizing Unit <LED16>.
+    Related source file is "D:/VHDL/Computer Arti/Project/LED16.vhd".
+Unit <LED16> synthesized.
+
+
+Synthesizing Unit <SmartClock>.
+    Related source file is "D:/VHDL/Computer Arti/Project/SmartClock.vhd".
+    Found 1-bit register for signal <clockbuffer>.
+    Found 21-bit up counter for signal <storage>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <SmartClock> synthesized.
+
+
+Synthesizing Unit <DebugInputPort>.
+    Related source file is "D:/VHDL/Computer Arti/Project/DebugInputPort.vhd".
+WARNING:Xst:647 - Input <KEY_INPUT<15:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <DebugInputPort> synthesized.
+
+
+Synthesizing Unit <Logger>.
+    Related source file is "D:/VHDL/Computer Arti/Project/Logger.vhd".
+Unit <Logger> synthesized.
+
+
+Synthesizing Unit <IDRegABypass>.
+    Related source file is "D:/VHDL/Computer Arti/Project/IDRegABypass.vhd".
+    Using one-hot encoding for signal <SelectionSignal>.
+    Found 4-bit comparator equal for signal <SelectionSignal$cmp_eq0000> created at line 51.
+    Found 4-bit comparator equal for signal <SelectionSignal$cmp_eq0001> created at line 51.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <IDRegABypass> synthesized.
+
+
+Synthesizing Unit <HazardDetection>.
+    Related source file is "D:/VHDL/Computer Arti/Project/HazardDetection.vhd".
+WARNING:Xst:647 - Input <IDEXRegDest<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Instruction<7:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 3-bit comparator equal for signal <EQFlag$cmp_eq0000> created at line 49.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <HazardDetection> synthesized.
+
+
+Synthesizing Unit <Reg16>.
+    Related source file is "D:/VHDL/Computer Arti/Project/Reg16.vhd".
+    Found 16-bit register for signal <storage>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <Reg16> synthesized.
+
+
+Synthesizing Unit <seg7>.
+    Related source file is "D:/VHDL/Computer Arti/Project/seg7.vhd".
+    Found 16x7-bit ROM for signal <Flip>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <seg7> synthesized.
+
+
+Synthesizing Unit <flash_io>.
+    Related source file is "D:/VHDL/Computer Arti/Project/flash_io.vhd".
+    Using one-hot encoding for signal <state>.
+    Found 16-bit tristate buffer for signal <flash_data>.
+    Found 1-bit register for signal <flash_we>.
+    Found 22-bit register for signal <flash_addr>.
+    Found 16-bit register for signal <data_out>.
+    Found 1-bit register for signal <flash_oe>.
+    Found 1-bit register for signal <ctl_erase_last>.
+    Found 1-bit register for signal <ctl_read_last>.
+    Found 1-bit register for signal <ctl_write_last>.
+    Found 1-bit xor2 for signal <data_out_0$xor0000> created at line 91.
+    Found 16-bit register for signal <Mtridata_flash_data> created at line 85.
+    Found 1-bit register for signal <Mtrien_flash_data> created at line 85.
+    Found 25-bit register for signal <next_state>.
+    Found 25-bit register for signal <state>.
+    Summary:
+	inferred  60 D-type flip-flop(s).
+	inferred  16 Tristate(s).
+Unit <flash_io> synthesized.
+
+
+Synthesizing Unit <vga640480>.
+    Related source file is "D:/VHDL/Computer Arti/Project/vga_640480.vhd".
+WARNING:Xst:647 - Input <char<7:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <qout> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <input> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Register <r1> equivalent to <g1> has been removed
+    Found 1-bit register for signal <hs>.
+    Found 1-bit register for signal <vs>.
+    Found 3-bit register for signal <b1>.
+    Found 11-bit comparator greater for signal <b1$cmp_gt0000> created at line 161.
+    Found 10-bit comparator greater for signal <b1$cmp_gt0001> created at line 161.
+    Found 1-bit register for signal <clk>.
+    Found 3-bit register for signal <g1>.
+    Found 11-bit comparator greater for signal <g1$cmp_gt0000> created at line 166.
+    Found 1-bit register for signal <hs1>.
+    Found 11-bit comparator greatequal for signal <hs1$cmp_ge0000> created at line 101.
+    Found 11-bit comparator less for signal <hs1$cmp_lt0000> created at line 101.
+    Found 10-bit up counter for signal <vector_x>.
+    Found 9-bit up counter for signal <vector_y>.
+    Found 1-bit register for signal <vs1>.
+    Found 10-bit comparator greatequal for signal <vs1$cmp_ge0000> created at line 115.
+    Found 10-bit comparator less for signal <vs1$cmp_lt0000> created at line 115.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  11 D-type flip-flop(s).
+	inferred   7 Comparator(s).
+Unit <vga640480> synthesized.
+
+
+Synthesizing Unit <Keyboard>.
+    Related source file is "D:/VHDL/Computer Arti/Project/Keyboard.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 13                                             |
+    | Transitions        | 27                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 9                                              |
+    | Clock              | fclk                      (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | delay                                          |
+    | Power Up State     | delay                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 8-bit latch for signal <scancode>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit register for signal <clk1>.
+    Found 1-bit register for signal <clk2>.
+    Found 8-bit register for signal <code>.
+    Found 1-bit register for signal <data>.
+    Found 1-bit register for signal <fok>.
+    Found 1-bit xor9 for signal <state$xor0000> created at line 93.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  12 D-type flip-flop(s).
+	inferred   1 Xor(s).
+Unit <Keyboard> synthesized.
+
+
+Synthesizing Unit <keytorank>.
+    Related source file is "D:/VHDL/Computer Arti/Project/keytorank.vhd".
+Unit <keytorank> synthesized.
+
+
+Synthesizing Unit <divEven>.
+    Related source file is "D:/VHDL/Computer Arti/Project/divEven.vhd".
+    Found 5-bit up counter for signal <cnt>.
+    Found 6-bit comparator less for signal <cnt$cmp_lt0000> created at line 19.
+    Found 1-bit register for signal <result>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <divEven> synthesized.
+
+
+Synthesizing Unit <RegisterFile>.
+    Related source file is "D:/VHDL/Computer Arti/Project/RegisterFile.vhd".
+WARNING:Xst:646 - Signal <control<10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <control<8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16-bit 16-to-1 multiplexer for signal <RegA>.
+    Found 16-bit 16-to-1 multiplexer for signal <RegB>.
+    Found 16-bit 16-to-1 multiplexer for signal <DebugOutput>.
+    Summary:
+	inferred  48 Multiplexer(s).
+Unit <RegisterFile> synthesized.
+
+
+Synthesizing Unit <leder>.
+    Related source file is "D:/VHDL/Computer Arti/Project/leder.vhd".
+WARNING:Xst:647 - Input <clock> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <counter<23>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <counter<22:0>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <leder> synthesized.
+
+
+Synthesizing Unit <MemoryController>.
+    Related source file is "D:/VHDL/Computer Arti/Project/MemoryController.vhd".
+WARNING:Xst:1780 - Signal <readin> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <flash_data_input> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+WARNING:Xst:1780 - Signal <clk_flash> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | boot                                           |
+    | Power Up State     | boot                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit tristate buffer for signal <basicDatabus>.
+    Found 16-bit tristate buffer for signal <extendDatabus>.
+    Found 16-bit register for signal <buffer1>.
+    Found 16-bit register for signal <buffer2>.
+    Found 22-bit register for signal <flash_addr_input>.
+    Found 16-bit adder for signal <flash_addr_input$add0000> created at line 215.
+    Found 8-bit register for signal <FLASH_COUNTER>.
+    Found 8-bit adder for signal <FLASH_COUNTER$addsub0000> created at line 223.
+    Found 16-bit register for signal <FLASH_HOLDER>.
+    Found 16-bit up counter for signal <FLASHPC>.
+    Found 16-bit comparator less for signal <state$cmp_lt0000> created at line 228.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Counter(s).
+	inferred  78 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred  24 Tristate(s).
+Unit <MemoryController> synthesized.
+
+
+Synthesizing Unit <vga_ram>.
+    Related source file is "D:/VHDL/Computer Arti/Project/vga_ram.vhd".
+WARNING:Xst:646 - Signal <tmp> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <mem_wea> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <k> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <charin> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <changenexttime> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <addr10write> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <vga_ram> synthesized.
+
+
+Synthesizing Unit <top>.
+    Related source file is "D:/VHDL/Computer Arti/Project/top.vhd".
+WARNING:Xst:1780 - Signal <lock> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <st>.
+    Found 1-bit register for signal <dataready>.
+    Found 6-bit register for signal <ranktmp>.
+    Found 2-bit register for signal <st>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <top> synthesized.
+
+
+Synthesizing Unit <Project>.
+    Related source file is "D:/VHDL/Computer Arti/Project/Project.vhf".
+WARNING:Xst:653 - Signal <XLXI_82_Instruction_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+WARNING:Xst:653 - Signal <XLXI_46_ReadDataInput_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+WARNING:Xst:653 - Signal <XLXI_46_MemtoRegInput_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <Project> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 2
+# Adders/Subtractors                                   : 5
+ 16-bit adder                                          : 3
+ 16-bit addsub                                         : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 5
+ 10-bit up counter                                     : 1
+ 16-bit up counter                                     : 1
+ 21-bit up counter                                     : 1
+ 5-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 116
+ 1-bit register                                        : 74
+ 16-bit register                                       : 27
+ 2-bit register                                        : 1
+ 22-bit register                                       : 2
+ 25-bit register                                       : 2
+ 3-bit register                                        : 3
+ 4-bit register                                        : 5
+ 6-bit register                                        : 1
+ 8-bit register                                        : 1
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 16
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 1
+ 11-bit comparator greatequal                          : 1
+ 11-bit comparator greater                             : 2
+ 11-bit comparator less                                : 1
+ 16-bit comparator less                                : 1
+ 3-bit comparator equal                                : 1
+ 4-bit comparator equal                                : 6
+ 6-bit comparator less                                 : 1
+# Multiplexers                                         : 6
+ 16-bit 16-to-1 multiplexer                            : 3
+ 16-bit 4-to-1 multiplexer                             : 3
+# Logic shifters                                       : 2
+ 16-bit shifter arithmetic right                       : 1
+ 16-bit shifter logical left                           : 1
+# Tristates                                            : 3
+ 16-bit tristate buffer                                : 2
+ 8-bit tristate buffer                                 : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 1
+ 1-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <XLXI_73/state/FSM> on signal <state[1:9]> with one-hot encoding.
+-------------------------
+ State      | Encoding
+-------------------------
+ boot       | 000000001
+ boot_flash | 000000010
+ boot_ram1  | 000000100
+ boot_ram2  | 000001000
+ boot_ready | 000010000
+ read1      | 001000000
+ idel1      | 000100000
+ rw2        | 010000000
+ idel2      | 100000000
+-------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_84/u0/state/FSM> on signal <state[1:4]> with gray encoding.
+--------------------
+ State  | Encoding
+--------------------
+ delay  | 0000
+ start  | 0001
+ d0     | 0011
+ d1     | 0010
+ d2     | 0110
+ d3     | 0111
+ d4     | 0101
+ d5     | 0100
+ d6     | 1100
+ d7     | 1101
+ parity | 1111
+ stop   | 1110
+ finish | 1010
+--------------------
+Reading core <blk_mem_gen_v6_1.ngc>.
+Reading core <vga_mem.ngc>.
+Loading core <blk_mem_gen_v6_1> for timing and area information for instance <ram>.
+Loading core <vga_mem> for timing and area information for instance <mem>.
+WARNING:Xst:1290 - Hierarchical block <XLXI_82> is unconnected in block <Project>.
+   It will be removed from the design.
+INFO:Xst:2261 - The FF/Latch <Mtridata_flash_data_8> in Unit <flash> is equivalent to the following 7 FFs/Latches, which will be removed : <Mtridata_flash_data_9> <Mtridata_flash_data_10> <Mtridata_flash_data_11> <Mtridata_flash_data_12> <Mtridata_flash_data_13> <Mtridata_flash_data_14> <Mtridata_flash_data_15> 
+WARNING:Xst:638 - in unit XLXI_73/flash Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<9> Mtridata_flash_data<9> signal will be lost.
+WARNING:Xst:638 - in unit XLXI_73/flash Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<10> Mtridata_flash_data<10> signal will be lost.
+WARNING:Xst:638 - in unit XLXI_73/flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<11> Mtridata_flash_data<11> signal will be lost.
+WARNING:Xst:638 - in unit XLXI_73/flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<12> Mtridata_flash_data<12> signal will be lost.
+WARNING:Xst:638 - in unit XLXI_73/flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<13> Mtridata_flash_data<13> signal will be lost.
+WARNING:Xst:638 - in unit XLXI_73/flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<14> Mtridata_flash_data<14> signal will be lost.
+WARNING:Xst:638 - in unit XLXI_73/flash Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<15> Mtridata_flash_data<15> signal will be lost.
+INFO:Xst:2261 - The FF/Latch <flash_addr_input_17> in Unit <XLXI_73> is equivalent to the following 5 FFs/Latches, which will be removed : <flash_addr_input_18> <flash_addr_input_19> <flash_addr_input_20> <flash_addr_input_21> <flash_addr_input_22> 
+INFO:Xst:2261 - The FF/Latch <b1_0> in Unit <vga> is equivalent to the following 2 FFs/Latches, which will be removed : <b1_1> <b1_2> 
+WARNING:Xst:1710 - FF/Latch <Mtridata_flash_data_8> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_17> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_18> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_19> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_20> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_21> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_22> (without init value) has a constant value of 0 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ctl_erase_last> (without init value) has a constant value of 1 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ctl_write_last> (without init value) has a constant value of 1 in block <flash>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <flash_addr_input_17> (without init value) has a constant value of 0 in block <XLXI_73>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <st_0> of sequential type is unconnected in block <XLXI_84>.
+WARNING:Xst:2404 -  FFs/Latches <flash_addr_input<22:16>> (without init value) have a constant value of 0 in block <MemoryController>.
+WARNING:Xst:2677 - Node <st_0> of sequential type is unconnected in block <top>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 2
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 2
+# Adders/Subtractors                                   : 5
+ 16-bit adder                                          : 3
+ 16-bit addsub                                         : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 5
+ 10-bit up counter                                     : 1
+ 16-bit up counter                                     : 1
+ 21-bit up counter                                     : 1
+ 5-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 638
+ Flip-Flops                                            : 638
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 16
+ 10-bit comparator greatequal                          : 1
+ 10-bit comparator greater                             : 1
+ 10-bit comparator less                                : 1
+ 11-bit comparator greatequal                          : 1
+ 11-bit comparator greater                             : 2
+ 11-bit comparator less                                : 1
+ 16-bit comparator less                                : 1
+ 3-bit comparator equal                                : 1
+ 4-bit comparator equal                                : 6
+ 6-bit comparator less                                 : 1
+# Multiplexers                                         : 6
+ 16-bit 16-to-1 multiplexer                            : 3
+ 16-bit 4-to-1 multiplexer                             : 3
+# Logic shifters                                       : 2
+ 16-bit shifter arithmetic right                       : 1
+ 16-bit shifter logical left                           : 1
+# Xors                                                 : 2
+ 1-bit xor2                                            : 1
+ 1-bit xor9                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <ctl_write_last> (without init value) has a constant value of 1 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ctl_erase_last> (without init value) has a constant value of 1 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <b1_0> in Unit <vga640480> is equivalent to the following 2 FFs/Latches, which will be removed : <b1_1> <b1_2> 
+INFO:Xst:2261 - The FF/Latch <MemtoReg> in Unit <IDEX> is equivalent to the following FF/Latch, which will be removed : <MemRead> 
+INFO:Xst:2261 - The FF/Latch <ExtendedAddress_10> in Unit <IDEX> is equivalent to the following 5 FFs/Latches, which will be removed : <ExtendedAddress_11> <ExtendedAddress_12> <ExtendedAddress_13> <ExtendedAddress_14> <ExtendedAddress_15> 
+INFO:Xst:2261 - The FF/Latch <RegtoMem> in Unit <IDEX> is equivalent to the following FF/Latch, which will be removed : <MemWrite> 
+INFO:Xst:2261 - The FF/Latch <MemtoReg> in Unit <MEM_WB> is equivalent to the following 16 FFs/Latches, which will be removed : <ReadData_0> <ReadData_1> <ReadData_2> <ReadData_3> <ReadData_4> <ReadData_5> <ReadData_6> <ReadData_7> <ReadData_8> <ReadData_9> <ReadData_10> <ReadData_11> <ReadData_12> <ReadData_13> <ReadData_14> <ReadData_15> 
+INFO:Xst:2261 - The FF/Latch <Mtridata_flash_data_0> in Unit <flash_io> is equivalent to the following 3 FFs/Latches, which will be removed : <Mtridata_flash_data_1> <Mtridata_flash_data_2> <Mtridata_flash_data_3> 
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<0> and Mtridata_flash_data<1> Mtridata_flash_data<1> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<0> and Mtridata_flash_data<2> Mtridata_flash_data<2> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<0> and Mtridata_flash_data<3> Mtridata_flash_data<3> signal will be lost.
+INFO:Xst:2261 - The FF/Latch <Mtridata_flash_data_8> in Unit <flash_io> is equivalent to the following 7 FFs/Latches, which will be removed : <Mtridata_flash_data_9> <Mtridata_flash_data_10> <Mtridata_flash_data_11> <Mtridata_flash_data_12> <Mtridata_flash_data_13> <Mtridata_flash_data_14> <Mtridata_flash_data_15> 
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<9> Mtridata_flash_data<9> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<8> and Mtridata_flash_data<10> Mtridata_flash_data<10> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<11> Mtridata_flash_data<11> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<12> Mtridata_flash_data<12> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<13> Mtridata_flash_data<13> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<14> Mtridata_flash_data<14> signal will be lost.
+WARNING:Xst:638 - in unit flash_io Conflict on KEEP property on signal Mtridata_flash_data<10> and Mtridata_flash_data<15> Mtridata_flash_data<15> signal will be lost.
+WARNING:Xst:1710 - FF/Latch <MemtoReg> (without init value) has a constant value of 0 in block <MEM_WB>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <g1_0> in Unit <vga640480> is equivalent to the following 2 FFs/Latches, which will be removed : <g1_1> <g1_2> 
+WARNING:Xst:1710 - FF/Latch <Mtridata_flash_data_8> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_17> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_18> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_19> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_20> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_21> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <flash_addr_22> (without init value) has a constant value of 0 in block <flash_io>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_17> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_16> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_18> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_14> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_13> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_15> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_11> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_10> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_12> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_8> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_7> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_9> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_5> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_4> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_6> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_3> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_2> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_1> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_23> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_22> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_20> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_19> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_21> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_18> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_8> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_7> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_5> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_4> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_6> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_3> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_2> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/state_1> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_23> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_22> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_20> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_19> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_21> has a constant value of 0 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <XLXI_73/flash/state_24> of sequential type is unconnected in block <Project>.
+WARNING:Xst:2677 - Node <XLXI_73/flash/next_state_24> of sequential type is unconnected in block <Project>.
+WARNING:Xst:1293 - FF/Latch <XLXI_73/flash/next_state_0> has a constant value of 1 in block <Project>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <XLXI_73/flash/Mtridata_flash_data_4> in Unit <Project> is equivalent to the following 2 FFs/Latches, which will be removed : <XLXI_73/flash/Mtridata_flash_data_5> <XLXI_73/flash/Mtridata_flash_data_6> 
+WARNING:Xst:638 - in unit Project Conflict on KEEP property on signal XLXI_73/flash/Mtridata_flash_data<4> and XLXI_73/flash/Mtridata_flash_data<5> XLXI_73/flash/Mtridata_flash_data<5> signal will be lost.
+WARNING:Xst:638 - in unit Project Conflict on KEEP property on signal XLXI_73/flash/Mtridata_flash_data<4> and XLXI_73/flash/Mtridata_flash_data<6> XLXI_73/flash/Mtridata_flash_data<6> signal will be lost.
+INFO:Xst:2261 - The FF/Latch <XLXI_73/flash/Mtridata_flash_data_0> in Unit <Project> is equivalent to the following FF/Latch, which will be removed : <XLXI_73/flash/Mtridata_flash_data_7> 
+WARNING:Xst:638 - in unit Project Conflict on KEEP property on signal XLXI_73/flash/Mtridata_flash_data<0> and XLXI_73/flash/Mtridata_flash_data<7> XLXI_73/flash/Mtridata_flash_data<7> signal will be lost.
+
+Optimizing unit <Project> ...
+
+Optimizing unit <IDEX> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <EX_MEM> ...
+
+Optimizing unit <MEM_WB> ...
+
+Optimizing unit <PCReg> ...
+
+Optimizing unit <IDRegABypass> ...
+
+Optimizing unit <vga640480> ...
+
+Optimizing unit <IFID> ...
+
+Optimizing unit <Keyboard> ...
+
+Optimizing unit <RegisterFile> ...
+
+Optimizing unit <top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <XLXI_27/MemRead> in Unit <Project> is equivalent to the following FF/Latch, which will be removed : <XLXI_27/MemtoReg> 
+Found area constraint ratio of 100 (+ 5) on block Project, actual ratio is 8.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 621
+ Flip-Flops                                            : 621
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Project.ngr
+Top Level Output File Name         : Project
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 158
+
+Cell Usage :
+# BELS                             : 2027
+#      GND                         : 3
+#      INV                         : 28
+#      LUT1                        : 82
+#      LUT2                        : 92
+#      LUT2_D                      : 4
+#      LUT2_L                      : 17
+#      LUT3                        : 507
+#      LUT3_D                      : 10
+#      LUT3_L                      : 7
+#      LUT4                        : 621
+#      LUT4_D                      : 31
+#      LUT4_L                      : 23
+#      MUXCY                       : 116
+#      MUXF5                       : 267
+#      MUXF6                       : 64
+#      MUXF7                       : 32
+#      VCC                         : 3
+#      XORCY                       : 120
+# FlipFlops/Latches                : 631
+#      FD                          : 25
+#      FDC                         : 161
+#      FDCE                        : 64
+#      FDCPE                       : 17
+#      FDE                         : 116
+#      FDE_1                       : 225
+#      FDP                         : 6
+#      FDPE                        : 2
+#      FDR                         : 6
+#      FDRE                        : 1
+#      LD                          : 8
+# RAMS                             : 4
+#      RAMB16_S18_S18              : 1
+#      RAMB16_S1_S1                : 3
+# Clock Buffers                    : 4
+#      BUFG                        : 3
+#      BUFGP                       : 1
+# IO Buffers                       : 141
+#      IBUF                        : 8
+#      IOBUF                       : 40
+#      OBUF                        : 93
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                      817  out of   8672     9%  
+ Number of Slice Flip Flops:            631  out of  17344     3%  
+ Number of 4 input LUTs:               1422  out of  17344     8%  
+ Number of IOs:                         158
+ Number of bonded IOBs:                 142  out of    250    56%  
+ Number of BRAMs:                         4  out of     28    14%  
+ Number of GCLKs:                         4  out of     24    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                                                           | Load  |
+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+CPU_CLOCK1(CPU_CLOCK1:O)           | BUFG(*)(XLXI_56/Tholder)                                                                                                        | 398   |
+XLXI_68/storage_20                 | NONE(XLXI_68/clockbuffer)                                                                                                       | 1     |
+XLXI_83/vga/clk1                   | BUFG                                                                                                                            | 31    |
+XLXI_83/ram/N0                     | NONE(XLXI_83/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_init.ram/dpram.dp1x1.ram)| 3     |
+CLOCK_50M                          | BUFGP                                                                                                                           | 36    |
+XLXN_8511(XLXI_68/out_clock1:O)    | BUFG(*)(XLXI_73/flash/data_out_0)                                                                                               | 145   |
+XLXI_84/u3/result                  | NONE(XLXI_84/u0/clk1)                                                                                                           | 16    |
+XLXI_84/u0/fok                     | NONE(XLXI_84/u0/scancode_0)                                                                                                     | 8     |
+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------+----------------------------------+-------+
+Control Signal                                                             | Buffer(FF name)                  | Load  |
+---------------------------------------------------------------------------+----------------------------------+-------+
+XLXI_27/rst_inv(XLXI_84/rst1_INV_0:O)                                      | NONE(XLXI_27/Address_0)          | 233   |
+XLXI_73/buffer1_0_and0000(XLXI_73/buffer1_0_and00001:O)                    | NONE(XLXI_73/buffer1_0)          | 1     |
+XLXI_73/buffer1_0_and0001(XLXI_73/buffer1_0_and00011:O)                    | NONE(XLXI_73/buffer1_0)          | 1     |
+XLXI_73/buffer1_10_and0000(XLXI_73/buffer1_10_and00001:O)                  | NONE(XLXI_73/buffer1_10)         | 1     |
+XLXI_73/buffer1_10_and0001(XLXI_73/buffer1_10_and00011:O)                  | NONE(XLXI_73/buffer1_10)         | 1     |
+XLXI_73/buffer1_11_and0000(XLXI_73/buffer1_11_and00001:O)                  | NONE(XLXI_73/buffer1_11)         | 1     |
+XLXI_73/buffer1_11_and0001(XLXI_73/buffer1_11_and00011:O)                  | NONE(XLXI_73/buffer1_11)         | 1     |
+XLXI_73/buffer1_12_and0000(XLXI_73/buffer1_12_and00001:O)                  | NONE(XLXI_73/buffer1_12)         | 1     |
+XLXI_73/buffer1_12_and0001(XLXI_73/buffer1_12_and00011:O)                  | NONE(XLXI_73/buffer1_12)         | 1     |
+XLXI_73/buffer1_13_and0000(XLXI_73/buffer1_13_and00001:O)                  | NONE(XLXI_73/buffer1_13)         | 1     |
+XLXI_73/buffer1_13_and0001(XLXI_73/buffer1_13_and00011:O)                  | NONE(XLXI_73/buffer1_13)         | 1     |
+XLXI_73/buffer1_14_and0000(XLXI_73/buffer1_14_and00001:O)                  | NONE(XLXI_73/buffer1_14)         | 1     |
+XLXI_73/buffer1_14_and0001(XLXI_73/buffer1_14_and00011:O)                  | NONE(XLXI_73/buffer1_14)         | 1     |
+XLXI_73/buffer1_15_and0000(XLXI_73/buffer1_15_and00001:O)                  | NONE(XLXI_73/buffer1_15)         | 1     |
+XLXI_73/buffer1_15_and0001(XLXI_73/buffer1_15_and00011:O)                  | NONE(XLXI_73/buffer1_15)         | 1     |
+XLXI_73/buffer1_1_and0000(XLXI_73/buffer1_1_and00001:O)                    | NONE(XLXI_73/buffer1_1)          | 1     |
+XLXI_73/buffer1_1_and0001(XLXI_73/buffer1_1_and00011:O)                    | NONE(XLXI_73/buffer1_1)          | 1     |
+XLXI_73/buffer1_2_and0000(XLXI_73/buffer1_2_and00001:O)                    | NONE(XLXI_73/buffer1_2)          | 1     |
+XLXI_73/buffer1_2_and0001(XLXI_73/buffer1_2_and00011:O)                    | NONE(XLXI_73/buffer1_2)          | 1     |
+XLXI_73/buffer1_3_and0000(XLXI_73/buffer1_3_and00001:O)                    | NONE(XLXI_73/buffer1_3)          | 1     |
+XLXI_73/buffer1_3_and0001(XLXI_73/buffer1_3_and00011:O)                    | NONE(XLXI_73/buffer1_3)          | 1     |
+XLXI_73/buffer1_4_and0000(XLXI_73/buffer1_4_and00001:O)                    | NONE(XLXI_73/buffer1_4)          | 1     |
+XLXI_73/buffer1_4_and0001(XLXI_73/buffer1_4_and00011:O)                    | NONE(XLXI_73/buffer1_4)          | 1     |
+XLXI_73/buffer1_5_and0000(XLXI_73/buffer1_5_and00001:O)                    | NONE(XLXI_73/buffer1_5)          | 1     |
+XLXI_73/buffer1_5_and0001(XLXI_73/buffer1_5_and00011:O)                    | NONE(XLXI_73/buffer1_5)          | 1     |
+XLXI_73/buffer1_6_and0000(XLXI_73/buffer1_6_and00001:O)                    | NONE(XLXI_73/buffer1_6)          | 1     |
+XLXI_73/buffer1_6_and0001(XLXI_73/buffer1_6_and00011:O)                    | NONE(XLXI_73/buffer1_6)          | 1     |
+XLXI_73/buffer1_7_and0000(XLXI_73/buffer1_7_and00001:O)                    | NONE(XLXI_73/buffer1_7)          | 1     |
+XLXI_73/buffer1_7_and0001(XLXI_73/buffer1_7_and00011:O)                    | NONE(XLXI_73/buffer1_7)          | 1     |
+XLXI_73/buffer1_8_and0000(XLXI_73/buffer1_8_and00001:O)                    | NONE(XLXI_73/buffer1_8)          | 1     |
+XLXI_73/buffer1_8_and0001(XLXI_73/buffer1_8_and00011:O)                    | NONE(XLXI_73/buffer1_8)          | 1     |
+XLXI_73/buffer1_9_and0000(XLXI_73/buffer1_9_and00001:O)                    | NONE(XLXI_73/buffer1_9)          | 1     |
+XLXI_73/buffer1_9_and0001(XLXI_73/buffer1_9_and00011:O)                    | NONE(XLXI_73/buffer1_9)          | 1     |
+XLXI_73/flash/ctl_read_last_and0000(XLXI_73/flash/ctl_read_last_and00001:O)| NONE(XLXI_73/flash/ctl_read_last)| 1     |
+XLXI_73/flash/ctl_read_last_and0001(XLXI_73/flash/ctl_read_last_and00011:O)| NONE(XLXI_73/flash/ctl_read_last)| 1     |
+---------------------------------------------------------------------------+----------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 34.577ns (Maximum Frequency: 28.921MHz)
+   Minimum input arrival time before clock: 6.175ns
+   Maximum output required time after clock: 11.753ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CPU_CLOCK1'
+  Clock period: 34.577ns (frequency: 28.921MHz)
+  Total number of paths / destination ports: 2930607 / 655
+-------------------------------------------------------------------------
+Delay:               17.288ns (Levels of Logic = 15)
+  Source:            XLXI_46/RegDest_0 (FF)
+  Destination:       XLXI_56/Tholder (FF)
+  Source Clock:      CPU_CLOCK1 rising
+  Destination Clock: CPU_CLOCK1 falling
+
+  Data Path: XLXI_46/RegDest_0 to XLXI_56/Tholder
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             16   0.591   1.069  XLXI_46/RegDest_0 (XLXI_46/RegDest_0)
+     LUT4:I2->O           18   0.704   1.103  XLXI_50/RegASelectOutput_and00031 (XLXI_50/RegASelectOutput_and0003)
+     LUT3:I2->O            7   0.704   0.743  XLXI_50/RegBSelectOutput<1>83_SW0_1 (XLXI_50/RegBSelectOutput<1>83_SW0)
+     LUT4:I2->O            1   0.704   0.000  XLXI_25/Output<1>1_F1 (XLXI_25/Output<1>1_F)
+     MUXF5:I1->O           2   0.321   0.482  XLXI_25/Output<1>1_F_f5 (N649)
+     LUT3_D:I2->O         29   0.704   1.296  XLXI_25/Output<1>11_1 (XLXI_25/Output<1>11)
+     LUT3_D:I2->O          5   0.704   0.668  XLXI_24/result_tmp<10>151 (XLXI_24/result_tmp<10>_bdd27)
+     LUT3:I2->O            1   0.704   0.000  XLXI_24/result_tmp<15>535_G (N602)
+     MUXF5:I1->O           2   0.321   0.451  XLXI_24/result_tmp<15>535 (XLXI_24/result_tmp<15>_bdd6)
+     LUT4:I3->O            1   0.704   0.000  XLXI_24/result_tmp<7>176_F (N713)
+     MUXF5:I0->O           1   0.321   0.455  XLXI_24/result_tmp<7>176 (XLXI_24/result_tmp<7>176)
+     LUT3:I2->O            1   0.704   0.000  XLXI_24/result_tmp<7>1151_F (N719)
+     MUXF5:I0->O           3   0.321   0.535  XLXI_24/result_tmp<7>1151 (XLXN_1045<7>)
+     LUT4:I3->O            1   0.704   0.455  XLXI_56/Tholder_mux000123_SW0_SW0_SW0_SW0 (N586)
+     LUT4_L:I2->LO         1   0.704   0.104  XLXI_56/Tholder_mux000124 (XLXI_56/Tholder_mux000124)
+     LUT4:I3->O            1   0.704   0.000  XLXI_56/Tholder_mux000155 (XLXI_56/Tholder_mux0001)
+     FDE_1:D                   0.308          XLXI_56/Tholder
+    ----------------------------------------
+    Total                     17.288ns (9.927ns logic, 7.361ns route)
+                                       (57.4% logic, 42.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_68/storage_20'
+  Clock period: 2.470ns (frequency: 404.858MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.470ns (Levels of Logic = 1)
+  Source:            XLXI_68/clockbuffer (FF)
+  Destination:       XLXI_68/clockbuffer (FF)
+  Source Clock:      XLXI_68/storage_20 rising
+  Destination Clock: XLXI_68/storage_20 rising
+
+  Data Path: XLXI_68/clockbuffer to XLXI_68/clockbuffer
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.591   0.447  XLXI_68/clockbuffer (XLXI_68/clockbuffer)
+     INV:I->O              1   0.704   0.420  XLXI_68/clockbuffer_not00011_INV_0 (XLXI_68/clockbuffer_not0001)
+     FDE:D                     0.308          XLXI_68/clockbuffer
+    ----------------------------------------
+    Total                      2.470ns (1.603ns logic, 0.867ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_83/vga/clk1'
+  Clock period: 6.262ns (frequency: 159.693MHz)
+  Total number of paths / destination ports: 407 / 89
+-------------------------------------------------------------------------
+Delay:               6.262ns (Levels of Logic = 5)
+  Source:            XLXI_83/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s3_init.ram/dpram.dp1x1.ram (RAM)
+  Destination:       XLXI_83/vga/g1_0 (FF)
+  Source Clock:      XLXI_83/vga/clk1 rising
+  Destination Clock: XLXI_83/vga/clk1 rising
+
+  Data Path: XLXI_83/ram/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s3_init.ram/dpram.dp1x1.ram to XLXI_83/vga/g1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16_S1_S1:CLKA->DOA0    2   2.800   0.482  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/s3_init.ram/dpram.dp1x1.ram (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ram_douta0)
+     LUT4:I2->O            1   0.704   0.000  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux<0>21 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux<0>2)
+     MUXF5:I1->O           2   0.321   0.622  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_a.A/Mmux_dout_mux<0>2_f5 (douta<0>)
+     end scope: 'XLXI_83/ram'
+     LUT4:I0->O            1   0.704   0.000  XLXI_83/vga/g1_mux0000<0>641 (XLXI_83/vga/g1_mux0000<0>64)
+     MUXF5:I1->O           1   0.321   0.000  XLXI_83/vga/g1_mux0000<0>64_f5 (XLXI_83/vga/g1_mux0000<0>)
+     FDC:D                     0.308          XLXI_83/vga/g1_0
+    ----------------------------------------
+    Total                      6.262ns (5.158ns logic, 1.104ns route)
+                                       (82.4% logic, 17.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLOCK_50M'
+  Clock period: 4.528ns (frequency: 220.848MHz)
+  Total number of paths / destination ports: 289 / 41
+-------------------------------------------------------------------------
+Delay:               4.528ns (Levels of Logic = 21)
+  Source:            XLXI_68/storage_1 (FF)
+  Destination:       XLXI_68/storage_20 (FF)
+  Source Clock:      CLOCK_50M rising
+  Destination Clock: CLOCK_50M rising
+
+  Data Path: XLXI_68/storage_1 to XLXI_68/storage_20
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.591   0.595  XLXI_68/storage_1 (XLXI_68/storage_1)
+     LUT1:I0->O            1   0.704   0.000  XLXI_68/Mcount_storage_cy<1>_rt (XLXI_68/Mcount_storage_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_68/Mcount_storage_cy<1> (XLXI_68/Mcount_storage_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<2> (XLXI_68/Mcount_storage_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<3> (XLXI_68/Mcount_storage_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<4> (XLXI_68/Mcount_storage_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<5> (XLXI_68/Mcount_storage_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<6> (XLXI_68/Mcount_storage_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<7> (XLXI_68/Mcount_storage_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<8> (XLXI_68/Mcount_storage_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<9> (XLXI_68/Mcount_storage_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<10> (XLXI_68/Mcount_storage_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<11> (XLXI_68/Mcount_storage_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<12> (XLXI_68/Mcount_storage_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<13> (XLXI_68/Mcount_storage_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<14> (XLXI_68/Mcount_storage_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<15> (XLXI_68/Mcount_storage_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<16> (XLXI_68/Mcount_storage_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<17> (XLXI_68/Mcount_storage_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_68/Mcount_storage_cy<18> (XLXI_68/Mcount_storage_cy<18>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_68/Mcount_storage_cy<19> (XLXI_68/Mcount_storage_cy<19>)
+     XORCY:CI->O           1   0.804   0.000  XLXI_68/Mcount_storage_xor<20> (Result<20>)
+     FD:D                      0.308          XLXI_68/storage_20
+    ----------------------------------------
+    Total                      4.528ns (3.933ns logic, 0.595ns route)
+                                       (86.9% logic, 13.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXN_8511'
+  Clock period: 6.901ns (frequency: 144.907MHz)
+  Total number of paths / destination ports: 1109 / 196
+-------------------------------------------------------------------------
+Delay:               6.901ns (Levels of Logic = 4)
+  Source:            XLXI_73/FLASH_COUNTER_1 (FF)
+  Destination:       XLXI_73/state_FSM_FFd8 (FF)
+  Source Clock:      XLXN_8511 rising
+  Destination Clock: XLXN_8511 rising
+
+  Data Path: XLXI_73/FLASH_COUNTER_1 to XLXI_73/state_FSM_FFd8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              5   0.591   0.808  XLXI_73/FLASH_COUNTER_1 (XLXI_73/FLASH_COUNTER_1)
+     LUT3:I0->O            4   0.704   0.762  XLXI_73/state_cmp_eq000011 (XLXI_73/Madd_FLASH_COUNTER_addsub0000_cy<2>)
+     LUT4:I0->O            5   0.704   0.808  XLXI_73/state_cmp_eq0000 (XLXI_73/state_cmp_eq0000)
+     LUT2:I0->O            5   0.704   0.808  XLXI_73/FLASH_COUNTER_mux0000<5>21 (N43)
+     LUT4:I0->O            1   0.704   0.000  XLXI_73/state_FSM_FFd8-In1 (XLXI_73/state_FSM_FFd8-In)
+     FDC:D                     0.308          XLXI_73/state_FSM_FFd8
+    ----------------------------------------
+    Total                      6.901ns (3.715ns logic, 3.186ns route)
+                                       (53.8% logic, 46.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_84/u3/result'
+  Clock period: 6.262ns (frequency: 159.693MHz)
+  Total number of paths / destination ports: 158 / 22
+-------------------------------------------------------------------------
+Delay:               6.262ns (Levels of Logic = 5)
+  Source:            XLXI_84/u0/code_1 (FF)
+  Destination:       XLXI_84/u0/state_FSM_FFd1 (FF)
+  Source Clock:      XLXI_84/u3/result rising
+  Destination Clock: XLXI_84/u3/result rising
+
+  Data Path: XLXI_84/u0/code_1 to XLXI_84/u0/state_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.591   0.706  XLXI_84/u0/code_1 (XLXI_84/u0/code_1)
+     LUT4:I0->O            1   0.704   0.000  XLXI_84/u0/Mxor_state_xor0000_xo<0>61 (XLXI_84/u0/Mxor_state_xor0000_xo<0>61)
+     MUXF5:I1->O           1   0.321   0.420  XLXI_84/u0/Mxor_state_xor0000_xo<0>6_f5 (XLXI_84/u0/Mxor_state_xor0000_xo<0>6)
+     MUXF5:S->O            3   0.739   0.566  XLXI_84/u0/Mxor_state_xor0000_xo<0>13_f5 (XLXI_84/u0/state_xor0000)
+     LUT4:I2->O            1   0.704   0.499  XLXI_84/u0/state_FSM_FFd1-In8 (XLXI_84/u0/state_FSM_FFd1-In8)
+     LUT4:I1->O            1   0.704   0.000  XLXI_84/u0/state_FSM_FFd1-In58 (XLXI_84/u0/state_FSM_FFd1-In)
+     FDC:D                     0.308          XLXI_84/u0/state_FSM_FFd1
+    ----------------------------------------
+    Total                      6.262ns (4.071ns logic, 2.191ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_68/storage_20'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.317ns (Levels of Logic = 2)
+  Source:            InputClock (PAD)
+  Destination:       XLXI_68/clockbuffer (FF)
+  Destination Clock: XLXI_68/storage_20 rising
+
+  Data Path: InputClock to XLXI_68/clockbuffer
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  InputClock_IBUF (InputClock_IBUF)
+     INV:I->O              1   0.704   0.420  XLXI_68/clk_inv1_INV_0 (XLXI_68/clk_inv)
+     FDE:CE                    0.555          XLXI_68/clockbuffer
+    ----------------------------------------
+    Total                      3.317ns (2.477ns logic, 0.840ns route)
+                                       (74.7% logic, 25.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXN_8511'
+  Total number of paths / destination ports: 167 / 154
+-------------------------------------------------------------------------
+Offset:              6.175ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       XLXI_73/FLASHPC_15 (FF)
+  Destination Clock: XLXN_8511 rising
+
+  Data Path: reset to XLXI_73/FLASHPC_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            64   1.218   1.307  reset_IBUF (reset_IBUF)
+     LUT4:I2->O            1   0.704   0.424  XLXI_73/FLASHPC_and000037_SW0 (N763)
+     LUT4:I3->O           32   0.704   1.262  XLXI_73/FLASHPC_and000037 (XLXI_73/FLASHPC_and0000)
+     FDE:CE                    0.555          XLXI_73/flash_addr_input_1
+    ----------------------------------------
+    Total                      6.175ns (3.181ns logic, 2.994ns route)
+                                       (51.5% logic, 48.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_84/u3/result'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.946ns (Levels of Logic = 1)
+  Source:            keyboard_in (PAD)
+  Destination:       XLXI_84/u0/clk1 (FF)
+  Destination Clock: XLXI_84/u3/result rising
+
+  Data Path: keyboard_in to XLXI_84/u0/clk1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  keyboard_in_IBUF (keyboard_in_IBUF)
+     FD:D                      0.308          XLXI_84/u0/clk1
+    ----------------------------------------
+    Total                      1.946ns (1.526ns logic, 0.420ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_83/vga/clk1'
+  Total number of paths / destination ports: 29 / 11
+-------------------------------------------------------------------------
+Offset:              5.942ns (Levels of Logic = 2)
+  Source:            XLXI_83/vga/vs1 (FF)
+  Destination:       VGA_g<2> (PAD)
+  Source Clock:      XLXI_83/vga/clk1 rising
+
+  Data Path: XLXI_83/vga/vs1 to VGA_g<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              3   0.591   0.706  XLXI_83/vga/vs1 (XLXI_83/vga/vs1)
+     LUT3:I0->O            6   0.704   0.669  XLXI_83/vga/r<0>1 (VGA_g_0_OBUF)
+     OBUF:I->O                 3.272          VGA_g_2_OBUF (VGA_g<2>)
+    ----------------------------------------
+    Total                      5.942ns (4.567ns logic, 1.375ns route)
+                                       (76.9% logic, 23.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXN_8511'
+  Total number of paths / destination ports: 374 / 82
+-------------------------------------------------------------------------
+Offset:              9.199ns (Levels of Logic = 4)
+  Source:            XLXI_73/state_FSM_FFd8 (FF)
+  Destination:       memoryAddress<15> (PAD)
+  Source Clock:      XLXN_8511 rising
+
+  Data Path: XLXI_73/state_FSM_FFd8 to memoryAddress<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             16   0.591   1.113  XLXI_73/state_FSM_FFd8 (XLXI_73/state_FSM_FFd8)
+     LUT3:I1->O           33   0.704   1.267  XLXI_73/addressTemp_or00021 (XLXI_73/addressTemp_or0002)
+     LUT4:I3->O            1   0.704   0.424  XLXI_73/addressTemp<9>_SW1 (N823)
+     LUT4:I3->O            1   0.704   0.420  XLXI_73/addressTemp<9> (memoryAddress_9_OBUF)
+     OBUF:I->O                 3.272          memoryAddress_9_OBUF (memoryAddress<9>)
+    ----------------------------------------
+    Total                      9.199ns (5.975ns logic, 3.224ns route)
+                                       (65.0% logic, 35.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CPU_CLOCK1'
+  Total number of paths / destination ports: 256 / 62
+-------------------------------------------------------------------------
+Offset:              11.753ns (Levels of Logic = 6)
+  Source:            XLXI_27/Address_13 (FF)
+  Destination:       serialWRN (PAD)
+  Source Clock:      CPU_CLOCK1 rising
+
+  Data Path: XLXI_27/Address_13 to serialWRN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.591   0.808  XLXI_27/Address_13 (XLXI_27/Address_13)
+     LUT4:I0->O            1   0.704   0.424  XLXI_73/Keyboard_wrn11_SW0 (N75)
+     LUT4:I3->O           11   0.704   1.108  XLXI_73/Keyboard_wrn11 (N36)
+     LUT3:I0->O           10   0.704   0.917  XLXI_73/Keyboard_wrn133 (XLXI_73/buffer2_and0001)
+     LUT3:I2->O            4   0.704   0.666  XLXI_73/memoryRW_cmp_eq00001 (XLXI_73/memoryRW_cmp_eq0000)
+     LUT3:I1->O            2   0.704   0.447  XLXI_73/serialWRN1 (serialWRN_OBUF)
+     OBUF:I->O                 3.272          serialWRN_OBUF (serialWRN)
+    ----------------------------------------
+    Total                     11.753ns (7.383ns logic, 4.370ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLOCK_50M'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            XLXI_84/dataready (FF)
+  Destination:       LED_OUTPUT<0> (PAD)
+  Source Clock:      CLOCK_50M rising
+
+  Data Path: XLXI_84/dataready to LED_OUTPUT<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.591   0.447  XLXI_84/dataready (XLXI_84/dataready)
+     OBUF:I->O                 3.272          LED_OUTPUT_0_OBUF (LED_OUTPUT<0>)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 33.00 secs
+Total CPU time to Xst completion: 32.37 secs
+ 
+--> 
+
+Total memory usage is 359060 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  123 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
+

@@ -1,0 +1,23 @@
+V3 15
+FL D:/VHDL/ram1/ram.vhd 2012/10/20.18:27:57 P.28xd
+FL D:/VHDL/ram1/seg7.vhd 2012/10/18.23:55:14 P.28xd
+FL D:/VHDL/ram1/timer.vhd 2012/10/20.12:12:07 P.28xd
+FL F:/2012autumn/PCO/project3/ram1.1/ram.vhd 2012/10/20.19:11:21 P.28xd
+EN work/ram 1350731492 FL F:/2012autumn/PCO/project3/ram1.1/ram.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/ram/Behavioral 1350731493 \
+      FL F:/2012autumn/PCO/project3/ram1.1/ram.vhd EN work/ram 1350731492 CP seg7 \
+      CP timer
+FL F:/2012autumn/PCO/project3/ram1.1/seg7.vhd 2012/10/18.23:55:14 P.28xd
+EN work/seg7 1350731488 FL F:/2012autumn/PCO/project3/ram1.1/seg7.vhd \
+      PB ieee/std_logic_1164 1341906176
+AR work/seg7/Behavioral7 1350731489 \
+      FL F:/2012autumn/PCO/project3/ram1.1/seg7.vhd EN work/seg7 1350731488
+FL F:/2012autumn/PCO/project3/ram1.1/timer.vhd 2012/10/20.12:12:07 P.28xd
+EN work/timer 1350731490 FL F:/2012autumn/PCO/project3/ram1.1/timer.vhd \
+      PB ieee/std_logic_1164 1341906176 PB ieee/std_logic_arith 1341906177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1341906179
+AR work/timer/Behavioral 1350731491 \
+      FL F:/2012autumn/PCO/project3/ram1.1/timer.vhd EN work/timer 1350731490
+FL F:/2012autumn/PCO/ram1/ram.vhd 2012/10/19.23:35:17 P.28xd

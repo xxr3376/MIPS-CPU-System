@@ -1,0 +1,14 @@
+[Inputs]
+RegWrite
+clock
+=SelectA[3:0]=
+=SelectB[3:0]=
+=PCInput[15:0]=
+=SelectC[3:0]=
+=InputData[15:0]=
+=DebugInput[3:0]=
+[Outputs]
+=RegA[15:0]=
+=RegB[15:0]=
+=DebugOutput[15:0]=
+[BiDir]

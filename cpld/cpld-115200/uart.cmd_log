@@ -1,0 +1,240 @@
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc95144-TQ100-7 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144-7-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/cpldtest/uart.syr" 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc95144-TQ100-7 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144-7-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144-TQ100-7 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144-7-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -l uart.tim -e {E:\TEC_test\UARTtest\1200e-uarttest\cpldtest\taengine.err} 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.xst" -ofn "E:/TEC_test/UARTtest/1200e-uarttest/cpldtest/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/TEC_test/UART/cpld/uart.xst" -ofn "E:/TEC_test/UART/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+hprep6 -s IEEE1149 -n uart -i uart 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+xst -intstyle ise -ifn "E:/Xilinx/cpld/uart.xst" -ofn "E:/Xilinx/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+hprep6 -s IEEE1149 -n uart -i uart 
+xst -intstyle ise -ifn "C:/Users/gnocuil/Desktop/cpld/uart.xst" -ofn "C:/Users/gnocuil/Desktop/cpld/uart.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc uart.ucf -p xc95144xl-TQ100-5 uart.ngc uart.ngd  
+cpldfit -intstyle ise -p xc95144xl-5-TQ100 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper uart.ngd 
+XSLTProcess uart_build.xml 
+tsim -intstyle ise uart uart.nga 
+taengine -intstyle ise -f uart -w --format html1 -l uart_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n uart -i uart 

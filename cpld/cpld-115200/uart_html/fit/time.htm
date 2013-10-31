@@ -1,0 +1,580 @@
+<html><body>
+<pre>
+                           Performance Summary Report
+                           --------------------------
+
+Design:     uart
+Device:     XC95144XL-5-TQ100
+Speed File: Version 3.0
+Program:    Timing Report Generator:  version M.53d
+Date:       Tue Sep 20 10:46:20 2011
+
+Performance Summary:
+
+Clock net 'wrn' path delays:
+
+                          Minimum Clock Period: 10.0ns
+                     Maximum Internal Clock Speed: 100.0Mhz
+                         (Limited by Clock Pulse Width)
+
+Clock net 'clk' path delays:
+
+Clock Pad to Output Pad (tCO)             :         13.3ns (3 macrocell levels)
+Clock Pad 'clk' to Output Pad 'sdo'                               (Pterm Clock)
+
+Clock to Setup (tCYC)                     :          6.3ns (1 macrocell levels)
+Clock to Q, net 'u3/cnt72<10>.Q' to TFF Setup(D) at 'u3/cnt72<3>.D'(Pterm Clock)
+Target FF drives output net 'u3/cnt72<3>'
+
+Setup to Clock at the Pad (tSU)           :          1.7ns (0 macrocell levels)
+Data signal 'rst' to TFF D input Pin at 'clk16.D'
+Clock pad 'clk'                                                   (Pterm Clock)
+
+                          Minimum Clock Period: 10.0ns
+                     Maximum Internal Clock Speed: 100.0Mhz
+                         (Limited by Clock Pulse Width)
+
+Clock net 'u1/clkdiv<3>.Q' path delays:
+
+Clock to Setup (tCYC)                     :          6.3ns (1 macrocell levels)
+Clock to Q, net 'u1/no_bits_sent<3>.Q' to TFF Setup(D) at 'u1/parity.D'(Pterm Clock)
+Target FF drives output net 'u1/parity'
+
+                          Minimum Clock Period: 10.0ns
+                     Maximum Internal Clock Speed: 100.0Mhz
+                         (Limited by Clock Pulse Width)
+
+Clock net 'u2/clkdiv<3>.Q' path delays:
+
+Clock to Setup (tCYC)                     :          6.3ns (1 macrocell levels)
+Clock to Q, net 'u2/no_bits_rcvd<0>.Q' to TFF Setup(D) at 'u2/parity.D'(Pterm Clock)
+Target FF drives output net 'u2/parity'
+
+                          Minimum Clock Period: 10.0ns
+                     Maximum Internal Clock Speed: 100.0Mhz
+                         (Limited by Clock Pulse Width)
+
+Clock net 'clk16.Q' path delays:
+
+Clock to Setup (tCYC)                     :          6.3ns (1 macrocell levels)
+Clock to Q, net 'u1/clk1x_enable.Q' to TFF Setup(D) at 'u1/clk1x_enable.D'(Pterm Clock)
+Target FF drives output net 'u1/clk1x_enable'
+
+Setup to Clock at the Pad (tSU)           :          0.9ns (0 macrocell levels)
+Data signal 'wrn' to DFF D input Pin at 'u1/wrn1.D'
+Clock pad 'clk16.Q'                                               (Pterm Clock)
+
+                          Minimum Clock Period: 10.0ns
+                     Maximum Internal Clock Speed: 100.0Mhz
+                         (Limited by Clock Pulse Width)
+
+--------------------------------------------------------------------------------
+                      Clock Pad to Output Pad (tCO) (nsec)
+
+\ From            c
+ \                l
+  \               k
+   \               
+    \              
+     \             
+      \            
+       \           
+        \          
+         \         
+          \        
+           \       
+            \      
+  To         \------
+
+data_ready      9.4
+framing_error  13.3
+parity_error   13.3
+sdo            13.3
+tbre            9.4
+tsre           13.3
+
+--------------------------------------------------------------------------------
+                   Setup to Clock at Pad (tSU or tSUF) (nsec)
+
+\ From      c
+ \          l
+  \         k
+   \         
+    \        
+     \       
+      \      
+  To   \------
+
+rst       1.7
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                                  (Clock: clk)
+
+\ From             c     u     u     u     u     u     u     u     u     u     u
+ \                 l     3     3     3     3     3     3     3     3     3     3
+  \                k     /     /     /     /     /     /     /     /     /     /
+   \               1     c     c     c     c     c     c     c     c     c     c
+    \              6     n     n     n     n     n     n     n     n     n     n
+     \             .     t     t     t     t     t     t     t     t     t     t
+      \            Q     7     7     7     7     7     7     7     7     7     7
+       \                 2     2     2     2     2     2     2     2     2     2
+        \                <     <     <     <     <     <     <     <     <     <
+         \               0     1     1     1     1     1     1     1     1     1
+          \              >     0     1     2     3     4     5     6     7     8
+           \             .     >     >     >     >     >     >     >     >     >
+            \            Q     .     .     .     .     .     .     .     .     .
+             \                 Q     Q     Q     Q     Q     Q     Q     Q     Q
+  To          \------------------------------------------------------------------
+
+clk16.D          5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<10>.D         5.6                                                      
+u3/cnt72<11>.D         5.6   5.6                                                
+u3/cnt72<12>.D         5.6   5.6   5.6                                          
+u3/cnt72<13>.D         5.6   5.6   5.6   5.6                                    
+u3/cnt72<14>.D         5.6   5.6   5.6   5.6   5.6                              
+u3/cnt72<15>.D         5.6   5.6   5.6   5.6   5.6   5.6                        
+u3/cnt72<16>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6                  
+u3/cnt72<17>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6            
+u3/cnt72<18>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6      
+u3/cnt72<19>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<1>.D          5.6                                                      
+u3/cnt72<20>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<21>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<22>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<23>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<24>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<25>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<26>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<27>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<28>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<29>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<2>.D          5.6                                                      
+u3/cnt72<30>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<31>.D         5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<3>.D          5.6   6.3   6.3   6.3   6.3   6.3   6.3   6.3   6.3   6.3
+u3/cnt72<4>.D          5.6                                                      
+u3/cnt72<5>.D          5.6                                                      
+u3/cnt72<6>.D          5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<7>.D          5.6                                                      
+u3/cnt72<8>.D          5.6                                                      
+u3/cnt72<9>.D          5.6                                                      
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                                  (Clock: clk)
+
+\ From             u     u     u     u     u     u     u     u     u     u     u
+ \                 3     3     3     3     3     3     3     3     3     3     3
+  \                /     /     /     /     /     /     /     /     /     /     /
+   \               c     c     c     c     c     c     c     c     c     c     c
+    \              n     n     n     n     n     n     n     n     n     n     n
+     \             t     t     t     t     t     t     t     t     t     t     t
+      \            7     7     7     7     7     7     7     7     7     7     7
+       \           2     2     2     2     2     2     2     2     2     2     2
+        \          <     <     <     <     <     <     <     <     <     <     <
+         \         1     1     2     2     2     2     2     2     2     2     2
+          \        9     >     0     1     2     3     4     5     6     7     8
+           \       >     .     >     >     >     >     >     >     >     >     >
+            \      .     Q     .     .     .     .     .     .     .     .     .
+             \     Q           Q     Q     Q     Q     Q     Q     Q     Q     Q
+  To          \------------------------------------------------------------------
+
+clk16.D          5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<10>.D         5.6                                                      
+u3/cnt72<11>.D         5.6                                                      
+u3/cnt72<12>.D         5.6                                                      
+u3/cnt72<13>.D         5.6                                                      
+u3/cnt72<14>.D         5.6                                                      
+u3/cnt72<15>.D         5.6                                                      
+u3/cnt72<16>.D         5.6                                                      
+u3/cnt72<17>.D         5.6                                                      
+u3/cnt72<18>.D         5.6                                                      
+u3/cnt72<19>.D         5.6                                                      
+u3/cnt72<1>.D                                                                   
+u3/cnt72<20>.D   5.6   5.6                                                      
+u3/cnt72<21>.D   5.6   5.6   5.6                                                
+u3/cnt72<22>.D   5.6   5.6   5.6   5.6                                          
+u3/cnt72<23>.D   5.6   5.6   5.6   5.6   5.6                                    
+u3/cnt72<24>.D   5.6   5.6   5.6   5.6   5.6   5.6                              
+u3/cnt72<25>.D   5.6   5.6   5.6   5.6   5.6   5.6   5.6                        
+u3/cnt72<26>.D   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6                  
+u3/cnt72<27>.D   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6            
+u3/cnt72<28>.D   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6      
+u3/cnt72<29>.D   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<2>.D          5.6                                                      
+u3/cnt72<30>.D   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<31>.D   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<3>.D    6.3   5.6   6.3   6.3   6.3   6.3   6.3   6.3   6.3   6.3   6.3
+u3/cnt72<4>.D          5.6                                                      
+u3/cnt72<5>.D          5.6                                                      
+u3/cnt72<6>.D    5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<7>.D          5.6                                                      
+u3/cnt72<8>.D          5.6                                                      
+u3/cnt72<9>.D          5.6                                                      
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                                  (Clock: clk)
+
+\ From             u     u     u     u     u     u     u     u     u     u     u
+ \                 3     3     3     3     3     3     3     3     3     3     3
+  \                /     /     /     /     /     /     /     /     /     /     /
+   \               c     c     c     c     c     c     c     c     c     c     c
+    \              n     n     n     n     n     n     n     n     n     n     n
+     \             t     t     t     t     t     t     t     t     t     t     t
+      \            7     7     7     7     7     7     7     7     7     7     7
+       \           2     2     2     2     2     2     2     2     2     2     2
+        \          <     <     <     <     <     <     <     <     <     <     <
+         \         2     2     3     3     3     4     5     6     7     8     9
+          \        9     >     0     1     >     >     >     >     >     >     >
+           \       >     .     >     >     .     .     .     .     .     .     .
+            \      .     Q     .     .     Q     Q     Q     Q     Q     Q     Q
+             \     Q           Q     Q                                          
+  To          \------------------------------------------------------------------
+
+clk16.D          5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<10>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<11>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<12>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<13>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<14>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<15>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<16>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<17>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<18>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<19>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<1>.D                                                                   
+u3/cnt72<20>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<21>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<22>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<23>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<24>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<25>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<26>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<27>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<28>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<29>.D         5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<2>.D                                                                   
+u3/cnt72<30>.D   5.6   5.6               5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<31>.D   5.6   5.6   5.6         5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<3>.D    6.3   5.6   6.3   6.3   6.3   6.3   6.3   6.3   6.3   6.3   6.3
+u3/cnt72<4>.D          5.6               5.6                                    
+u3/cnt72<5>.D          5.6               5.6   5.6                              
+u3/cnt72<6>.D    5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6   5.6
+u3/cnt72<7>.D          5.6               5.6   5.6   5.6   5.6                  
+u3/cnt72<8>.D          5.6               5.6   5.6   5.6   5.6   5.6            
+u3/cnt72<9>.D          5.6               5.6   5.6   5.6   5.6   5.6   5.6      
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                            (Clock: u1/clkdiv<3>.Q)
+
+\ From                   s     t     u     u     u     u     u     u     u     u
+ \                       d     s     1     1     1     1     1     1     1     1
+  \                      o     r     /     /     /     /     /     /     /     /
+   \                     .     e     n     n     n     n     p     t     t     t
+    \                    Q     .     o     o     o     o     a     s     s     s
+     \                         Q     _     _     _     _     r     r     r     r
+      \                              b     b     b     b     i     <     <     <
+       \                             i     i     i     i     t     0     1     2
+        \                            t     t     t     t     y     >     >     >
+         \                           s     s     s     s     .     .     .     .
+          \                          _     _     _     _     Q     Q     Q     Q
+           \                         s     s     s     s                        
+            \                        e     e     e     e                        
+             \                       n     n     n     n                        
+              \                      t     t     t     t                        
+               \                     <     <     <     <                        
+                \                    0     1     2     3                        
+                 \                   >     >     >     >                        
+                  \                  .     .     .     .                        
+                   \                 Q     Q     Q     Q                        
+  To                \------------------------------------------------------------
+
+sdo.D                  6.3         6.3   6.3   6.3   6.3   6.3   6.3            
+tsre.D                       6.3   6.3   6.3   6.3   6.3                        
+u1/no_bits_sent<1>.D               5.6                                          
+u1/no_bits_sent<2>.D               5.6   5.6                                    
+u1/no_bits_sent<3>.D               5.6   5.6   5.6                              
+u1/parity.D                        5.6   6.3   6.3   6.3         6.3            
+u1/tsr<0>.D                        6.3   6.3   6.3   6.3         6.3   6.3      
+u1/tsr<1>.D                        6.3   6.3   6.3   6.3               6.3   6.3
+u1/tsr<2>.D                        6.3   6.3   6.3   6.3                     6.3
+u1/tsr<3>.D                        6.3   6.3   6.3   6.3                        
+u1/tsr<4>.D                        6.3   6.3   6.3   6.3                        
+u1/tsr<5>.D                        6.3   6.3   6.3   6.3                        
+u1/tsr<6>.D                        6.3   6.3   6.3   6.3                        
+u1/tsr<7>.D                        6.3   6.3   6.3   6.3                        
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                            (Clock: u1/clkdiv<3>.Q)
+
+\ From                   u     u     u     u     u
+ \                       1     1     1     1     1
+  \                      /     /     /     /     /
+   \                     t     t     t     t     t
+    \                    s     s     s     s     s
+     \                   r     r     r     r     r
+      \                  <     <     <     <     <
+       \                 3     4     5     6     7
+        \                >     >     >     >     >
+         \               .     .     .     .     .
+          \              Q     Q     Q     Q     Q
+           \                                      
+            \                                     
+             \                                    
+              \                                   
+               \                                  
+                \                                 
+                 \                                
+                  \                               
+                   \                              
+  To                \------------------------------
+
+sdo.D                                             
+tsre.D                                            
+u1/no_bits_sent<1>.D                              
+u1/no_bits_sent<2>.D                              
+u1/no_bits_sent<3>.D                              
+u1/parity.D                                       
+u1/tsr<0>.D                                       
+u1/tsr<1>.D                                       
+u1/tsr<2>.D            6.3                        
+u1/tsr<3>.D            6.3   6.3                  
+u1/tsr<4>.D                  6.3   6.3            
+u1/tsr<5>.D                        6.3   6.3      
+u1/tsr<6>.D                              6.3   6.3
+u1/tsr<7>.D                                    5.6
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                            (Clock: u2/clkdiv<3>.Q)
+
+\ From                   u     u     u     u     u     u     u     u     u     u
+ \                       2     2     2     2     2     2     2     2     2     2
+  \                      /     /     /     /     /     /     /     /     /     /
+   \                     n     n     n     n     p     r     r     r     r     r
+    \                    o     o     o     o     a     s     s     s     s     s
+     \                   _     _     _     _     r     r     r     r     r     r
+      \                  b     b     b     b     i     <     <     <     <     <
+       \                 i     i     i     i     t     0     1     2     3     4
+        \                t     t     t     t     y     >     >     >     >     >
+         \               s     s     s     s     .     .     .     .     .     .
+          \              _     _     _     _     Q     Q     Q     Q     Q     Q
+           \             r     r     r     r                                    
+            \            c     c     c     c                                    
+             \           v     v     v     v                                    
+              \          d     d     d     d                                    
+               \         <     <     <     <                                    
+                \        0     1     2     3                                    
+                 \       >     >     >     >                                    
+                  \      .     .     .     .                                    
+                   \     Q     Q     Q     Q                                    
+  To                \------------------------------------------------------------
+
+framing_error.CE       5.6   5.6   5.6   5.6   5.6                              
+parity_error.CE        5.6   5.6   5.6   5.6   5.6                              
+u2/no_bits_rcvd<1>.D   5.6                                                      
+u2/no_bits_rcvd<2>.D   5.6   5.6                                                
+u2/no_bits_rcvd<3>.D   5.6   5.6   5.6                                          
+u2/parity.D            6.3   6.3   5.6   6.3                                    
+u2/rbr<0>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<0>.D                                          5.6                        
+u2/rbr<1>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<1>.D                                                5.6                  
+u2/rbr<2>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<2>.D                                                      5.6            
+u2/rbr<3>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<3>.D                                                            5.6      
+u2/rbr<4>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<4>.D                                                                  5.6
+u2/rbr<5>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<5>.D                                                                     
+u2/rbr<6>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<6>.D                                                                     
+u2/rbr<7>.CE           5.6   5.6   5.6   5.6                                    
+u2/rbr<7>.D                                                                     
+u2/rsr<0>.D            6.3   6.3   6.3   6.3         6.3   6.3                  
+u2/rsr<1>.D            6.3   6.3   6.3   6.3               5.6   5.6            
+u2/rsr<2>.D            6.3   6.3   6.3   6.3                     5.6   5.6      
+u2/rsr<3>.D            6.3   6.3   6.3   6.3                           5.6   5.6
+u2/rsr<4>.D            6.3   6.3   6.3   6.3                                 6.3
+u2/rsr<5>.D            6.3   6.3   6.3   6.3                                    
+u2/rsr<6>.D            6.3   6.3   6.3   6.3                                    
+u2/rsr<7>.D            6.3   6.3   6.3   6.3                                    
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                            (Clock: u2/clkdiv<3>.Q)
+
+\ From                   u     u     u
+ \                       2     2     2
+  \                      /     /     /
+   \                     r     r     r
+    \                    s     s     s
+     \                   r     r     r
+      \                  <     <     <
+       \                 5     6     7
+        \                >     >     >
+         \               .     .     .
+          \              Q     Q     Q
+           \                          
+            \                         
+             \                        
+              \                       
+               \                      
+                \                     
+                 \                    
+                  \                   
+                   \                  
+  To                \------------------
+
+framing_error.CE                      
+parity_error.CE                       
+u2/no_bits_rcvd<1>.D                  
+u2/no_bits_rcvd<2>.D                  
+u2/no_bits_rcvd<3>.D                  
+u2/parity.D                        5.6
+u2/rbr<0>.CE                          
+u2/rbr<0>.D                           
+u2/rbr<1>.CE                          
+u2/rbr<1>.D                           
+u2/rbr<2>.CE                          
+u2/rbr<2>.D                           
+u2/rbr<3>.CE                          
+u2/rbr<3>.D                           
+u2/rbr<4>.CE                          
+u2/rbr<4>.D                           
+u2/rbr<5>.CE                          
+u2/rbr<5>.D            5.6            
+u2/rbr<6>.CE                          
+u2/rbr<6>.D                  5.6      
+u2/rbr<7>.CE                          
+u2/rbr<7>.D                        5.6
+u2/rsr<0>.D                           
+u2/rsr<1>.D                           
+u2/rsr<2>.D                           
+u2/rsr<3>.D                           
+u2/rsr<4>.D            6.3            
+u2/rsr<5>.D            6.3   6.3      
+u2/rsr<6>.D                  6.3   6.3
+u2/rsr<7>.D                        5.6
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                                (Clock: clk16.Q)
+
+\ From                 t     u     u     u     u     u     u     u     u     u
+ \                     b     1     1     1     1     1     1     2     2     2
+  \                    r     /     /     /     /     /     /     /     /     /
+   \                   e     c     c     c     c     w     w     c     c     c
+    \                  .     l     l     l     l     r     r     l     l     l
+     \                 Q     k     k     k     k     n     n     k     k     k
+      \                      1     d     d     d     1     2     d     d     d
+       \                     x     i     i     i     .     .     i     i     i
+        \                    _     v     v     v     Q     Q     v     v     v
+         \                   e     <     <     <                 <     <     <
+          \                  n     0     1     2                 0     1     2
+           \                 a     >     >     >                 >     >     >
+            \                b     .     .     .                 .     .     .
+             \               l     Q     Q     Q                 Q     Q     Q
+              \              e                                                
+               \             .                                                
+                \            Q                                                
+                 \                                                            
+  To              \------------------------------------------------------------
+
+tbre.D               6.3                           6.3   6.3                  
+u1/clk1x_enable.D          6.3                     5.6   6.3                  
+u1/clkdiv<0>.CE            5.6                                                
+u1/clkdiv<1>.CE            5.6                                                
+u1/clkdiv<1>.D                   5.6                                          
+u1/clkdiv<2>.CE            5.6                                                
+u1/clkdiv<2>.D                   5.6   5.6                                    
+u1/clkdiv<3>.CE            5.6                                                
+u1/clkdiv<3>.D                   5.6   5.6   5.6                              
+u1/wrn2.D                                          5.6                        
+u2/clk1x_enable.CE                                                            
+u2/clkdiv<1>.D                                                 5.6            
+u2/clkdiv<2>.D                                                 5.6   5.6      
+u2/clkdiv<3>.D                                                 5.6   5.6   5.6
+u2/rxd2.D                                                                     
+
+--------------------------------------------------------------------------------
+                          Clock to Setup (tCYC) (nsec)
+                                (Clock: clk16.Q)
+
+\ From                 u     u
+ \                     2     2
+  \                    /     /
+   \                   r     r
+    \                  x     x
+     \                 d     d
+      \                1     2
+       \               .     .
+        \              Q     Q
+         \                    
+          \                   
+           \                  
+            \                 
+             \                
+              \               
+               \              
+                \             
+                 \            
+  To              \------------
+
+tbre.D                        
+u1/clk1x_enable.D             
+u1/clkdiv<0>.CE               
+u1/clkdiv<1>.CE               
+u1/clkdiv<1>.D                
+u1/clkdiv<2>.CE               
+u1/clkdiv<2>.D                
+u1/clkdiv<3>.CE               
+u1/clkdiv<3>.D                
+u1/wrn2.D                     
+u2/clk1x_enable.CE   5.6   5.6
+u2/clkdiv<1>.D                
+u2/clkdiv<2>.D                
+u2/clkdiv<3>.D                
+u2/rxd2.D            5.6      
+
+Path Type Definition: 
+
+Pad to Pad (tPD) -                        Reports pad to pad paths that start 
+                                          at input pads and end at output pads. 
+                                          Paths are not traced through 
+                                          registers. 
+
+Clock Pad to Output Pad (tCO) -           Reports paths that start at input 
+                                          pads trace through clock inputs of 
+                                          registers and end at output pads. 
+                                          Paths are not traced through PRE/CLR 
+                                          inputs of registers. 
+
+Setup to Clock at Pad (tSU or tSUF) -     Reports external setup time of data 
+                                          to clock at pad. Data path starts at 
+                                          an input pad and ends at register 
+                                          (Fast Input Register for tSUF) D/T 
+                                          input. Clock path starts at input pad 
+                                          and ends at the register clock input. 
+                                          Paths are not traced through 
+                                          registers. Pin-to-pin setup 
+                                          requirement is not reported or 
+                                          guaranteed for product-term clocks 
+                                          derived from macrocell feedback 
+                                          signals. 
+
+Clock to Setup (tCYC) -                   Register to register cycle time. 
+                                          Include source register tCO and 
+                                          destination register tSU. Note that 
+                                          when the computed Maximum Clock Speed 
+                                          is limited by tCYC it is computed 
+                                          assuming that all registers are 
+                                          rising-edge sensitive. 
+
+</pre>
+</body></html>

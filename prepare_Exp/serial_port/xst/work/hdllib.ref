@@ -1,0 +1,6 @@
+EN serial_port NULL "D:/VHDL/Computer Arti/serial_port/serial_port.vhd" sub00/vhpl02 1351082206
+AR seg7 behavioral7 "D:/VHDL/Computer Arti/serial_port/seg7.vhd" sub00/vhpl05 1351082203
+EN seg7 NULL "D:/VHDL/Computer Arti/serial_port/seg7.vhd" sub00/vhpl04 1351082202
+AR serial_port behavioral "D:/VHDL/Computer Arti/serial_port/serial_port.vhd" sub00/vhpl03 1351082207
+AR timer behavioral "D:/VHDL/Computer Arti/serial_port/timer.vhd" sub00/vhpl01 1351082205
+EN timer NULL "D:/VHDL/Computer Arti/serial_port/timer.vhd" sub00/vhpl00 1351082204

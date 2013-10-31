@@ -1,0 +1,8 @@
+vhdtdtfi -lib work MuxT16.vhd -prj Project -o MuxT16.spl -module MuxT16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MuxT16.spl {D:/VHDL/Computer Arti/Project/MuxT16.sym} 
+vhdtdtfi -lib work MuxT16.vhd -prj Project -o MuxT16.spl -module MuxT16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MuxT16.spl {D:/VHDL/Computer Arti/Project/MuxT16.sym} 
+vhdtdtfi -lib work MuxT16.vhd -prj Project -o MuxT16.spl -module MuxT16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MuxT16.spl {D:/VHDL/Computer Arti/Project/MuxT16.sym} 
+vhdtdtfi -lib work MuxT16.vhd -prj Project -o MuxT16.spl -module MuxT16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MuxT16.spl {D:/VHDL/Computer Arti/Project/MuxT16.sym} 

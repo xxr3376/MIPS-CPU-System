@@ -1,0 +1,456 @@
+xst -intstyle ise -ifn "F:/2012autumn/PCO/ram1/ram.xst" -ofn "F:/2012autumn/PCO/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/ram1/ram.xst" -ofn "F:/2012autumn/PCO/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/ram1/ram.xst" -ofn "F:/2012autumn/PCO/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/ram1/ram.xst" -ofn "F:/2012autumn/PCO/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/ram1/ram.xst" -ofn "F:/2012autumn/PCO/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/ram1/ram.xst" -ofn "F:/2012autumn/PCO/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/ram1/ram.xst" -ofn "F:/2012autumn/PCO/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "D:/VHDL/ram1/ram.xst" -ofn "D:/VHDL/ram1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/project3/ram1.1/ram.xst" -ofn "F:/2012autumn/PCO/project3/ram1.1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/project3/ram1.1/ram.xst" -ofn "F:/2012autumn/PCO/project3/ram1.1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+xst -intstyle ise -ifn "F:/2012autumn/PCO/project3/ram1.1/ram.xst" -ofn "F:/2012autumn/PCO/project3/ram1.1/ram.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ram.ucf -p xc3s1200e-fg320-4 ram.ngc ram.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o ram_map.ncd ram.ngd ram.pcf 
+par -w -intstyle ise -ol high -t 1 ram_map.ncd ram.ncd ram.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ram.twx ram.ncd -o ram.twr ram.pcf -ucf ram.ucf 
+bitgen -intstyle ise -f ram.ut ram.ncd 
+bitgen -intstyle ise -f ram.ut ram.ncd 

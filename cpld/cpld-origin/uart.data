@@ -1,0 +1,106 @@
+MODELDATA
+MODELDATA_VERSION "v1998.8"
+DESIGN "uart";
+
+/* port drive, load, max capacitance and max transition in data file */
+PORTDATA
+rst: MAXTRANS(0.0);
+clk: MAXTRANS(0.0);
+wrn: MAXTRANS(0.0);
+rxd: MAXTRANS(0.0);
+rdn: MAXTRANS(0.0);
+tbre: MAXTRANS(0.0);
+sdo: MAXTRANS(0.0);
+tsre: MAXTRANS(0.0);
+data_ready: MAXTRANS(0.0);
+framing_error: MAXTRANS(0.0);
+parity_error: MAXTRANS(0.0);
+data<0>: MAXTRANS(0.0);
+data<1>: MAXTRANS(0.0);
+data<2>: MAXTRANS(0.0);
+data<3>: MAXTRANS(0.0);
+data<4>: MAXTRANS(0.0);
+data<5>: MAXTRANS(0.0);
+data<6>: MAXTRANS(0.0);
+data<7>: MAXTRANS(0.0);
+ENDPORTDATA
+
+/* timing arc data */
+TIMINGDATA
+
+ARCDATA
+clk_tbre_delay:
+CELL_RISE(scalar) {
+  VALUES("9.4");
+}
+CELL_FALL(scalar) {
+  VALUES("9.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_sdo_delay:
+CELL_RISE(scalar) {
+  VALUES("13.3");
+}
+CELL_FALL(scalar) {
+  VALUES("13.3");
+}
+ENDARCDATA
+
+ARCDATA
+clk_tsre_delay:
+CELL_RISE(scalar) {
+  VALUES("13.3");
+}
+CELL_FALL(scalar) {
+  VALUES("13.3");
+}
+ENDARCDATA
+
+ARCDATA
+clk_data_ready_delay:
+CELL_RISE(scalar) {
+  VALUES("9.4");
+}
+CELL_FALL(scalar) {
+  VALUES("9.4");
+}
+ENDARCDATA
+
+ARCDATA
+clk_framing_error_delay:
+CELL_RISE(scalar) {
+  VALUES("13.3");
+}
+CELL_FALL(scalar) {
+  VALUES("13.3");
+}
+ENDARCDATA
+
+ARCDATA
+clk_parity_error_delay:
+CELL_RISE(scalar) {
+  VALUES("13.3");
+}
+CELL_FALL(scalar) {
+  VALUES("13.3");
+}
+ENDARCDATA
+
+ARCDATA
+rst_clk_setup:
+CONSTRAINT(scalar) {
+  VALUES("4");
+}
+ENDARCDATA
+
+ARCDATA
+rst_clk_hold:
+CONSTRAINT(scalar) {
+  VALUES("-0.3");
+}
+ENDARCDATA
+
+ENDTIMINGDATA
+ENDMODELDATA

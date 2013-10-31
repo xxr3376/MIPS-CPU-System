@@ -1,0 +1,4 @@
+vhdl work "C:\Users\gnocuil\Desktop\cpld\txmit.vhd"
+vhdl work "C:\Users\gnocuil\Desktop\cpld\rcvr.vhd"
+vhdl work "C:\Users\gnocuil\Desktop\cpld\clkcon.vhd"
+vhdl work "C:\Users\gnocuil\Desktop\cpld\uart.vhd"

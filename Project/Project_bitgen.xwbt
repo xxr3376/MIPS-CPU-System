@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\VHDL\Computer Arti\Project\Project.ncd
+OUTFILE=D:\VHDL\Computer Arti\Project\Project.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=D:\VHDL\Computer Arti\Project
+LICENSE=WebPack
+USER_INFO=__0_0_0

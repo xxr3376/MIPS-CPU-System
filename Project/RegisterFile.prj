@@ -1,0 +1,2 @@
+vhdl work "Reg16.vhd"
+vhdl work "RegisterFile.vhd"

@@ -1,0 +1,3 @@
+vhdl work "timer.vhd"
+vhdl work "seg7.vhd"
+vhdl work "serial_port.vhd"

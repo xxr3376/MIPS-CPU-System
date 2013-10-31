@@ -1,0 +1,11 @@
+vhdtdtfi -lib work RegisterFile.vhd -prj tmp -o RegisterFile.spl -module RegisterFile -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegisterFile.spl {D:/VHDL/Computer Arti/tmp/RegisterFile.sym} 
+vhdtdtfi -lib work RegisterFile.vhd -prj Project -o RegisterFile.spl -module RegisterFile -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegisterFile.spl {D:/VHDL/Computer Arti/Project/RegisterFile.sym} 
+vhdtdtfi -prj Project -o "D:/VHDL/Computer Arti/Project/RegisterFile.vhi" -module RegisterFile -template D:/Xilinx/14.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Reg16.vhd -lib work RegisterFile.vhd 
+vhdtdtfi -lib work Reg16.vhd -lib work RegisterFile.vhd -prj Project -o RegisterFile.spl -module RegisterFile -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegisterFile.spl {D:/VHDL/Computer Arti/Project/RegisterFile.sym} 
+vhdtdtfi -lib work Reg16.vhd -lib work RegisterFile.vhd -prj Project -o RegisterFile.spl -module RegisterFile -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegisterFile.spl {D:/VHDL/Computer Arti/Project/RegisterFile.sym} 
+vhdtdtfi -lib work Reg16.vhd -lib work RegisterFile.vhd -prj Project -o RegisterFile.spl -module RegisterFile -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegisterFile.spl {D:/VHDL/Computer Arti/Project/RegisterFile.sym} 

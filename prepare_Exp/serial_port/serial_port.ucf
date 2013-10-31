@@ -1,0 +1,49 @@
+
+
+NET "databus[0]" LOC = J12;
+NET "databus[1]" LOC = J13;
+NET "databus[2]" LOC = J14;
+NET "databus[3]" LOC = J15;
+NET "databus[4]" LOC = J16;
+NET "databus[5]" LOC = J17;
+NET "databus[6]" LOC = K12;
+NET "databus[7]" LOC = K13;
+NET "input[0]" LOC = T7;
+NET "input[1]" LOC = R7;
+NET "input[2]" LOC = U8;
+NET "input[3]" LOC = V4;
+NET "input[4]" LOC = V3;
+NET "input[5]" LOC = V2;
+NET "input[6]" LOC = U1;
+NET "input[7]" LOC = R4;
+NET "key_clk" LOC = U9;
+NET "clk" LOC = B8;
+NET "ram1_en" LOC = M15;
+NET "rdn" LOC = C14;
+NET "wrn" LOC = U5;
+
+# PlanAhead Generated physical constraints 
+
+NET "key1" LOC = U11;
+NET "key2" LOC = U14;
+NET "key3" LOC = V14;
+NET "key3" CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "seg[0]" LOC = C9;
+NET "seg[1]" LOC = D9;
+NET "seg[2]" LOC = E9;
+NET "seg[3]" LOC = F9;
+NET "seg[4]" LOC = G9;
+NET "seg[5]" LOC = A10;
+NET "seg[6]" LOC = B10;
+
+NET "led[0]" LOC = D10;
+NET "led[1]" LOC = E10;
+NET "led[2]" LOC = A11;
+NET "led[3]" LOC = B11;
+NET "led[4]" LOC = C11;
+NET "led[5]" LOC = D11;
+NET "led[6]" LOC = E11;
+NET "led[7]" LOC = F11;
+
+NET "data_ready" LOC = A16;

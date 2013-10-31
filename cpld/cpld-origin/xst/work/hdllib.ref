@@ -1,0 +1,8 @@
+EN clkcon NULL "D:/VHDL/Computer Arti/cpld/clkcon.vhd" sub00/vhpl04 1353522151
+EN rcvr NULL "D:/VHDL/Computer Arti/cpld/rcvr.vhd" sub00/vhpl02 1353522149
+AR txmit v1 "D:/VHDL/Computer Arti/cpld/txmit.vhd" sub00/vhpl01 1353522148
+AR uart v1 "D:/VHDL/Computer Arti/cpld/uart.vhd" sub00/vhpl07 1353522154
+EN txmit NULL "D:/VHDL/Computer Arti/cpld/txmit.vhd" sub00/vhpl00 1353522147
+EN uart NULL "D:/VHDL/Computer Arti/cpld/uart.vhd" sub00/vhpl06 1353522153
+AR rcvr v1 "D:/VHDL/Computer Arti/cpld/rcvr.vhd" sub00/vhpl03 1353522150
+AR clkcon v1 "D:/VHDL/Computer Arti/cpld/clkcon.vhd" sub00/vhpl05 1353522152

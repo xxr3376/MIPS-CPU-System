@@ -1,0 +1,5 @@
+set -tmpdir "D:/VHDL/Computer Arti/Project/xst/projnav.tmp"
+set -xsthdpdir "D:/VHDL/Computer Arti/Project/xst"
+elaborate
+-ifn RegisterFile.prj
+-ifmt mixed

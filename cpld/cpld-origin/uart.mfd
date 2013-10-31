@@ -1,0 +1,1798 @@
+MDF Database:  version 1.0
+MDF_INFO | uart | XC95144XL-5-TQ100
+MACROCELL | 1 | 10 | u2/rbr<0>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<0>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 15 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<0>.D = u2/rsr<0>;
+   data<0>.CLK = u2/clkdiv<3>;
+   data<0>.AR = !rst;
+   data<0>.OE = !rdn;
+   data<0>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 1 | 11 | u2/rbr<1>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<1>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 13 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<1>.D = u2/rsr<1>;
+   data<1>.CLK = u2/clkdiv<3>;
+   data<1>.AR = !rst;
+   data<1>.OE = !rdn;
+   data<1>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 1 | 13 | u2/rbr<2>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<2>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 12 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<2>.D = u2/rsr<2>;
+   data<2>.CLK = u2/clkdiv<3>;
+   data<2>.AR = !rst;
+   data<2>.OE = !rdn;
+   data<2>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 1 | 14 | u2/rbr<3>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<3>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 9 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<3>.D = u2/rsr<3>;
+   data<3>.CLK = u2/clkdiv<3>;
+   data<3>.AR = !rst;
+   data<3>.OE = !rdn;
+   data<3>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 1 | 16 | u2/rbr<4>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<4>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 8 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<4>.D = u2/rsr<4>;
+   data<4>.CLK = u2/clkdiv<3>;
+   data<4>.AR = !rst;
+   data<4>.OE = !rdn;
+   data<4>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 0 | 1 | u2/rbr<5>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<5>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 6 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<5>.D = u2/rsr<5>;
+   data<5>.CLK = u2/clkdiv<3>;
+   data<5>.AR = !rst;
+   data<5>.OE = !rdn;
+   data<5>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 0 | 2 | u2/rbr<6>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<6>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 3 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<6>.D = u2/rsr<6>;
+   data<6>.CLK = u2/clkdiv<3>;
+   data<6>.AR = !rst;
+   data<6>.OE = !rdn;
+   data<6>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 0 | 4 | u2/rbr<7>
+ATTRIBUTES | 8652658 | 0
+INPUTS | 8 | u2/rsr<7>  | u2/clkdiv<3>  | rst  | rdn  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 6 | 4 | 2 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 2 | 8 | 69
+EQ | 6 | 
+   data<7>.D = u2/rsr<7>;
+   data<7>.CLK = u2/clkdiv<3>;
+   data<7>.AR = !rst;
+   data<7>.OE = !rdn;
+   data<7>.CE = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 3 | 15 | u1/clkdiv<3>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 15 | 6 | 4 | 6 | 7 | 4 | 10 | 5 | 15 | 1 | 5 | 1 | 7 | 1 | 6 | 4 | 0 | 6 | 0 | 6 | 16 | 6 | 14 | 6 | 12 | 6 | 10 | 6 | 6 | 6 | 2
+INPUTS | 6 | u1/clkdiv<0>  | u1/clkdiv<1>  | u1/clkdiv<2>  | sclk  | u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT  | u1/clk1x_enable
+INPUTMC | 6 | 3 | 14 | 3 | 17 | 3 | 16 | 2 | 15 | 3 | 0 | 6 | 3
+EQ | 4 | 
+   u1/clkdiv<3>.T = u1/clkdiv<0> & u1/clkdiv<1> & u1/clkdiv<2>;
+   u1/clkdiv<3>.CLK = sclk;
+   u1/clkdiv<3>.AR = !u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT;
+   u1/clkdiv<3>.CE = u1/clk1x_enable;
+
+MACROCELL | 1 | 1 | u2/no_bits_rcvd<0>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 24 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 1 | 16 | 0 | 1 | 0 | 2 | 0 | 4 | 1 | 12 | 1 | 9 | 1 | 8 | 1 | 15 | 4 | 4 | 4 | 1 | 4 | 10 | 4 | 11 | 4 | 8 | 4 | 7 | 4 | 5 | 4 | 2 | 4 | 3 | 4 | 16 | 4 | 14 | 1 | 0
+INPUTS | 4 | u2/clkdiv<3>  | u2/clk1x_enable/u2/clk1x_enable_RSTF  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT  | u2/clk1x_enable
+INPUTMC | 4 | 1 | 3 | 1 | 0 | 5 | 11 | 3 | 3
+EQ | 5 | 
+   u2/no_bits_rcvd<0>.T = Vcc;
+   u2/no_bits_rcvd<0>.CLK = u2/clkdiv<3>;
+   u2/no_bits_rcvd<0>.AR = u2/clk1x_enable/u2/clk1x_enable_RSTF & 
+	!u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+   u2/no_bits_rcvd<0>.CE = u2/clk1x_enable;
+
+MACROCELL | 1 | 12 | u2/no_bits_rcvd<1>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 23 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 1 | 16 | 0 | 1 | 0 | 2 | 0 | 4 | 1 | 9 | 1 | 8 | 1 | 15 | 4 | 4 | 4 | 1 | 4 | 10 | 4 | 11 | 4 | 8 | 4 | 7 | 4 | 5 | 4 | 2 | 4 | 3 | 4 | 16 | 4 | 14 | 1 | 0
+INPUTS | 5 | u2/no_bits_rcvd<0>  | u2/clkdiv<3>  | u2/clk1x_enable/u2/clk1x_enable_RSTF  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT  | u2/clk1x_enable
+INPUTMC | 5 | 1 | 1 | 1 | 3 | 1 | 0 | 5 | 11 | 3 | 3
+EQ | 5 | 
+   u2/no_bits_rcvd<1>.T = u2/no_bits_rcvd<0>;
+   u2/no_bits_rcvd<1>.CLK = u2/clkdiv<3>;
+   u2/no_bits_rcvd<1>.AR = u2/clk1x_enable/u2/clk1x_enable_RSTF & 
+	!u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+   u2/no_bits_rcvd<1>.CE = u2/clk1x_enable;
+
+MACROCELL | 1 | 9 | u2/no_bits_rcvd<2>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 27 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 1 | 16 | 0 | 1 | 0 | 2 | 0 | 4 | 1 | 8 | 1 | 15 | 4 | 4 | 4 | 1 | 4 | 13 | 4 | 12 | 4 | 9 | 4 | 8 | 4 | 6 | 4 | 3 | 4 | 15 | 4 | 16 | 4 | 14 | 1 | 0 | 4 | 2 | 4 | 5 | 4 | 7 | 4 | 10 | 4 | 11
+INPUTS | 6 | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/clkdiv<3>  | u2/clk1x_enable/u2/clk1x_enable_RSTF  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT  | u2/clk1x_enable
+INPUTMC | 6 | 1 | 1 | 1 | 12 | 1 | 3 | 1 | 0 | 5 | 11 | 3 | 3
+EQ | 5 | 
+   u2/no_bits_rcvd<2>.T = u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1>;
+   u2/no_bits_rcvd<2>.CLK = u2/clkdiv<3>;
+   u2/no_bits_rcvd<2>.AR = u2/clk1x_enable/u2/clk1x_enable_RSTF & 
+	!u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+   u2/no_bits_rcvd<2>.CE = u2/clk1x_enable;
+
+MACROCELL | 1 | 8 | u2/no_bits_rcvd<3>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 26 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 1 | 16 | 0 | 1 | 0 | 2 | 0 | 4 | 1 | 15 | 4 | 4 | 4 | 1 | 4 | 13 | 4 | 12 | 4 | 9 | 4 | 8 | 4 | 6 | 4 | 3 | 4 | 15 | 4 | 16 | 4 | 14 | 1 | 0 | 4 | 2 | 4 | 5 | 4 | 7 | 4 | 10 | 4 | 11
+INPUTS | 7 | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/clkdiv<3>  | u2/clk1x_enable/u2/clk1x_enable_RSTF  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT  | u2/clk1x_enable
+INPUTMC | 7 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 3 | 1 | 0 | 5 | 11 | 3 | 3
+EQ | 6 | 
+   u2/no_bits_rcvd<3>.T = u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<2>;
+   u2/no_bits_rcvd<3>.CLK = u2/clkdiv<3>;
+   u2/no_bits_rcvd<3>.AR = u2/clk1x_enable/u2/clk1x_enable_RSTF & 
+	!u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+   u2/no_bits_rcvd<3>.CE = u2/clk1x_enable;
+
+MACROCELL | 6 | 3 | u1/clk1x_enable
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 8 | 3 | 15 | 6 | 3 | 3 | 14 | 3 | 17 | 3 | 16 | 5 | 12 | 6 | 2 | 6 | 4
+INPUTS | 11 | u1/clk1x_enable  | u1/wrn1  | u1/wrn2  | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/no_bits_sent<2>  | sclk  | rst  | u1/tsr<0>  | u1/tsr<7>.EXP
+INPUTMC | 10 | 6 | 3 | 3 | 4 | 1 | 4 | 5 | 15 | 1 | 5 | 1 | 7 | 1 | 6 | 2 | 15 | 4 | 0 | 6 | 2
+INPUTP | 1 | 8
+EXPORTS | 1 | 6 | 4
+IMPORTS | 1 | 6 | 2
+EQ | 12 | 
+   u1/clk1x_enable.T = !u1/clk1x_enable & !u1/wrn1 & u1/wrn2
+	# u1/clk1x_enable & u1/no_bits_sent<0> & 
+	u1/no_bits_sent<3> & !u1/no_bits_sent<1> & u1/no_bits_sent<2> & 
+	u1/wrn1
+;Imported pterms FB7_3
+	# u1/clk1x_enable & u1/no_bits_sent<0> & 
+	u1/no_bits_sent<3> & !u1/no_bits_sent<1> & u1/no_bits_sent<2> & 
+	!u1/wrn2;
+   u1/clk1x_enable.CLK = sclk;
+   u1/clk1x_enable.AR = !rst;
+    u1/clk1x_enable.EXP  =  u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+
+MACROCELL | 3 | 14 | u1/clkdiv<0>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 3 | 3 | 15 | 3 | 17 | 3 | 16
+INPUTS | 3 | sclk  | u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT  | u1/clk1x_enable
+INPUTMC | 3 | 2 | 15 | 3 | 0 | 6 | 3
+EQ | 4 | 
+   u1/clkdiv<0>.T = Vcc;
+   u1/clkdiv<0>.CLK = sclk;
+   u1/clkdiv<0>.AR = !u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT;
+   u1/clkdiv<0>.CE = u1/clk1x_enable;
+
+MACROCELL | 1 | 15 | u2/isRead
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 3 | 1 | 15 | 1 | 2 | 6 | 1
+INPUTS | 7 | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/isRead  | u2/clkdiv<3>  | rst
+INPUTMC | 6 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 1 | 15 | 1 | 3
+INPUTP | 1 | 8
+EQ | 6 | 
+   u2/isRead.T = u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3> & !u2/isRead
+	# u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3> & u2/isRead;
+   u2/isRead.CLK = u2/clkdiv<3>;
+   u2/isRead.AR = !rst;
+
+MACROCELL | 4 | 4 | u2/parity
+ATTRIBUTES | 4326304 | 0
+OUTPUTMC | 2 | 4 | 16 | 4 | 14
+INPUTS | 8 | u2/rsr<7>  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/clkdiv<3>  | rst  | u2/rsr<6>.EXP
+INPUTMC | 7 | 4 | 2 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 1 | 3 | 4 | 3
+INPUTP | 1 | 8
+IMPORTS | 1 | 4 | 3
+EQ | 9 | 
+   !u2/parity.T = !u2/rsr<7>
+	# u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+;Imported pterms FB5_4
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>;
+   u2/parity.CLK = u2/clkdiv<3>;
+   u2/parity.AP = !rst;
+
+MACROCELL | 4 | 2 | u2/rsr<7>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 5 | 0 | 4 | 4 | 4 | 4 | 1 | 4 | 3 | 4 | 2
+INPUTS | 9 | u2/rsr<7>  | u2/rsr<6>  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<3>  | u2/no_bits_rcvd<2>  | u2/clkdiv<3>  | rst  | EXP10_.EXP
+INPUTMC | 8 | 4 | 2 | 4 | 3 | 1 | 1 | 1 | 12 | 1 | 8 | 1 | 9 | 1 | 3 | 4 | 1
+INPUTP | 1 | 8
+EXPORTS | 1 | 4 | 3
+IMPORTS | 1 | 4 | 1
+EQ | 15 | 
+   !u2/rsr<7>.T = ;Imported pterms FB5_2
+	  u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<7> & u2/rxd2
+	# !u2/rsr<7> & !u2/rxd2
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<7>.CLK = u2/clkdiv<3>;
+   u2/rsr<7>.AR = !rst;
+    u2/rsr<7>.EXP  =  !u2/rsr<7> & !u2/rsr<6>
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 3 | 17 | u1/clkdiv<1>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 2 | 3 | 15 | 3 | 16
+INPUTS | 4 | u1/clkdiv<0>  | sclk  | u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT  | u1/clk1x_enable
+INPUTMC | 4 | 3 | 14 | 2 | 15 | 3 | 0 | 6 | 3
+EQ | 4 | 
+   u1/clkdiv<1>.T = u1/clkdiv<0>;
+   u1/clkdiv<1>.CLK = sclk;
+   u1/clkdiv<1>.AR = !u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT;
+   u1/clkdiv<1>.CE = u1/clk1x_enable;
+
+MACROCELL | 3 | 16 | u1/clkdiv<2>
+ATTRIBUTES | 4326256 | 0
+OUTPUTMC | 1 | 3 | 15
+INPUTS | 5 | u1/clkdiv<0>  | u1/clkdiv<1>  | sclk  | u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT  | u1/clk1x_enable
+INPUTMC | 5 | 3 | 14 | 3 | 17 | 2 | 15 | 3 | 0 | 6 | 3
+EQ | 4 | 
+   u1/clkdiv<2>.T = u1/clkdiv<0> & u1/clkdiv<1>;
+   u1/clkdiv<2>.CLK = sclk;
+   u1/clkdiv<2>.AR = !u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT;
+   u1/clkdiv<2>.CE = u1/clk1x_enable;
+
+MACROCELL | 6 | 4 | u1/parity
+ATTRIBUTES | 4326304 | 0
+OUTPUTMC | 1 | 6 | 8
+INPUTS | 8 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<0>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | u1/clkdiv<3>  | rst  | u1/clk1x_enable.EXP
+INPUTMC | 7 | 1 | 5 | 1 | 6 | 4 | 0 | 5 | 15 | 1 | 7 | 3 | 15 | 6 | 3
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 3
+EQ | 11 | 
+   u1/parity.T = !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<0>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<0>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+;Imported pterms FB7_4
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>;
+   u1/parity.CLK = !u1/clkdiv<3>;
+   u1/parity.AP = !rst;
+
+MACROCELL | 1 | 17 | u1/tbre_t
+ATTRIBUTES | 4326304 | 0
+OUTPUTMC | 3 | 1 | 17 | 3 | 5 | 4 | 11
+INPUTS | 9 | u1/tbre_t  | u1/wrn1  | u1/wrn2  | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/no_bits_sent<2>  | sclk  | rst
+INPUTMC | 8 | 1 | 17 | 3 | 4 | 1 | 4 | 5 | 15 | 1 | 5 | 1 | 7 | 1 | 6 | 2 | 15
+INPUTP | 1 | 8
+EQ | 9 | 
+   u1/tbre_t.T = u1/tbre_t & !u1/wrn1 & u1/wrn2
+	# !u1/tbre_t & !u1/no_bits_sent<0> & 
+	!u1/no_bits_sent<3> & u1/no_bits_sent<1> & !u1/no_bits_sent<2> & 
+	u1/wrn1
+	# !u1/tbre_t & !u1/no_bits_sent<0> & 
+	!u1/no_bits_sent<3> & u1/no_bits_sent<1> & !u1/no_bits_sent<2> & 
+	!u1/wrn2;
+   u1/tbre_t.CLK = sclk;
+   u1/tbre_t.AP = !rst;
+
+MACROCELL | 4 | 13 | u2/rsr<1>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 3 | 1 | 11 | 4 | 13 | 4 | 15
+INPUTS | 7 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<1>  | u2/rsr<2>  | u2/parity_error.EXP  | u2/clkdiv<3>  | rst
+INPUTMC | 6 | 1 | 9 | 1 | 8 | 4 | 13 | 4 | 12 | 4 | 14 | 1 | 3
+INPUTP | 1 | 8
+IMPORTS | 1 | 4 | 14
+EQ | 10 | 
+   !u2/rsr<1>.T = u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<1> & u2/rsr<2>
+	# !u2/rsr<1> & !u2/rsr<2>
+;Imported pterms FB5_15
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<1>.CLK = u2/clkdiv<3>;
+   u2/rsr<1>.AR = !rst;
+
+MACROCELL | 4 | 12 | u2/rsr<2>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 3 | 1 | 13 | 4 | 13 | 4 | 12
+INPUTS | 7 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<2>  | u2/rsr<3>  | tbre_OBUF.EXP  | u2/clkdiv<3>  | rst
+INPUTMC | 6 | 1 | 9 | 1 | 8 | 4 | 12 | 4 | 9 | 4 | 11 | 1 | 3
+INPUTP | 1 | 8
+IMPORTS | 1 | 4 | 11
+EQ | 10 | 
+   !u2/rsr<2>.T = u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<2> & u2/rsr<3>
+	# !u2/rsr<2> & !u2/rsr<3>
+;Imported pterms FB5_12
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<2>.CLK = u2/clkdiv<3>;
+   u2/rsr<2>.AR = !rst;
+
+MACROCELL | 4 | 9 | u2/rsr<3>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 3 | 1 | 14 | 4 | 12 | 4 | 9
+INPUTS | 8 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<3>  | u2/rsr<4>  | u2/rsr<4>.EXP  | tsre_OBUF.EXP  | u2/clkdiv<3>  | rst
+INPUTMC | 7 | 1 | 9 | 1 | 8 | 4 | 9 | 4 | 8 | 4 | 8 | 4 | 10 | 1 | 3
+INPUTP | 1 | 8
+IMPORTS | 2 | 4 | 8 | 4 | 10
+EQ | 11 | 
+   !u2/rsr<3>.T = u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<3> & u2/rsr<4>
+	# !u2/rsr<3> & !u2/rsr<4>
+;Imported pterms FB5_9
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+;Imported pterms FB5_11
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<3>.CLK = u2/clkdiv<3>;
+   u2/rsr<3>.AR = !rst;
+
+MACROCELL | 4 | 8 | u2/rsr<4>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 4 | 1 | 16 | 4 | 9 | 4 | 8 | 4 | 7
+INPUTS | 9 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<4>  | u2/rsr<5>  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/clkdiv<3>  | rst  | interconn7_OBUF$BUF0.EXP
+INPUTMC | 8 | 1 | 9 | 1 | 8 | 4 | 8 | 4 | 6 | 1 | 1 | 1 | 12 | 1 | 3 | 4 | 7
+INPUTP | 1 | 8
+EXPORTS | 1 | 4 | 9
+IMPORTS | 1 | 4 | 7
+EQ | 12 | 
+   !u2/rsr<4>.T = u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<4> & u2/rsr<5>
+;Imported pterms FB5_8
+	# !u2/rsr<4> & !u2/rsr<5>
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<4>.CLK = u2/clkdiv<3>;
+   u2/rsr<4>.AR = !rst;
+    u2/rsr<4>.EXP  =  u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+
+MACROCELL | 4 | 6 | u2/rsr<5>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 4 | 0 | 1 | 4 | 8 | 4 | 6 | 4 | 7
+INPUTS | 7 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<5>  | u2/rsr<6>  | interconn8_OBUF$BUF0.EXP  | u2/clkdiv<3>  | rst
+INPUTMC | 6 | 1 | 9 | 1 | 8 | 4 | 6 | 4 | 3 | 4 | 5 | 1 | 3
+INPUTP | 1 | 8
+IMPORTS | 1 | 4 | 5
+EQ | 10 | 
+   !u2/rsr<5>.T = u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<5> & u2/rsr<6>
+	# !u2/rsr<5> & !u2/rsr<6>
+;Imported pterms FB5_6
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<5>.CLK = u2/clkdiv<3>;
+   u2/rsr<5>.AR = !rst;
+
+MACROCELL | 4 | 3 | u2/rsr<6>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 5 | 0 | 2 | 4 | 6 | 4 | 3 | 4 | 2 | 4 | 4
+INPUTS | 9 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<7>  | u2/rsr<6>  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/clkdiv<3>  | rst  | u2/rsr<7>.EXP
+INPUTMC | 8 | 1 | 9 | 1 | 8 | 4 | 2 | 4 | 3 | 1 | 1 | 1 | 12 | 1 | 3 | 4 | 2
+INPUTP | 1 | 8
+EXPORTS | 1 | 4 | 4
+IMPORTS | 1 | 4 | 2
+EQ | 12 | 
+   !u2/rsr<6>.T = u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<7> & u2/rsr<6>
+;Imported pterms FB5_3
+	# !u2/rsr<7> & !u2/rsr<6>
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<6>.CLK = u2/clkdiv<3>;
+   u2/rsr<6>.AR = !rst;
+    u2/rsr<6>.EXP  =  u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+
+MACROCELL | 4 | 15 | u2/rsr<0>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 1 | 10 | 4 | 15
+INPUTS | 7 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<1>  | u2/rsr<0>  | u2/framing_error.EXP  | u2/clkdiv<3>  | rst
+INPUTMC | 6 | 1 | 9 | 1 | 8 | 4 | 13 | 4 | 15 | 4 | 16 | 1 | 3
+INPUTP | 1 | 8
+IMPORTS | 1 | 4 | 16
+EQ | 10 | 
+   !u2/rsr<0>.T = u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<1> & u2/rsr<0>
+	# !u2/rsr<1> & !u2/rsr<0>
+;Imported pterms FB5_17
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>;
+   u2/rsr<0>.CLK = u2/clkdiv<3>;
+   u2/rsr<0>.AR = !rst;
+
+MACROCELL | 6 | 7 | sdo_OBUF
+ATTRIBUTES | 8782754 | 0
+OUTPUTMC | 2 | 6 | 7 | 6 | 8
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<0>  | sdo  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP13_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 4 | 0 | 6 | 7 | 5 | 15 | 1 | 7 | 6 | 8 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 8
+EQ | 18 | 
+   sdo.D = sdo & u1/no_bits_sent<3> & u1/no_bits_sent<2>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<0>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<0>
+;Imported pterms FB7_9
+	# sdo & !u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & u1/no_bits_sent<2>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+	# u1/parity & u1/no_bits_sent<0> & 
+	u1/no_bits_sent<3> & u1/no_bits_sent<1> & !u1/no_bits_sent<2>;
+   sdo.CLK = !u1/clkdiv<3>;
+   sdo.AP = !rst;
+
+MACROCELL | 4 | 10 | tsre_OBUF
+ATTRIBUTES | 4588450 | 0
+OUTPUTMC | 2 | 4 | 10 | 4 | 9
+INPUTS | 11 | tsre  | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/no_bits_sent<2>  | u1/clkdiv<3>  | rst  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 10 | 4 | 10 | 5 | 15 | 1 | 5 | 1 | 7 | 1 | 6 | 3 | 15 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 1 | 8
+EXPORTS | 1 | 4 | 9
+EQ | 8 | 
+   tsre.T = tsre & u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2>
+	# !tsre & !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & u1/no_bits_sent<2>;
+   tsre.CLK = !u1/clkdiv<3>;
+   tsre.AP = !rst;
+    tsre_OBUF.EXP  =  !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 5 | 15 | u1/no_bits_sent<0>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 25 | 6 | 3 | 6 | 4 | 1 | 17 | 6 | 7 | 4 | 10 | 1 | 5 | 1 | 7 | 1 | 6 | 4 | 0 | 6 | 0 | 6 | 16 | 6 | 14 | 6 | 12 | 6 | 10 | 6 | 6 | 6 | 2 | 4 | 17 | 6 | 1 | 6 | 5 | 6 | 8 | 6 | 9 | 6 | 11 | 6 | 13 | 6 | 15 | 6 | 17
+INPUTS | 2 | u1/clkdiv<3>  | u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT
+INPUTMC | 2 | 3 | 15 | 5 | 12
+EQ | 3 | 
+   u1/no_bits_sent<0>.T = Vcc;
+   u1/no_bits_sent<0>.CLK = !u1/clkdiv<3>;
+   u1/no_bits_sent<0>.AR = !u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT;
+
+MACROCELL | 1 | 5 | u1/no_bits_sent<3>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 22 | 6 | 3 | 6 | 4 | 1 | 17 | 6 | 7 | 4 | 10 | 4 | 0 | 6 | 0 | 6 | 16 | 6 | 14 | 6 | 12 | 6 | 10 | 6 | 6 | 6 | 2 | 4 | 17 | 6 | 1 | 6 | 5 | 6 | 8 | 6 | 9 | 6 | 11 | 6 | 13 | 6 | 15 | 6 | 17
+INPUTS | 5 | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | u1/no_bits_sent<2>  | u1/clkdiv<3>  | u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT
+INPUTMC | 5 | 5 | 15 | 1 | 7 | 1 | 6 | 3 | 15 | 5 | 12
+EQ | 4 | 
+   u1/no_bits_sent<3>.T = u1/no_bits_sent<0> & u1/no_bits_sent<1> & 
+	u1/no_bits_sent<2>;
+   u1/no_bits_sent<3>.CLK = !u1/clkdiv<3>;
+   u1/no_bits_sent<3>.AR = !u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT;
+
+MACROCELL | 1 | 7 | u1/no_bits_sent<1>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 24 | 6 | 3 | 6 | 4 | 1 | 17 | 6 | 7 | 4 | 10 | 1 | 5 | 1 | 6 | 4 | 0 | 6 | 0 | 6 | 16 | 6 | 14 | 6 | 12 | 6 | 10 | 6 | 6 | 6 | 2 | 4 | 17 | 6 | 1 | 6 | 5 | 6 | 8 | 6 | 9 | 6 | 11 | 6 | 13 | 6 | 15 | 6 | 17
+INPUTS | 3 | u1/no_bits_sent<0>  | u1/clkdiv<3>  | u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT
+INPUTMC | 3 | 5 | 15 | 3 | 15 | 5 | 12
+EQ | 3 | 
+   u1/no_bits_sent<1>.T = u1/no_bits_sent<0>;
+   u1/no_bits_sent<1>.CLK = !u1/clkdiv<3>;
+   u1/no_bits_sent<1>.AR = !u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT;
+
+MACROCELL | 1 | 6 | u1/no_bits_sent<2>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 23 | 6 | 3 | 6 | 4 | 1 | 17 | 6 | 7 | 4 | 10 | 1 | 5 | 4 | 0 | 6 | 0 | 6 | 16 | 6 | 14 | 6 | 12 | 6 | 10 | 6 | 6 | 6 | 2 | 4 | 17 | 6 | 1 | 6 | 5 | 6 | 8 | 6 | 9 | 6 | 11 | 6 | 13 | 6 | 15 | 6 | 17
+INPUTS | 4 | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | u1/clkdiv<3>  | u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT
+INPUTMC | 4 | 5 | 15 | 1 | 7 | 3 | 15 | 5 | 12
+EQ | 3 | 
+   u1/no_bits_sent<2>.T = u1/no_bits_sent<0> & u1/no_bits_sent<1>;
+   u1/no_bits_sent<2>.CLK = !u1/clkdiv<3>;
+   u1/no_bits_sent<2>.AR = !u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT;
+
+MACROCELL | 1 | 3 | u2/clkdiv<3>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 24 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 1 | 16 | 0 | 1 | 0 | 2 | 0 | 4 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 1 | 15 | 4 | 4 | 4 | 2 | 4 | 13 | 4 | 12 | 4 | 9 | 4 | 8 | 4 | 6 | 4 | 3 | 4 | 15 | 4 | 16 | 4 | 14
+INPUTS | 5 | u2/clkdiv<0>  | u2/clkdiv<1>  | u2/clkdiv<2>  | sclk  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT
+INPUTMC | 5 | 5 | 14 | 5 | 17 | 5 | 16 | 2 | 15 | 5 | 11
+EQ | 3 | 
+   u2/clkdiv<3>.T = u2/clkdiv<0> & u2/clkdiv<1> & u2/clkdiv<2>;
+   u2/clkdiv<3>.CLK = sclk;
+   u2/clkdiv<3>.AR = !u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+
+MACROCELL | 2 | 15 | sclk
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 18 | 3 | 15 | 6 | 3 | 3 | 14 | 3 | 17 | 3 | 16 | 1 | 17 | 1 | 3 | 2 | 15 | 3 | 3 | 5 | 14 | 3 | 1 | 3 | 4 | 5 | 17 | 5 | 16 | 1 | 2 | 3 | 2 | 1 | 4 | 6 | 1
+INPUTS | 35 | rst  | sclk  | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<26>  | u3/cnt72<27>  | u3/cnt72<28>  | u3/cnt72<29>  | u3/cnt72<2>  | u3/cnt72<30>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | u3/cnt72<31>  | clk
+INPUTMC | 33 | 2 | 15 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 2 | 5
+INPUTP | 2 | 8 | 2
+EQ | 19 | 
+   sclk.T = rst & sclk & u3/cnt72<0> & !u3/cnt72<10> & 
+	!u3/cnt72<11> & !u3/cnt72<12> & !u3/cnt72<13> & !u3/cnt72<14> & 
+	!u3/cnt72<15> & !u3/cnt72<16> & !u3/cnt72<17> & !u3/cnt72<18> & 
+	!u3/cnt72<19> & u3/cnt72<1> & !u3/cnt72<20> & !u3/cnt72<21> & 
+	!u3/cnt72<22> & !u3/cnt72<23> & !u3/cnt72<24> & !u3/cnt72<25> & 
+	!u3/cnt72<26> & !u3/cnt72<27> & !u3/cnt72<28> & !u3/cnt72<29> & 
+	u3/cnt72<2> & !u3/cnt72<30> & !u3/cnt72<3> & !u3/cnt72<4> & 
+	!u3/cnt72<5> & u3/cnt72<6> & !u3/cnt72<7> & !u3/cnt72<8> & 
+	!u3/cnt72<9> & !u3/cnt72<31>
+	# rst & !sclk & u3/cnt72<0> & !u3/cnt72<10> & 
+	!u3/cnt72<11> & !u3/cnt72<12> & !u3/cnt72<13> & !u3/cnt72<14> & 
+	!u3/cnt72<15> & !u3/cnt72<16> & !u3/cnt72<17> & !u3/cnt72<18> & 
+	!u3/cnt72<19> & u3/cnt72<1> & !u3/cnt72<20> & !u3/cnt72<21> & 
+	!u3/cnt72<22> & !u3/cnt72<23> & !u3/cnt72<24> & !u3/cnt72<25> & 
+	!u3/cnt72<26> & !u3/cnt72<27> & !u3/cnt72<28> & !u3/cnt72<29> & 
+	!u3/cnt72<2> & !u3/cnt72<30> & !u3/cnt72<3> & !u3/cnt72<4> & 
+	u3/cnt72<5> & !u3/cnt72<6> & !u3/cnt72<7> & !u3/cnt72<8> & 
+	!u3/cnt72<9> & !u3/cnt72<31>;
+   sclk.CLK = clk;
+
+MACROCELL | 3 | 3 | u2/clk1x_enable
+ATTRIBUTES | 8520560 | 0
+OUTPUTMC | 5 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 5 | 11
+INPUTS | 4 | sclk  | u2/clk1x_enable/u2/clk1x_enable_RSTF  | u2/rxd2  | u2/rxd1
+INPUTMC | 4 | 2 | 15 | 1 | 0 | 3 | 1 | 3 | 2
+EQ | 4 | 
+   u2/clk1x_enable.D = Vcc;
+   u2/clk1x_enable.CLK = sclk;
+   u2/clk1x_enable.AR = u2/clk1x_enable/u2/clk1x_enable_RSTF;
+   u2/clk1x_enable.CE = u2/rxd2 & !u2/rxd1;
+
+MACROCELL | 4 | 0 | u1/tsr<0>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 6 | 6 | 4 | 6 | 7 | 4 | 0 | 4 | 17 | 6 | 3 | 6 | 8
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<0>  | u1/tsr<1>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP11_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 4 | 0 | 6 | 0 | 5 | 15 | 1 | 7 | 4 | 17 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 4 | 17
+EQ | 19 | 
+   u1/tsr<0>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<0>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<1>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<0>
+;Imported pterms FB5_18
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<1>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<1>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<1>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<0>;
+   u1/tsr<0>.CLK = !u1/clkdiv<3>;
+   u1/tsr<0>.AR = !rst;
+
+MACROCELL | 5 | 13 | u3/cnt72<0>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 32 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 2 | 5
+INPUTS | 2 | clk  | rst
+INPUTP | 2 | 2 | 8
+EQ | 3 | 
+   u3/cnt72<0>.T = Vcc;
+   u3/cnt72<0>.CLK = clk;
+   u3/cnt72<0>.AR = !rst;
+
+MACROCELL | 6 | 0 | u1/tsr<1>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 4 | 4 | 0 | 6 | 0 | 4 | 17 | 6 | 17
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<1>  | u1/tsr<2>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP18_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 6 | 0 | 6 | 16 | 5 | 15 | 1 | 7 | 6 | 17 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 17
+EQ | 19 | 
+   u1/tsr<1>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<1>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<2>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<1>
+;Imported pterms FB7_18
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<2>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<2>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<1>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<2>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<1>;
+   u1/tsr<1>.CLK = !u1/clkdiv<3>;
+   u1/tsr<1>.AR = !rst;
+
+MACROCELL | 6 | 16 | u1/tsr<2>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 4 | 6 | 0 | 6 | 16 | 6 | 15 | 6 | 17
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<2>  | u1/tsr<3>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP17_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 6 | 16 | 6 | 14 | 5 | 15 | 1 | 7 | 6 | 15 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 15
+EQ | 19 | 
+   u1/tsr<2>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<2>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<3>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<2>
+;Imported pterms FB7_16
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<3>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<3>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<2>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<3>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<2>;
+   u1/tsr<2>.CLK = !u1/clkdiv<3>;
+   u1/tsr<2>.AR = !rst;
+
+MACROCELL | 6 | 14 | u1/tsr<3>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 4 | 6 | 16 | 6 | 14 | 6 | 13 | 6 | 15
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<3>  | u1/tsr<4>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP16_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 6 | 14 | 6 | 12 | 5 | 15 | 1 | 7 | 6 | 13 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 13
+EQ | 19 | 
+   u1/tsr<3>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<3>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<4>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<3>
+;Imported pterms FB7_14
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<4>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<4>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<3>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<4>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<3>;
+   u1/tsr<3>.CLK = !u1/clkdiv<3>;
+   u1/tsr<3>.AR = !rst;
+
+MACROCELL | 6 | 12 | u1/tsr<4>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 4 | 6 | 14 | 6 | 12 | 6 | 11 | 6 | 13
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<4>  | u1/tsr<5>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP15_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 6 | 12 | 6 | 10 | 5 | 15 | 1 | 7 | 6 | 11 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 11
+EQ | 19 | 
+   u1/tsr<4>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<4>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<5>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<4>
+;Imported pterms FB7_12
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<5>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<5>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<4>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<5>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<4>;
+   u1/tsr<4>.CLK = !u1/clkdiv<3>;
+   u1/tsr<4>.AR = !rst;
+
+MACROCELL | 6 | 10 | u1/tsr<5>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 4 | 6 | 12 | 6 | 10 | 6 | 9 | 6 | 11
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<5>  | u1/tsr<6>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP14_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 6 | 10 | 6 | 6 | 5 | 15 | 1 | 7 | 6 | 9 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 9
+EQ | 19 | 
+   u1/tsr<5>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<5>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<6>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<5>
+;Imported pterms FB7_10
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<6>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<6>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<5>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<6>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<5>;
+   u1/tsr<5>.CLK = !u1/clkdiv<3>;
+   u1/tsr<5>.AR = !rst;
+
+MACROCELL | 6 | 6 | u1/tsr<6>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 4 | 6 | 10 | 6 | 6 | 6 | 5 | 6 | 9
+INPUTS | 9 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<6>  | u1/tsr<7>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | EXP12_.EXP  | u1/clkdiv<3>  | rst
+INPUTMC | 8 | 1 | 5 | 1 | 6 | 6 | 6 | 6 | 2 | 5 | 15 | 1 | 7 | 6 | 5 | 3 | 15
+INPUTP | 1 | 8
+IMPORTS | 1 | 6 | 5
+EQ | 19 | 
+   u1/tsr<6>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<6>
+	# !u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<7>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<6>
+;Imported pterms FB7_6
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<7>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<7>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<6>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<7>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<6>;
+   u1/tsr<6>.CLK = !u1/clkdiv<3>;
+   u1/tsr<6>.AR = !rst;
+
+MACROCELL | 6 | 2 | u1/tsr<7>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 5 | 6 | 6 | 6 | 2 | 6 | 1 | 6 | 5 | 6 | 3
+INPUTS | 10 | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<7>  | u1/no_bits_sent<0>  | u1/no_bits_sent<1>  | u1/clk1x_enable  | u1/clkdiv<3>  | rst  | u1/wrn2  | u2/data_ready.EXP
+INPUTMC | 9 | 1 | 5 | 1 | 6 | 6 | 2 | 5 | 15 | 1 | 7 | 6 | 3 | 3 | 15 | 1 | 4 | 6 | 1
+INPUTP | 1 | 8
+EXPORTS | 1 | 6 | 3
+IMPORTS | 1 | 6 | 1
+EQ | 14 | 
+   u1/tsr<7>.D = u1/no_bits_sent<3> & u1/no_bits_sent<2> & 
+	u1/tsr<7>
+	# u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<7>
+;Imported pterms FB7_2
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<7>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<7>;
+   u1/tsr<7>.CLK = !u1/clkdiv<3>;
+   u1/tsr<7>.AR = !rst;
+    u1/tsr<7>.EXP  =  u1/clk1x_enable & u1/no_bits_sent<0> & 
+	u1/no_bits_sent<3> & !u1/no_bits_sent<1> & u1/no_bits_sent<2> & 
+	!u1/wrn2
+
+MACROCELL | 2 | 14 | u3/cnt72<10>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 23 | 2 | 15 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 12 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 10 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 5 | 
+   u3/cnt72<10>.T = u3/cnt72<0> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<10>.CLK = clk;
+   u3/cnt72<10>.AR = !rst;
+
+MACROCELL | 0 | 17 | u3/cnt72<11>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 22 | 2 | 15 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 13 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 11 | 5 | 13 | 2 | 14 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 5 | 
+   u3/cnt72<11>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<1> & 
+	u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & 
+	u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<11>.CLK = clk;
+   u3/cnt72<11>.AR = !rst;
+
+MACROCELL | 0 | 16 | u3/cnt72<12>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 21 | 2 | 15 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 14 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 12 | 5 | 13 | 2 | 14 | 0 | 17 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 6 | 
+   u3/cnt72<12>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<1> & u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & 
+	u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & 
+	u3/cnt72<9>;
+   u3/cnt72<12>.CLK = clk;
+   u3/cnt72<12>.AR = !rst;
+
+MACROCELL | 0 | 15 | u3/cnt72<13>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 20 | 2 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 15 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 13 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 6 | 
+   u3/cnt72<13>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<1> & u3/cnt72<2> & u3/cnt72<3> & 
+	u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & 
+	u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<13>.CLK = clk;
+   u3/cnt72<13>.AR = !rst;
+
+MACROCELL | 0 | 14 | u3/cnt72<14>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 19 | 2 | 15 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 16 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 14 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 6 | 
+   u3/cnt72<14>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<14>.CLK = clk;
+   u3/cnt72<14>.AR = !rst;
+
+MACROCELL | 0 | 13 | u3/cnt72<15>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 18 | 2 | 15 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 17 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 15 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 6 | 
+   u3/cnt72<15>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<1> & 
+	u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & 
+	u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<15>.CLK = clk;
+   u3/cnt72<15>.AR = !rst;
+
+MACROCELL | 0 | 12 | u3/cnt72<16>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 17 | 2 | 15 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 18 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 16 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 7 | 
+   u3/cnt72<16>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<1> & u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & 
+	u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & 
+	u3/cnt72<9>;
+   u3/cnt72<16>.CLK = clk;
+   u3/cnt72<16>.AR = !rst;
+
+MACROCELL | 0 | 11 | u3/cnt72<17>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 16 | 2 | 15 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 19 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 17 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 7 | 
+   u3/cnt72<17>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<1> & u3/cnt72<2> & u3/cnt72<3> & 
+	u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & 
+	u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<17>.CLK = clk;
+   u3/cnt72<17>.AR = !rst;
+
+MACROCELL | 0 | 10 | u3/cnt72<18>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 15 | 2 | 15 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 20 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 18 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 7 | 
+   u3/cnt72<18>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<18>.CLK = clk;
+   u3/cnt72<18>.AR = !rst;
+
+MACROCELL | 0 | 9 | u3/cnt72<19>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 14 | 2 | 15 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 21 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 19 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 7 | 
+   u3/cnt72<19>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<1> & 
+	u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & 
+	u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<19>.CLK = clk;
+   u3/cnt72<19>.AR = !rst;
+
+MACROCELL | 2 | 13 | u3/cnt72<1>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 31 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 2 | 5
+INPUTS | 3 | u3/cnt72<0>  | clk  | rst
+INPUTMC | 1 | 5 | 13
+INPUTP | 2 | 2 | 8
+EQ | 3 | 
+   u3/cnt72<1>.T = u3/cnt72<0>;
+   u3/cnt72<1>.CLK = clk;
+   u3/cnt72<1>.AR = !rst;
+
+MACROCELL | 0 | 8 | u3/cnt72<20>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 13 | 2 | 15 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 22 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 20 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 8 | 
+   u3/cnt72<20>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & 
+	u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & 
+	u3/cnt72<9>;
+   u3/cnt72<20>.CLK = clk;
+   u3/cnt72<20>.AR = !rst;
+
+MACROCELL | 0 | 7 | u3/cnt72<21>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 12 | 2 | 15 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 23 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 21 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 8 | 
+   u3/cnt72<21>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<2> & u3/cnt72<3> & 
+	u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & 
+	u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<21>.CLK = clk;
+   u3/cnt72<21>.AR = !rst;
+
+MACROCELL | 0 | 6 | u3/cnt72<22>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 11 | 2 | 15 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 24 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 22 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 8 | 
+   u3/cnt72<22>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<22>.CLK = clk;
+   u3/cnt72<22>.AR = !rst;
+
+MACROCELL | 0 | 5 | u3/cnt72<23>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 10 | 2 | 15 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 25 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 23 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 8 | 
+   u3/cnt72<23>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & 
+	u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<23>.CLK = clk;
+   u3/cnt72<23>.AR = !rst;
+
+MACROCELL | 0 | 3 | u3/cnt72<24>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 9 | 2 | 15 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 26 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 24 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 9 | 
+   u3/cnt72<24>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & 
+	u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & 
+	u3/cnt72<9>;
+   u3/cnt72<24>.CLK = clk;
+   u3/cnt72<24>.AR = !rst;
+
+MACROCELL | 2 | 12 | u3/cnt72<25>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 8 | 2 | 15 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 27 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 25 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 9 | 
+   u3/cnt72<25>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<24> & u3/cnt72<2> & u3/cnt72<3> & 
+	u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & 
+	u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<25>.CLK = clk;
+   u3/cnt72<25>.AR = !rst;
+
+MACROCELL | 2 | 11 | u3/cnt72<26>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 7 | 2 | 15 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 28 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 26 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 9 | 
+   u3/cnt72<26>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<24> & u3/cnt72<25> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<26>.CLK = clk;
+   u3/cnt72<26>.AR = !rst;
+
+MACROCELL | 2 | 10 | u3/cnt72<27>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 6 | 2 | 15 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 29 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<26>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 27 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 9 | 
+   u3/cnt72<27>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<24> & u3/cnt72<25> & u3/cnt72<26> & 
+	u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & 
+	u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<27>.CLK = clk;
+   u3/cnt72<27>.AR = !rst;
+
+MACROCELL | 2 | 9 | u3/cnt72<28>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 5 | 2 | 15 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 30 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<26>  | u3/cnt72<27>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 28 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 10 | 
+   u3/cnt72<28>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<24> & u3/cnt72<25> & u3/cnt72<26> & 
+	u3/cnt72<27> & u3/cnt72<2> & u3/cnt72<3> & u3/cnt72<4> & 
+	u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & 
+	u3/cnt72<9>;
+   u3/cnt72<28>.CLK = clk;
+   u3/cnt72<28>.AR = !rst;
+
+MACROCELL | 2 | 8 | u3/cnt72<29>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 4 | 2 | 15 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 31 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<26>  | u3/cnt72<27>  | u3/cnt72<28>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 29 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 10 | 
+   u3/cnt72<29>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<24> & u3/cnt72<25> & u3/cnt72<26> & 
+	u3/cnt72<27> & u3/cnt72<28> & u3/cnt72<2> & u3/cnt72<3> & 
+	u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & u3/cnt72<7> & 
+	u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<29>.CLK = clk;
+   u3/cnt72<29>.AR = !rst;
+
+MACROCELL | 2 | 7 | u3/cnt72<2>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 30 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 2 | 5
+INPUTS | 4 | u3/cnt72<0>  | u3/cnt72<1>  | clk  | rst
+INPUTMC | 2 | 5 | 13 | 2 | 13
+INPUTP | 2 | 2 | 8
+EQ | 3 | 
+   u3/cnt72<2>.T = u3/cnt72<0> & u3/cnt72<1>;
+   u3/cnt72<2>.CLK = clk;
+   u3/cnt72<2>.AR = !rst;
+
+MACROCELL | 2 | 6 | u3/cnt72<30>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 3 | 2 | 15 | 2 | 5 | 2 | 16
+INPUTS | 32 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<26>  | u3/cnt72<27>  | u3/cnt72<28>  | u3/cnt72<29>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 30 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 10 | 
+   u3/cnt72<30>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<24> & u3/cnt72<25> & u3/cnt72<26> & 
+	u3/cnt72<27> & u3/cnt72<28> & u3/cnt72<29> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<30>.CLK = clk;
+   u3/cnt72<30>.AR = !rst;
+
+MACROCELL | 2 | 17 | u3/cnt72<3>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 29 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTS | 6 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<6>.EXP  | clk  | rst
+INPUTMC | 4 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 16
+INPUTP | 2 | 2 | 8
+IMPORTS | 1 | 2 | 16
+EQ | 14 | 
+   !u3/cnt72<3>.T = !u3/cnt72<0>
+	# !u3/cnt72<1>
+	# !u3/cnt72<2>
+;Imported pterms FB3_17
+	# !u3/cnt72<10> & !u3/cnt72<11> & !u3/cnt72<12> & 
+	!u3/cnt72<13> & !u3/cnt72<14> & !u3/cnt72<15> & !u3/cnt72<16> & 
+	!u3/cnt72<17> & !u3/cnt72<18> & !u3/cnt72<19> & !u3/cnt72<20> & 
+	!u3/cnt72<21> & !u3/cnt72<22> & !u3/cnt72<23> & !u3/cnt72<24> & 
+	!u3/cnt72<25> & !u3/cnt72<26> & !u3/cnt72<27> & !u3/cnt72<28> & 
+	!u3/cnt72<29> & !u3/cnt72<30> & !u3/cnt72<3> & !u3/cnt72<4> & 
+	!u3/cnt72<5> & u3/cnt72<6> & !u3/cnt72<7> & !u3/cnt72<8> & 
+	!u3/cnt72<9> & !u3/cnt72<31>;
+   u3/cnt72<3>.CLK = clk;
+   u3/cnt72<3>.AR = !rst;
+
+MACROCELL | 2 | 4 | u3/cnt72<4>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 28 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTS | 6 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | clk  | rst
+INPUTMC | 4 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 17
+INPUTP | 2 | 2 | 8
+EQ | 4 | 
+   u3/cnt72<4>.T = u3/cnt72<0> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3>;
+   u3/cnt72<4>.CLK = clk;
+   u3/cnt72<4>.AR = !rst;
+
+MACROCELL | 2 | 3 | u3/cnt72<5>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 27 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTS | 7 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | clk  | rst
+INPUTMC | 5 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4
+INPUTP | 2 | 2 | 8
+EQ | 4 | 
+   u3/cnt72<5>.T = u3/cnt72<0> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4>;
+   u3/cnt72<5>.CLK = clk;
+   u3/cnt72<5>.AR = !rst;
+
+MACROCELL | 2 | 16 | u3/cnt72<6>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 28 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 2 | 17
+INPUTS | 34 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<26>  | u3/cnt72<27>  | u3/cnt72<28>  | u3/cnt72<29>  | u3/cnt72<30>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | u3/cnt72<31>  | clk  | rst
+INPUTMC | 32 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 2 | 5
+INPUTP | 2 | 2 | 8
+EXPORTS | 1 | 2 | 17
+EQ | 21 | 
+   u3/cnt72<6>.T = u3/cnt72<0> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5>
+	# u3/cnt72<0> & !u3/cnt72<10> & !u3/cnt72<11> & 
+	!u3/cnt72<12> & !u3/cnt72<13> & !u3/cnt72<14> & !u3/cnt72<15> & 
+	!u3/cnt72<16> & !u3/cnt72<17> & !u3/cnt72<18> & !u3/cnt72<19> & 
+	u3/cnt72<1> & !u3/cnt72<20> & !u3/cnt72<21> & !u3/cnt72<22> & 
+	!u3/cnt72<23> & !u3/cnt72<24> & !u3/cnt72<25> & !u3/cnt72<26> & 
+	!u3/cnt72<27> & !u3/cnt72<28> & !u3/cnt72<29> & u3/cnt72<2> & 
+	!u3/cnt72<30> & !u3/cnt72<3> & !u3/cnt72<4> & !u3/cnt72<5> & 
+	u3/cnt72<6> & !u3/cnt72<7> & !u3/cnt72<8> & !u3/cnt72<9> & 
+	!u3/cnt72<31>;
+   u3/cnt72<6>.CLK = clk;
+   u3/cnt72<6>.AR = !rst;
+    u3/cnt72<6>.EXP  =  !u3/cnt72<10> & !u3/cnt72<11> & !u3/cnt72<12> & 
+	!u3/cnt72<13> & !u3/cnt72<14> & !u3/cnt72<15> & !u3/cnt72<16> & 
+	!u3/cnt72<17> & !u3/cnt72<18> & !u3/cnt72<19> & !u3/cnt72<20> & 
+	!u3/cnt72<21> & !u3/cnt72<22> & !u3/cnt72<23> & !u3/cnt72<24> & 
+	!u3/cnt72<25> & !u3/cnt72<26> & !u3/cnt72<27> & !u3/cnt72<28> & 
+	!u3/cnt72<29> & !u3/cnt72<30> & !u3/cnt72<3> & !u3/cnt72<4> & 
+	!u3/cnt72<5> & u3/cnt72<6> & !u3/cnt72<7> & !u3/cnt72<8> & 
+	!u3/cnt72<9> & !u3/cnt72<31>
+
+MACROCELL | 2 | 2 | u3/cnt72<7>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 26 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16 | 2 | 1 | 2 | 0
+INPUTS | 9 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | clk  | rst
+INPUTMC | 7 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16
+INPUTP | 2 | 2 | 8
+EQ | 4 | 
+   u3/cnt72<7>.T = u3/cnt72<0> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6>;
+   u3/cnt72<7>.CLK = clk;
+   u3/cnt72<7>.AR = !rst;
+
+MACROCELL | 2 | 1 | u3/cnt72<8>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 25 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16 | 2 | 0
+INPUTS | 10 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | clk  | rst
+INPUTMC | 8 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2
+INPUTP | 2 | 2 | 8
+EQ | 5 | 
+   u3/cnt72<8>.T = u3/cnt72<0> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7>;
+   u3/cnt72<8>.CLK = clk;
+   u3/cnt72<8>.AR = !rst;
+
+MACROCELL | 2 | 0 | u3/cnt72<9>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 24 | 2 | 15 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 6 | 2 | 5 | 2 | 16
+INPUTS | 11 | u3/cnt72<0>  | u3/cnt72<1>  | u3/cnt72<2>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | clk  | rst
+INPUTMC | 9 | 5 | 13 | 2 | 13 | 2 | 7 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1
+INPUTP | 2 | 2 | 8
+EQ | 5 | 
+   u3/cnt72<9>.T = u3/cnt72<0> & u3/cnt72<1> & u3/cnt72<2> & 
+	u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & u3/cnt72<6> & 
+	u3/cnt72<7> & u3/cnt72<8>;
+   u3/cnt72<9>.CLK = clk;
+   u3/cnt72<9>.AR = !rst;
+
+MACROCELL | 5 | 14 | u2/clkdiv<0>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 3 | 1 | 3 | 5 | 17 | 5 | 16
+INPUTS | 2 | sclk  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT
+INPUTMC | 2 | 2 | 15 | 5 | 11
+EQ | 3 | 
+   u2/clkdiv<0>.T = Vcc;
+   u2/clkdiv<0>.CLK = sclk;
+   u2/clkdiv<0>.AR = !u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+
+MACROCELL | 3 | 1 | u2/rxd2
+ATTRIBUTES | 8520608 | 0
+OUTPUTMC | 3 | 4 | 1 | 3 | 3 | 4 | 16
+INPUTS | 3 | u2/rxd1  | sclk  | rst
+INPUTMC | 2 | 3 | 2 | 2 | 15
+INPUTP | 1 | 8
+EQ | 3 | 
+   u2/rxd2.D = u2/rxd1;
+   u2/rxd2.CLK = sclk;
+   u2/rxd2.AP = !rst;
+
+MACROCELL | 2 | 5 | u3/cnt72<31>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 2 | 15 | 2 | 16
+INPUTS | 33 | u3/cnt72<0>  | u3/cnt72<10>  | u3/cnt72<11>  | u3/cnt72<12>  | u3/cnt72<13>  | u3/cnt72<14>  | u3/cnt72<15>  | u3/cnt72<16>  | u3/cnt72<17>  | u3/cnt72<18>  | u3/cnt72<19>  | u3/cnt72<1>  | u3/cnt72<20>  | u3/cnt72<21>  | u3/cnt72<22>  | u3/cnt72<23>  | u3/cnt72<24>  | u3/cnt72<25>  | u3/cnt72<26>  | u3/cnt72<27>  | u3/cnt72<28>  | u3/cnt72<29>  | u3/cnt72<2>  | u3/cnt72<30>  | u3/cnt72<3>  | u3/cnt72<4>  | u3/cnt72<5>  | u3/cnt72<6>  | u3/cnt72<7>  | u3/cnt72<8>  | u3/cnt72<9>  | clk  | rst
+INPUTMC | 31 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0
+INPUTP | 2 | 2 | 8
+EQ | 10 | 
+   u3/cnt72<31>.T = u3/cnt72<0> & u3/cnt72<10> & u3/cnt72<11> & 
+	u3/cnt72<12> & u3/cnt72<13> & u3/cnt72<14> & u3/cnt72<15> & 
+	u3/cnt72<16> & u3/cnt72<17> & u3/cnt72<18> & u3/cnt72<19> & 
+	u3/cnt72<1> & u3/cnt72<20> & u3/cnt72<21> & u3/cnt72<22> & 
+	u3/cnt72<23> & u3/cnt72<24> & u3/cnt72<25> & u3/cnt72<26> & 
+	u3/cnt72<27> & u3/cnt72<28> & u3/cnt72<29> & u3/cnt72<2> & 
+	u3/cnt72<30> & u3/cnt72<3> & u3/cnt72<4> & u3/cnt72<5> & 
+	u3/cnt72<6> & u3/cnt72<7> & u3/cnt72<8> & u3/cnt72<9>;
+   u3/cnt72<31>.CLK = clk;
+   u3/cnt72<31>.AR = !rst;
+
+MACROCELL | 3 | 4 | u1/wrn1
+ATTRIBUTES | 8520608 | 0
+OUTPUTMC | 3 | 6 | 3 | 1 | 17 | 1 | 4
+INPUTS | 3 | u1/wrn0  | sclk  | rst
+INPUTMC | 2 | 3 | 5 | 2 | 15
+INPUTP | 1 | 8
+EQ | 3 | 
+   u1/wrn1.D = u1/wrn0;
+   u1/wrn1.CLK = sclk;
+   u1/wrn1.AP = !rst;
+
+MACROCELL | 5 | 17 | u2/clkdiv<1>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 2 | 1 | 3 | 5 | 16
+INPUTS | 3 | u2/clkdiv<0>  | sclk  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT
+INPUTMC | 3 | 5 | 14 | 2 | 15 | 5 | 11
+EQ | 3 | 
+   u2/clkdiv<1>.T = u2/clkdiv<0>;
+   u2/clkdiv<1>.CLK = sclk;
+   u2/clkdiv<1>.AR = !u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+
+MACROCELL | 5 | 16 | u2/clkdiv<2>
+ATTRIBUTES | 4326192 | 0
+OUTPUTMC | 1 | 1 | 3
+INPUTS | 4 | u2/clkdiv<0>  | u2/clkdiv<1>  | sclk  | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT
+INPUTMC | 4 | 5 | 14 | 5 | 17 | 2 | 15 | 5 | 11
+EQ | 3 | 
+   u2/clkdiv<2>.T = u2/clkdiv<0> & u2/clkdiv<1>;
+   u2/clkdiv<2>.CLK = sclk;
+   u2/clkdiv<2>.AR = !u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT;
+
+MACROCELL | 1 | 2 | u2/newdata
+ATTRIBUTES | 4326176 | 0
+OUTPUTMC | 2 | 1 | 2 | 6 | 1
+INPUTS | 5 | rst  | rdn  | u2/isRead  | u2/newdata  | sclk
+INPUTMC | 3 | 1 | 15 | 1 | 2 | 2 | 15
+INPUTP | 2 | 8 | 69
+EQ | 3 | 
+   u2/newdata.T = rst & rdn & u2/isRead & u2/newdata
+	# rst & rdn & !u2/isRead & !u2/newdata;
+   u2/newdata.CLK = sclk;
+
+MACROCELL | 3 | 2 | u2/rxd1
+ATTRIBUTES | 8520608 | 0
+OUTPUTMC | 2 | 3 | 3 | 3 | 1
+INPUTS | 3 | rxd  | sclk  | rst
+INPUTMC | 1 | 2 | 15
+INPUTP | 2 | 95 | 8
+EQ | 3 | 
+   u2/rxd1.D = rxd;
+   u2/rxd1.CLK = sclk;
+   u2/rxd1.AP = !rst;
+
+MACROCELL | 3 | 13 | u1/tbr<0>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 4 | 17
+INPUTS | 3 | data<0>.PIN  | wrn  | rst
+INPUTP | 3 | 11 | 63 | 8
+EQ | 3 | 
+   u1/tbr<0>.D = data<0>.PIN;
+   u1/tbr<0>.CLK = !wrn;
+   u1/tbr<0>.AR = !rst;
+
+MACROCELL | 3 | 12 | u1/tbr<1>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 6 | 17
+INPUTS | 3 | data<1>.PIN  | wrn  | rst
+INPUTP | 3 | 12 | 63 | 8
+EQ | 3 | 
+   u1/tbr<1>.D = data<1>.PIN;
+   u1/tbr<1>.CLK = !wrn;
+   u1/tbr<1>.AR = !rst;
+
+MACROCELL | 3 | 11 | u1/tbr<2>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 6 | 15
+INPUTS | 3 | data<2>.PIN  | wrn  | rst
+INPUTP | 3 | 13 | 63 | 8
+EQ | 3 | 
+   u1/tbr<2>.D = data<2>.PIN;
+   u1/tbr<2>.CLK = !wrn;
+   u1/tbr<2>.AR = !rst;
+
+MACROCELL | 3 | 10 | u1/tbr<3>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 6 | 13
+INPUTS | 3 | data<3>.PIN  | wrn  | rst
+INPUTP | 3 | 15 | 63 | 8
+EQ | 3 | 
+   u1/tbr<3>.D = data<3>.PIN;
+   u1/tbr<3>.CLK = !wrn;
+   u1/tbr<3>.AR = !rst;
+
+MACROCELL | 3 | 9 | u1/tbr<4>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 6 | 11
+INPUTS | 3 | data<4>.PIN  | wrn  | rst
+INPUTP | 3 | 17 | 63 | 8
+EQ | 3 | 
+   u1/tbr<4>.D = data<4>.PIN;
+   u1/tbr<4>.CLK = !wrn;
+   u1/tbr<4>.AR = !rst;
+
+MACROCELL | 3 | 8 | u1/tbr<5>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 6 | 9
+INPUTS | 3 | data<5>.PIN  | wrn  | rst
+INPUTP | 3 | 18 | 63 | 8
+EQ | 3 | 
+   u1/tbr<5>.D = data<5>.PIN;
+   u1/tbr<5>.CLK = !wrn;
+   u1/tbr<5>.AR = !rst;
+
+MACROCELL | 3 | 7 | u1/tbr<6>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 6 | 5
+INPUTS | 3 | data<6>.PIN  | wrn  | rst
+INPUTP | 3 | 19 | 63 | 8
+EQ | 3 | 
+   u1/tbr<6>.D = data<6>.PIN;
+   u1/tbr<6>.CLK = !wrn;
+   u1/tbr<6>.AR = !rst;
+
+MACROCELL | 3 | 6 | u1/tbr<7>
+ATTRIBUTES | 8520496 | 0
+OUTPUTMC | 1 | 6 | 1
+INPUTS | 3 | data<7>.PIN  | wrn  | rst
+INPUTP | 3 | 21 | 63 | 8
+EQ | 3 | 
+   u1/tbr<7>.D = data<7>.PIN;
+   u1/tbr<7>.CLK = !wrn;
+   u1/tbr<7>.AR = !rst;
+
+MACROCELL | 1 | 4 | u1/wrn2
+ATTRIBUTES | 8520608 | 0
+OUTPUTMC | 3 | 6 | 3 | 1 | 17 | 6 | 2
+INPUTS | 3 | u1/wrn1  | sclk  | rst
+INPUTMC | 2 | 3 | 4 | 2 | 15
+INPUTP | 1 | 8
+EQ | 3 | 
+   u1/wrn2.D = u1/wrn1;
+   u1/wrn2.CLK = sclk;
+   u1/wrn2.AP = !rst;
+
+MACROCELL | 6 | 1 | u2/data_ready
+ATTRIBUTES | 8651634 | 0
+OUTPUTMC | 1 | 6 | 2
+INPUTS | 10 | sclk  | u2/data_ready/u2/data_ready_RSTF__$INT  | u2/isRead  | u2/newdata  | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<2>  | u1/tsr<7>  | u1/no_bits_sent<1>  | u1/tbr<7>
+INPUTMC | 10 | 2 | 15 | 0 | 0 | 1 | 15 | 1 | 2 | 5 | 15 | 1 | 5 | 1 | 6 | 6 | 2 | 1 | 7 | 3 | 6
+EXPORTS | 1 | 6 | 2
+EQ | 8 | 
+   data_ready.D = Vcc;
+   data_ready.CLK = sclk;
+   data_ready.AR = !u2/data_ready/u2/data_ready_RSTF__$INT;
+   data_ready.CE = u2/isRead & u2/newdata;
+    u2/data_ready.EXP  =  !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<7>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<7>
+
+MACROCELL | 4 | 16 | u2/framing_error
+ATTRIBUTES | 8651634 | 0
+OUTPUTMC | 1 | 4 | 15
+INPUTS | 8 | u2/clkdiv<3>  | rst  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/parity  | u2/rxd2
+INPUTMC | 7 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 4 | 4 | 3 | 1
+INPUTP | 1 | 8
+EXPORTS | 1 | 4 | 15
+EQ | 9 | 
+   framing_error.D = Vcc;
+   framing_error.CLK = u2/clkdiv<3>;
+   framing_error.AR = !rst;
+   framing_error.CE = u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3> & u2/parity & !u2/rxd2;
+    u2/framing_error.EXP  =  u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 4 | 14 | u2/parity_error
+ATTRIBUTES | 8651634 | 0
+OUTPUTMC | 1 | 4 | 13
+INPUTS | 7 | u2/clkdiv<3>  | rst  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/parity
+INPUTMC | 6 | 1 | 3 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 4 | 4
+INPUTP | 1 | 8
+EXPORTS | 1 | 4 | 13
+EQ | 9 | 
+   parity_error.D = Vcc;
+   parity_error.CLK = u2/clkdiv<3>;
+   parity_error.AR = !rst;
+   parity_error.CE = u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3> & u2/parity;
+    u2/parity_error.EXP  =  u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 3 | 5 | u1/wrn0
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 3 | 3 | 4 | 3 | 5 | 4 | 11
+INPUTS | 4 | rst  | u1/tbre_t  | wrn  | u1/wrn0
+INPUTMC | 2 | 1 | 17 | 3 | 5
+INPUTP | 2 | 8 | 63
+EQ | 3 | 
+   u1/wrn0 = !rst
+	# !u1/tbre_t
+	# wrn & u1/wrn0;
+
+MACROCELL | 4 | 11 | tbre_OBUF
+ATTRIBUTES | 264962 | 0
+OUTPUTMC | 1 | 4 | 12
+INPUTS | 6 | u1/tbre_t  | u1/wrn0  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<3>  | u2/no_bits_rcvd<2>
+INPUTMC | 6 | 1 | 17 | 3 | 5 | 1 | 1 | 1 | 12 | 1 | 8 | 1 | 9
+EXPORTS | 1 | 4 | 12
+EQ | 5 | 
+   tbre = u1/tbre_t & u1/wrn0;
+    tbre_OBUF.EXP  =  u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 4 | 7 | interconn7_OBUF$BUF0
+ATTRIBUTES | 264962 | 0
+OUTPUTMC | 1 | 4 | 8
+INPUTS | 7 | ps2clock  | u2/rsr<4>  | u2/rsr<5>  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<3>  | u2/no_bits_rcvd<2>
+INPUTMC | 6 | 4 | 8 | 4 | 6 | 1 | 1 | 1 | 12 | 1 | 8 | 1 | 9
+INPUTP | 1 | 114
+EXPORTS | 1 | 4 | 8
+EQ | 6 | 
+   interconn7 = ps2clock;
+    interconn7_OBUF$BUF0.EXP  =  !u2/rsr<4> & !u2/rsr<5>
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 4 | 5 | interconn8_OBUF$BUF0
+ATTRIBUTES | 264962 | 0
+OUTPUTMC | 1 | 4 | 6
+INPUTS | 5 | ps2data  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<3>  | u2/no_bits_rcvd<2>
+INPUTMC | 4 | 1 | 1 | 1 | 12 | 1 | 8 | 1 | 9
+INPUTP | 1 | 112
+EXPORTS | 1 | 4 | 6
+EQ | 5 | 
+   interconn8 = ps2data;
+    interconn8_OBUF$BUF0.EXP  =  u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 3 | 0 | u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 4 | 3 | 15 | 3 | 14 | 3 | 17 | 3 | 16
+INPUTS | 2 | rst  | wrn
+INPUTP | 2 | 8 | 63
+EQ | 1 | 
+   u1/clkdiv<1>/u1/clkdiv<1>_RSTF__$INT = rst & wrn;
+
+MACROCELL | 1 | 0 | u2/clk1x_enable/u2/clk1x_enable_RSTF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 5 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 3 | 3
+INPUTS | 5 | rst  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>  | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>
+INPUTMC | 4 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8
+INPUTP | 1 | 8
+EQ | 3 | 
+   u2/clk1x_enable/u2/clk1x_enable_RSTF = !rst
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>;
+
+MACROCELL | 5 | 11 | u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 8 | 1 | 1 | 1 | 12 | 1 | 9 | 1 | 8 | 1 | 3 | 5 | 14 | 5 | 17 | 5 | 16
+INPUTS | 2 | rst  | u2/clk1x_enable
+INPUTMC | 1 | 3 | 3
+INPUTP | 1 | 8
+EQ | 1 | 
+   u2/clkdiv<3>/u2/clkdiv<3>_RSTF__$INT = rst & u2/clk1x_enable;
+
+MACROCELL | 5 | 12 | u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 4 | 5 | 15 | 1 | 5 | 1 | 7 | 1 | 6
+INPUTS | 2 | rst  | u1/clk1x_enable
+INPUTMC | 1 | 6 | 3
+INPUTP | 1 | 8
+EQ | 1 | 
+   u1/no_bits_sent<3>/u1/no_bits_sent<3>_RSTF__$INT = rst & u1/clk1x_enable;
+
+MACROCELL | 0 | 0 | u2/data_ready/u2/data_ready_RSTF__$INT
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 6 | 1
+INPUTS | 2 | rst  | rdn
+INPUTP | 2 | 8 | 69
+EQ | 1 | 
+   u2/data_ready/u2/data_ready_RSTF__$INT = rst & rdn;
+
+MACROCELL | 4 | 1 | EXP10_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 4 | 2
+INPUTS | 6 | u2/no_bits_rcvd<2>  | u2/no_bits_rcvd<3>  | u2/rsr<7>  | u2/rxd2  | u2/no_bits_rcvd<0>  | u2/no_bits_rcvd<1>
+INPUTMC | 6 | 1 | 9 | 1 | 8 | 4 | 2 | 3 | 1 | 1 | 1 | 1 | 12
+EXPORTS | 1 | 4 | 2
+EQ | 7 | 
+       EXP10_.EXP  =  u2/no_bits_rcvd<2> & u2/no_bits_rcvd<3>
+	# u2/rsr<7> & u2/rxd2
+	# !u2/rsr<7> & !u2/rxd2
+	# u2/no_bits_rcvd<0> & u2/no_bits_rcvd<1> & 
+	u2/no_bits_rcvd<3>
+	# !u2/no_bits_rcvd<0> & !u2/no_bits_rcvd<1> & 
+	!u2/no_bits_rcvd<2> & !u2/no_bits_rcvd<3>
+
+MACROCELL | 4 | 17 | EXP11_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 4 | 0
+INPUTS | 7 | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/tsr<1>  | u1/no_bits_sent<2>  | u1/tsr<0>  | u1/tbr<0>
+INPUTMC | 7 | 5 | 15 | 1 | 5 | 1 | 7 | 6 | 0 | 1 | 6 | 4 | 0 | 3 | 13
+EXPORTS | 1 | 4 | 0
+EQ | 10 | 
+       EXP11_.EXP  =  u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<1>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<1>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<1>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<0>
+
+MACROCELL | 6 | 5 | EXP12_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 6 | 6
+INPUTS | 7 | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/tsr<7>  | u1/no_bits_sent<2>  | u1/tsr<6>  | u1/tbr<6>
+INPUTMC | 7 | 5 | 15 | 1 | 5 | 1 | 7 | 6 | 2 | 1 | 6 | 6 | 6 | 3 | 7
+EXPORTS | 1 | 6 | 6
+EQ | 10 | 
+       EXP12_.EXP  =  u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<7>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<7>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<6>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<7>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<6>
+
+MACROCELL | 6 | 8 | EXP13_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 6 | 7
+INPUTS | 7 | sdo  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/no_bits_sent<2>  | u1/no_bits_sent<0>  | u1/tsr<0>  | u1/parity
+INPUTMC | 7 | 6 | 7 | 1 | 5 | 1 | 7 | 1 | 6 | 5 | 15 | 4 | 0 | 6 | 4
+EXPORTS | 1 | 6 | 7
+EQ | 10 | 
+       EXP13_.EXP  =  sdo & !u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & u1/no_bits_sent<2>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<0>
+	# u1/parity & u1/no_bits_sent<0> & 
+	u1/no_bits_sent<3> & u1/no_bits_sent<1> & !u1/no_bits_sent<2>
+
+MACROCELL | 6 | 9 | EXP14_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 6 | 10
+INPUTS | 7 | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/tsr<6>  | u1/no_bits_sent<2>  | u1/tsr<5>  | u1/tbr<5>
+INPUTMC | 7 | 5 | 15 | 1 | 5 | 1 | 7 | 6 | 6 | 1 | 6 | 6 | 10 | 3 | 8
+EXPORTS | 1 | 6 | 10
+EQ | 10 | 
+       EXP14_.EXP  =  u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<6>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<6>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<5>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<6>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<5>
+
+MACROCELL | 6 | 11 | EXP15_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 6 | 12
+INPUTS | 7 | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/tsr<5>  | u1/no_bits_sent<2>  | u1/tsr<4>  | u1/tbr<4>
+INPUTMC | 7 | 5 | 15 | 1 | 5 | 1 | 7 | 6 | 10 | 1 | 6 | 6 | 12 | 3 | 9
+EXPORTS | 1 | 6 | 12
+EQ | 10 | 
+       EXP15_.EXP  =  u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<5>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<5>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<4>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<5>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<4>
+
+MACROCELL | 6 | 13 | EXP16_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 6 | 14
+INPUTS | 7 | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/tsr<4>  | u1/no_bits_sent<2>  | u1/tsr<3>  | u1/tbr<3>
+INPUTMC | 7 | 5 | 15 | 1 | 5 | 1 | 7 | 6 | 12 | 1 | 6 | 6 | 14 | 3 | 10
+EXPORTS | 1 | 6 | 14
+EQ | 10 | 
+       EXP16_.EXP  =  u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<4>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<4>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<3>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<4>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<3>
+
+MACROCELL | 6 | 15 | EXP17_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 6 | 16
+INPUTS | 7 | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/tsr<3>  | u1/no_bits_sent<2>  | u1/tsr<2>  | u1/tbr<2>
+INPUTMC | 7 | 5 | 15 | 1 | 5 | 1 | 7 | 6 | 14 | 1 | 6 | 6 | 16 | 3 | 11
+EXPORTS | 1 | 6 | 16
+EQ | 10 | 
+       EXP17_.EXP  =  u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<3>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<3>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<2>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<3>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<2>
+
+MACROCELL | 6 | 17 | EXP18_
+ATTRIBUTES | 2048 | 0
+OUTPUTMC | 1 | 6 | 0
+INPUTS | 7 | u1/no_bits_sent<0>  | u1/no_bits_sent<3>  | u1/no_bits_sent<1>  | u1/tsr<2>  | u1/no_bits_sent<2>  | u1/tsr<1>  | u1/tbr<1>
+INPUTMC | 7 | 5 | 15 | 1 | 5 | 1 | 7 | 6 | 16 | 1 | 6 | 6 | 0 | 3 | 12
+EXPORTS | 1 | 6 | 0
+EQ | 10 | 
+       EXP18_.EXP  =  u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	u1/no_bits_sent<1> & u1/tsr<2>
+	# !u1/no_bits_sent<0> & u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<2>
+	# !u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<2> & u1/tsr<1>
+	# u1/no_bits_sent<3> & !u1/no_bits_sent<1> & 
+	!u1/no_bits_sent<2> & u1/tsr<2>
+	# u1/no_bits_sent<0> & !u1/no_bits_sent<3> & 
+	!u1/no_bits_sent<1> & !u1/no_bits_sent<2> & u1/tbr<1>
+
+PIN | rst | 64 | 0 | N/A | 8 | 85 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 1 | 16 | 0 | 1 | 0 | 2 | 0 | 4 | 6 | 3 | 1 | 15 | 4 | 4 | 4 | 2 | 6 | 4 | 1 | 17 | 4 | 13 | 4 | 12 | 4 | 9 | 4 | 8 | 4 | 6 | 4 | 3 | 4 | 15 | 6 | 7 | 4 | 10 | 2 | 15 | 4 | 0 | 5 | 13 | 6 | 0 | 6 | 16 | 6 | 14 | 6 | 12 | 6 | 10 | 6 | 6 | 6 | 2 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 3 | 1 | 2 | 5 | 3 | 4 | 1 | 2 | 3 | 2 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 1 | 4 | 4 | 16 | 4 | 14 | 3 | 5 | 3 | 0 | 1 | 0 | 5 | 11 | 5 | 12 | 0 | 0
+PIN | rdn | 64 | 0 | N/A | 69 | 10 | 1 | 10 | 1 | 11 | 1 | 13 | 1 | 14 | 1 | 16 | 0 | 1 | 0 | 2 | 0 | 4 | 1 | 2 | 0 | 0
+PIN | clk | 64 | 0 | N/A | 2 | 33 | 2 | 15 | 5 | 13 | 2 | 14 | 0 | 17 | 0 | 16 | 0 | 15 | 0 | 14 | 0 | 13 | 0 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 2 | 13 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 3 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 17 | 2 | 4 | 2 | 3 | 2 | 16 | 2 | 2 | 2 | 1 | 2 | 0 | 2 | 5
+PIN | rxd | 64 | 0 | N/A | 95 | 1 | 3 | 2
+PIN | wrn | 64 | 0 | N/A | 63 | 10 | 3 | 13 | 3 | 12 | 3 | 11 | 3 | 10 | 3 | 9 | 3 | 8 | 3 | 7 | 3 | 6 | 3 | 5 | 3 | 0
+PIN | ps2clock | 64 | 0 | N/A | 114 | 1 | 4 | 7
+PIN | ps2data | 64 | 0 | N/A | 112 | 1 | 4 | 5
+PIN | sdo | 536871040 | 0 | N/A | 88
+PIN | tsre | 536871040 | 0 | N/A | 64
+PIN | data_ready | 536871040 | 0 | N/A | 79
+PIN | framing_error | 536871040 | 0 | N/A | 77
+PIN | parity_error | 536871040 | 0 | N/A | 72
+PIN | tbre | 536871040 | 0 | N/A | 68
+PIN | interconn7 | 536871040 | 0 | N/A | 62
+PIN | interconn8 | 536871040 | 0 | N/A | 60
+PIN | data<0> | 536870976 | 0 | N/A | 11 | 1 | 3 | 13
+PIN | data<1> | 536870976 | 0 | N/A | 12 | 1 | 3 | 12
+PIN | data<2> | 536870976 | 0 | N/A | 13 | 1 | 3 | 11
+PIN | data<3> | 536870976 | 0 | N/A | 15 | 1 | 3 | 10
+PIN | data<4> | 536870976 | 0 | N/A | 17 | 1 | 3 | 9
+PIN | data<5> | 536870976 | 0 | N/A | 18 | 1 | 3 | 8
+PIN | data<6> | 536870976 | 0 | N/A | 19 | 1 | 3 | 7
+PIN | data<7> | 536870976 | 0 | N/A | 21 | 1 | 3 | 6

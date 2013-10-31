@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Adder16.vhd -prj Project -o Adder16.spl -module Adder16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Adder16.spl {D:/VHDL/Computer Arti/Project/Adder16.sym} 

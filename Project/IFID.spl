@@ -1,0 +1,10 @@
+[Inputs]
+clock
+rst
+WriteIN
+=InstructionInput[15:0]=
+=PCInput[15:0]=
+[Outputs]
+=InstructionOutput[15:0]=
+=PCOutput[15:0]=
+[BiDir]
