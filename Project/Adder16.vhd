@@ -1,20 +1,20 @@
 ----------------------------------------------------------------------------------
--- Company: 
+-- Company:
 -- Engineer: 许欣然
--- 
--- Create Date:    14:20:25 11/06/2012 
--- Design Name: 
--- Module Name:    Adder16 - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
 --
--- Dependencies: 
+-- Create Date:    14:20:25 11/06/2012
+-- Design Name:
+-- Module Name:    Adder16 - Behavioral
+-- Project Name:
+-- Target Devices:
+-- Tool versions:
+-- Description:
 --
--- Revision: 
+-- Dependencies:
+--
+-- Revision:
 -- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments:
 --
 ----------------------------------------------------------------------------------
 library IEEE;

@@ -1,3 +1,23 @@
+----------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: ×ÞÁÖÏ£
+-- 
+-- Create Date:    21:42:32 11/11/2012 
+-- Design Name: 
+-- Module Name:    TContrl - Behavioral 
+-- Project Name: 
+-- Target Devices: 
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+
 library	ieee;
 use		ieee.std_logic_1164.all;
 use		ieee.std_logic_unsigned.all;

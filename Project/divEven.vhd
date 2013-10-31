@@ -1,9 +1,28 @@
+----------------------------------------------------------------------------------
+-- Company:
+-- Engineer: 邹林希
+--
+-- Create Date:    15:22:18 11/06/2012
+-- Design Name:
+-- Module Name:    ALU - Behavioral
+-- Project Name:
+-- Target Devices:
+-- Tool versions:
+-- Description:
+--
+-- Dependencies:
+--
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+--
+----------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
-entity divEven is -- 
+entity divEven is --
 	generic(N: integer:=20; half: integer:=10; size: integer:=4);
 	port(clk: in std_logic;
 		 div: out std_logic);
@@ -26,8 +45,4 @@ begin
 		div<=result;
 	end process;
 end behav;
-	
-			
-			
-		
-			
+

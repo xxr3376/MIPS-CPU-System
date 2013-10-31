@@ -1,7 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
--- 
+-- Engineer: 许欣然
 -- Create Date:    00:54:36 11/18/2012 
 -- Design Name: 
 -- Module Name:    LED16 - Behavioral 

@@ -1,3 +1,22 @@
+----------------------------------------------------------------------------------
+-- Company:
+-- Engineer: 邹林希
+--
+-- Create Date:    15:22:18 11/06/2012
+-- Design Name:
+-- Module Name:    ALU - Behavioral
+-- Project Name:
+-- Target Devices:
+-- Tool versions:
+-- Description:
+--
+-- Dependencies:
+--
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+--
+----------------------------------------------------------------------------------
 Library IEEE;
 Use IEEE.Std_logic_1164.all;
 USe IEEE.Std_logic_unsigned.all;

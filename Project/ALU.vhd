@@ -1,20 +1,20 @@
 ----------------------------------------------------------------------------------
--- Company: 
+-- Company:
 -- Engineer: ×ÞÁÖÏ£
--- 
--- Create Date:    15:22:18 11/06/2012 
--- Design Name: 
--- Module Name:    ALU - Behavioral 
--- Project Name: 
--- Target Devices: 
--- Tool versions: 
--- Description: 
 --
--- Dependencies: 
+-- Create Date:    15:22:18 11/06/2012
+-- Design Name:
+-- Module Name:    ALU - Behavioral
+-- Project Name:
+-- Target Devices:
+-- Tool versions:
+-- Description:
 --
--- Revision: 
+-- Dependencies:
+--
+-- Revision:
 -- Revision 0.01 - File Created
--- Additional Comments: 
+-- Additional Comments:
 --
 ----------------------------------------------------------------------------------
 library IEEE;
@@ -44,10 +44,10 @@ begin
 result<=result_tmp;
 process(dataA,dataB,operation)
 begin
-	case operation is	
+	case operation is
 		when "000" =>
-			--result <= dataA + dataB; 
-			result_tmp <= dataA + dataB; 
+			--result <= dataA + dataB;
+			result_tmp <= dataA + dataB;
 		when "001" =>
 			--result <= dataA - dataB;
 			result_tmp <= dataA - dataB;
@@ -62,8 +62,8 @@ begin
 			result_tmp <= TO_STDLOGICVECTOR(TO_BITVECTOR(dataA) sll CONV_INTEGER(dataB(3 downto 0)));
 		when "101"=>
 			--need test here:sra from 1-8!
-			--result <= TO_STDLOGICVECTOR(TO_BITVECTOR(dataA) sra CONV_INTEGER(dataB(3 downto 0)));	
-			result_tmp <= TO_STDLOGICVECTOR(TO_BITVECTOR(dataA) sra CONV_INTEGER(dataB(3 downto 0)));	
+			--result <= TO_STDLOGICVECTOR(TO_BITVECTOR(dataA) sra CONV_INTEGER(dataB(3 downto 0)));
+			result_tmp <= TO_STDLOGICVECTOR(TO_BITVECTOR(dataA) sra CONV_INTEGER(dataB(3 downto 0)));
 		when others=>
 			--result <= (others=>'0');
 			result_tmp <= (others=>'0');
