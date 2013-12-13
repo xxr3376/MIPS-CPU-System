@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2012-11-28T13:03:01</DateModified>
+  <DateModified>2013-12-04T19:38:41</DateModified>
   <ModuleName>Project</ModuleName>
   <SummaryTimeStamp>2012-11-25T02:43:51</SummaryTimeStamp>
-  <SavedFilePath>D:/VHDL/Computer Arti/Project/iseconfig/Project.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/VHDL/Computer Arti/Project\</ImplementationReportsDirectory>
+  <SavedFilePath>/home/pithorn/git/MIPS-CPU-System/Project/iseconfig/Project.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/pithorn/git/MIPS-CPU-System/Project/</ImplementationReportsDirectory>
   <DateInitialized>2012-11-06T14:17:46</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

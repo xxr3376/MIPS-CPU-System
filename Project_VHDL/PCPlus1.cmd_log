@@ -1,0 +1,2 @@
+vhdtdtfi -lib work PCPlus1.vhd -prj Project -o PCPlus1.spl -module PCPlus1 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PCPlus1.spl {D:/VHDL/Computer Arti/Project/PCPlus1.sym} 

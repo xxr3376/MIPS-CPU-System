@@ -1,0 +1,2 @@
+vhdtdtfi -lib work SmartClock.vhd -prj Project -o SmartClock.spl -module SmartClock -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SmartClock.spl {D:/VHDL/Computer Arti/Project/SmartClock.sym} 

@@ -1,0 +1,8 @@
+vhdtdtfi -lib work MEM_WB.vhd -prj Project -o MEM_WB.spl -module MEM_WB -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MEM_WB.spl {D:/VHDL/Computer Arti/Project/MEM_WB.sym} 
+vhdtdtfi -lib work MEM_WB.vhd -prj Project -o MEM_WB.spl -module MEM_WB -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MEM_WB.spl {D:/VHDL/Computer Arti/Project/MEM_WB.sym} 
+vhdtdtfi -lib work MEM_WB.vhd -prj Project -o MEM_WB.spl -module MEM_WB -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MEM_WB.spl {D:/VHDL/Computer Arti/Project/MEM_WB.sym} 
+vhdtdtfi -lib work MEM_WB.vhd -prj Project -o MEM_WB.spl -module MEM_WB -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MEM_WB.spl {D:/VHDL/Computer Arti/Project/MEM_WB.sym} 

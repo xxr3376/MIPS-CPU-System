@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="HazardDetection">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2012-11-24T5:59:26</timestamp>
+    <pin polarity="Input" x="0" y="-160" name="IDEXMemRead" />
+    <pin polarity="Input" x="0" y="-96" name="Instruction(15:0)" />
+    <pin polarity="Output" x="464" y="-160" name="PCWrite" />
+    <pin polarity="Output" x="464" y="-96" name="IFIDWrite" />
+    <pin polarity="Output" x="464" y="-32" name="CtrlSignal" />
+    <pin polarity="Input" x="0" y="32" name="IDEXRegDest(3:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="232" y="-200" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin IDEXMemRead" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin Instruction(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-160" type="pin PCWrite" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-96" type="pin IFIDWrite" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="392" y="-32" type="pin CtrlSignal" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin IDEXRegDest(3:0)" />
+        <rect width="64" x="0" y="20" height="24" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <line x2="464" y1="-160" y2="-160" x1="400" />
+        <line x2="464" y1="-96" y2="-96" x1="400" />
+        <line x2="464" y1="-32" y2="-32" x1="400" />
+        <rect width="336" x="64" y="-192" height="256" />
+    </graph>
+</symbol>

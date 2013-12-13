@@ -1,0 +1,4 @@
+vhdtdtfi -lib work DebugInputPort.vhd -prj Project -o DebugInputPort.spl -module DebugInputPort -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DebugInputPort.spl {D:/VHDL/Computer Arti/Project/DebugInputPort.sym} 
+vhdtdtfi -lib work DebugInputPort.vhd -prj Project -o DebugInputPort.spl -module DebugInputPort -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DebugInputPort.spl {D:/VHDL/Computer Arti/Project/DebugInputPort.sym} 

@@ -1,0 +1,6 @@
+vhdtdtfi -lib work SignedExtend.vhd -prj tmp -o SignedExtend.spl -module SignedExtend -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SignedExtend.spl {D:/VHDL/Computer Arti/tmp/SignedExtend.sym} 
+vhdtdtfi -lib work SignedExtend.vhd -prj Project -o SignedExtend.spl -module SignedExtend -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SignedExtend.spl {D:/VHDL/Computer Arti/Project/SignedExtend.sym} 
+vhdtdtfi -lib work SignedExtend.vhd -prj Project -o SignedExtend.spl -module SignedExtend -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SignedExtend.spl {D:/VHDL/Computer Arti/Project/SignedExtend.sym} 

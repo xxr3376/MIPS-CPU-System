@@ -1,0 +1,2 @@
+vhdtdtfi -lib work DataMemory.vhd -prj Project -o DataMemory.spl -module DataMemory -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DataMemory.spl {D:/VHDL/Computer Arti/Project/DataMemory.sym} 

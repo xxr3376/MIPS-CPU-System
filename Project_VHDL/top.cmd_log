@@ -1,0 +1,2 @@
+vhdtdtfi -lib work keytorank.vhd -lib work Keyboard.vhd -lib work divEven.vhd -lib work top.vhd -prj Project -o top.spl -module top -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e top.spl {D:/VHDL/Computer Arti/Project/top.sym} 

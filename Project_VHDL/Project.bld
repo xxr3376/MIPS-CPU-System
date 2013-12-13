@@ -1,0 +1,38 @@
+Release 14.4 ngdbuild P.49d (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: /home/pithorn/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Project.ucf -p
+xc3s1200e-fg320-4 Project.ngc Project.ngd
+
+Reading NGO file "/home/pithorn/Project/Project.ngc" ...
+Loading design module "/home/pithorn/Project/vga_mem.ngc"...
+Loading design module "/home/pithorn/Project/blk_mem_gen_v6_1.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Project.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 401000 kilobytes
+
+Writing NGD file "Project.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "Project.bld"...

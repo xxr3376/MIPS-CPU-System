@@ -1,0 +1,17 @@
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EX_MEM.spl {D:/VHDL/Computer Arti/Project/EX_MEM.sym} 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EX_MEM.spl {D:/VHDL/Computer Arti/Project/EX_MEM.sym} 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EX_MEM.spl {D:/VHDL/Computer Arti/Project/EX_MEM.sym} 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EX_MEM.spl {D:/VHDL/Computer Arti/Project/EX_MEM.sym} 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EX_MEM.spl {D:/VHDL/Computer Arti/Project/EX_MEM.sym} 
+vhdtdtfi -lib work EX_MEM.vhd -prj Project -o EX_MEM.spl -module EX_MEM -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e EX_MEM.spl {D:/VHDL/Computer Arti/Project/EX_MEM.sym} 

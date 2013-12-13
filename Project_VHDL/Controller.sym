@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Controller">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2012-11-17T6:40:45</timestamp>
+    <pin polarity="Input" x="0" y="-144" name="InstructionInput(15:0)" />
+    <pin polarity="Output" x="480" y="-32" name="ALUSrc1" />
+    <pin polarity="Output" x="480" y="32" name="ALUSrc2" />
+    <pin polarity="Output" x="480" y="-96" name="RegTWrite" />
+    <pin polarity="Output" x="480" y="-480" name="TType" />
+    <pin polarity="Output" x="480" y="-416" name="MemRead" />
+    <pin polarity="Output" x="480" y="-352" name="MemWrite" />
+    <pin polarity="Output" x="480" y="-288" name="RegWrite" />
+    <pin polarity="Output" x="480" y="-224" name="MemtoReg" />
+    <pin polarity="Output" x="480" y="96" name="RegtoMem" />
+    <pin polarity="Output" x="480" y="160" name="RegDst(3:0)" />
+    <pin polarity="Output" x="480" y="-160" name="ALUOp(2:0)" />
+    <pin polarity="Output" x="480" y="224" name="Src1(3:0)" />
+    <pin polarity="Output" x="480" y="288" name="Src2(3:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="240" y="-520" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-144" type="pin InstructionInput(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-32" type="pin ALUSrc1" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="32" type="pin ALUSrc2" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-96" type="pin RegTWrite" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="328" y="-480" type="pin TType" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-416" type="pin MemRead" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-352" type="pin MemWrite" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-288" type="pin RegWrite" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-224" type="pin MemtoReg" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="96" type="pin RegtoMem" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="160" type="pin RegDst(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-160" type="pin ALUOp(2:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="224" type="pin Src1(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="288" type="pin Src2(3:0)" />
+        <line x2="480" y1="-32" y2="-32" x1="416" />
+        <line x2="480" y1="32" y2="32" x1="416" />
+        <line x2="480" y1="96" y2="96" x1="416" />
+        <rect width="64" x="416" y="148" height="24" />
+        <line x2="480" y1="160" y2="160" x1="416" />
+        <rect width="64" x="416" y="212" height="24" />
+        <line x2="480" y1="224" y2="224" x1="416" />
+        <rect width="64" x="416" y="276" height="24" />
+        <line x2="480" y1="288" y2="288" x1="416" />
+        <line x2="480" y1="-96" y2="-96" x1="416" />
+        <line x2="480" y1="-416" y2="-416" x1="416" />
+        <line x2="480" y1="-352" y2="-352" x1="416" />
+        <line x2="480" y1="-288" y2="-288" x1="416" />
+        <line x2="480" y1="-224" y2="-224" x1="416" />
+        <rect width="64" x="416" y="-172" height="24" />
+        <line x2="480" y1="-160" y2="-160" x1="416" />
+        <line x2="416" y1="-480" y2="-480" x1="480" />
+        <rect width="64" x="0" y="-156" height="24" />
+        <line x2="0" y1="-144" y2="-144" x1="64" />
+        <rect width="352" x="64" y="-512" height="824" />
+    </graph>
+</symbol>

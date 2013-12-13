@@ -1,0 +1,2 @@
+vhdtdtfi -lib work LED16.vhd -prj Project -o LED16.spl -module LED16 -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e LED16.spl {D:/VHDL/Computer Arti/Project/LED16.sym} 

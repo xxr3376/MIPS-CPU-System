@@ -1,0 +1,10 @@
+vhdtdtfi -lib work IFID.vhd -prj tmp -o IFID.spl -module IFID -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IFID.spl {D:/VHDL/Computer Arti/tmp/IFID.sym} 
+vhdtdtfi -lib work Reg16.vhd -lib work IFID.vhd -prj Project -o IFID.spl -module IFID -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IFID.spl {D:/VHDL/Computer Arti/Project/IFID.sym} 
+vhdtdtfi -lib work Reg16.vhd -lib work IFID.vhd -prj Project -o IFID.spl -module IFID -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IFID.spl {D:/VHDL/Computer Arti/Project/IFID.sym} 
+vhdtdtfi -lib work Reg16.vhd -lib work IFID.vhd -prj Project -o IFID.spl -module IFID -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IFID.spl {D:/VHDL/Computer Arti/Project/IFID.sym} 
+vhdtdtfi -lib work IFID.vhd -prj Project -o IFID.spl -module IFID -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IFID.spl {D:/VHDL/Computer Arti/Project/IFID.sym} 

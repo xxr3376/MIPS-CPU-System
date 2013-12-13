@@ -1,0 +1,4 @@
+vhdtdtfi -lib work ALU.vhd -prj Project -o ALU.spl -module ALU -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ALU.spl {D:/VHDL/Computer Arti/Project/ALU.sym} 
+vhdtdtfi -lib work ALU.vhd -prj Project -o ALU.spl -module ALU -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ALU.spl {D:/VHDL/Computer Arti/Project/ALU.sym} 
