@@ -1,0 +1,8 @@
+vhdtdtfi -lib work TControl.vhd -prj Project -o TControl.spl -module TControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work TControl.vhd -prj Project -o TControl.spl -module TControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work TControl.vhd -prj Project -o TControl.spl -module TControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e TControl.spl {D:/VHDL/Computer Arti/Project/TControl.sym} 
+vhdtdtfi -lib work TControl.vhd -prj Project -o TControl.spl -module TControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e TControl.spl {D:/VHDL/Computer Arti/Project/TControl.sym} 
+vhdtdtfi -lib work TControl.vhd -prj Project -o TControl.spl -module TControl -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e TControl.spl {D:/VHDL/Computer Arti/Project/TControl.sym} 

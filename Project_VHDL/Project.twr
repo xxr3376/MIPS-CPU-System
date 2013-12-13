@@ -1,0 +1,220 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+/home/pithorn/Xilinx/14.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v
+3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf
+-ucf Project.ucf
+
+Design file:              Project.ncd
+Physical constraint file: Project.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock KEY16_INPUT<4>
+-----------------+------------+------------+------------------------+--------+
+                 |Max Setup to|Max Hold to |                        | Clock  |
+Source           | clk (edge) | clk (edge) |Internal Clock(s)       | Phase  |
+-----------------+------------+------------+------------------------+--------+
+basicDatabus<0>  |   -3.521(R)|    6.407(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<1>  |   -3.258(R)|    6.198(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<2>  |   -2.615(R)|    5.684(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<3>  |   -3.147(R)|    6.110(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<4>  |   -3.402(R)|    6.306(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<5>  |   -3.645(R)|    6.509(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<6>  |   -3.608(R)|    6.477(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<7>  |   -4.218(R)|    6.956(R)|cpu_SmartClock_out_clock|   0.000|
+dataReady        |   -0.782(R)|    4.217(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<0>    |   -3.869(R)|    6.680(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<1>    |   -3.535(R)|    6.431(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<2>    |   -3.766(R)|    6.616(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<3>    |   -3.994(R)|    6.799(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<4>    |   -4.760(R)|    7.406(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<5>    |   -4.036(R)|    6.827(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<6>    |   -4.579(R)|    7.266(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<7>    |   -3.479(R)|    6.579(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<8>    |   -4.547(R)|    7.241(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<9>    |   -4.600(R)|    7.283(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<10>   |   -4.251(R)|    6.992(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<11>   |   -3.982(R)|    6.777(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<12>   |   -4.012(R)|    6.808(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<13>   |   -4.319(R)|    7.053(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<14>   |   -4.127(R)|    6.892(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<15>   |   -3.704(R)|    6.554(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<0> |   -2.716(R)|    7.563(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<1> |   -2.529(R)|    8.103(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<2> |   -2.298(R)|    7.662(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<3> |   -3.005(R)|    7.196(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<4> |   -2.723(R)|    6.884(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<5> |   -3.436(R)|    6.890(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<6> |   -2.028(R)|    6.293(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<7> |   -3.028(R)|    7.360(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<8> |   -3.718(R)|    6.790(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<9> |   -2.811(R)|    6.795(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<10>|   -3.702(R)|    6.713(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<11>|   -4.063(R)|    7.363(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<12>|   -2.909(R)|    7.275(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<13>|   -3.784(R)|    6.643(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<14>|   -1.999(R)|    7.192(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<15>|   -3.444(R)|    7.024(R)|cpu_SmartClock_out_clock|   0.000|
+reset            |    3.387(R)|    6.737(R)|cpu_SmartClock_out_clock|   0.000|
+serialTBRE       |    0.390(R)|    3.279(R)|cpu_SmartClock_out_clock|   0.000|
+serialTSRE       |   -1.323(R)|    4.650(R)|cpu_SmartClock_out_clock|   0.000|
+-----------------+------------+------------+------------------------+--------+
+
+Clock CLOCK_50M to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+LED_OUTPUT<0>|    8.874(R)|CLOCK_50M_BUFGP   |   0.000|
+-------------+------------+------------------+--------+
+
+Clock KEY16_INPUT<4> to Pad
+-----------------+------------+------------------------+--------+
+                 | clk (edge) |                        | Clock  |
+Destination      |   to PAD   |Internal Clock(s)       | Phase  |
+-----------------+------------+------------------------+--------+
+LED_OUTPUT<1>    |   18.788(R)|cpu_SmartClock_out_clock|   0.000|
+LED_OUTPUT<2>    |   19.582(R)|cpu_SmartClock_out_clock|   0.000|
+LED_OUTPUT<3>    |   19.062(R)|cpu_SmartClock_out_clock|   0.000|
+LED_OUTPUT<4>    |   21.471(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<0>  |   17.609(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<1>  |   17.332(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<2>  |   17.041(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<3>  |   17.062(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<4>  |   17.297(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<5>  |   17.056(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<6>  |   17.810(R)|cpu_SmartClock_out_clock|   0.000|
+basicDatabus<7>  |   17.832(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<1>    |   15.740(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<2>    |   15.157(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<3>    |   15.907(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<4>    |   15.563(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<5>    |   15.589(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<6>    |   14.899(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<7>    |   15.311(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<8>    |   14.606(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<9>    |   14.912(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<10>   |   15.206(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<11>   |   15.092(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<12>   |   14.549(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<13>   |   15.278(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<14>   |   14.576(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<15>   |   14.571(R)|cpu_SmartClock_out_clock|   0.000|
+flash_addr<16>   |   14.838(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<0>    |   15.160(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<1>    |   15.633(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<2>    |   15.885(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<3>    |   15.630(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<4>    |   15.814(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<5>    |   15.806(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<6>    |   16.080(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<7>    |   16.058(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<8>    |   15.361(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<9>    |   15.612(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<10>   |   15.807(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<11>   |   16.060(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<12>   |   16.059(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<13>   |   16.048(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<14>   |   16.297(R)|cpu_SmartClock_out_clock|   0.000|
+flash_data<15>   |   16.281(R)|cpu_SmartClock_out_clock|   0.000|
+flash_oe         |   15.868(R)|cpu_SmartClock_out_clock|   0.000|
+flash_we         |   15.720(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<0> |   20.331(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<1> |   21.085(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<2> |   20.432(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<3> |   20.786(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<4> |   20.052(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<5> |   20.366(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<6> |   20.854(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<7> |   21.134(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<8> |   20.986(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<9> |   21.483(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<10>|   21.505(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<11>|   20.747(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<12>|   22.004(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<13>|   20.946(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<14>|   19.965(R)|cpu_SmartClock_out_clock|   0.000|
+memoryAddress<15>|   22.380(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<0> |   19.533(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<1> |   21.887(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<2> |   21.435(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<3> |   20.214(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<4> |   20.155(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<5> |   21.164(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<6> |   20.528(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<7> |   19.694(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<8> |   19.762(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<9> |   20.898(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<10>|   19.907(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<11>|   20.086(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<12>|   19.891(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<13>|   21.035(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<14>|   19.733(R)|cpu_SmartClock_out_clock|   0.000|
+memoryDatabus<15>|   21.000(R)|cpu_SmartClock_out_clock|   0.000|
+memoryOE         |   18.752(R)|cpu_SmartClock_out_clock|   0.000|
+memoryRW         |   18.224(R)|cpu_SmartClock_out_clock|   0.000|
+serialRDN        |   21.829(R)|cpu_SmartClock_out_clock|   0.000|
+serialWRN        |   19.212(R)|cpu_SmartClock_out_clock|   0.000|
+-----------------+------------+------------------------+--------+
+
+Clock to Setup on destination clock CLOCK_50M
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_50M      |    4.374|         |         |         |
+KEY16_INPUT<4> |   12.101|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock KEY16_INPUT<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLOCK_50M      |    4.850|         |         |         |
+KEY16_INPUT<4> |    5.617|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Dec  4 20:25:05 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 381 MB
+
+
+

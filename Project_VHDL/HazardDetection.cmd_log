@@ -1,0 +1,5 @@
+vhdtdtfi -lib work HazardDetection.vhd -prj Project -o HazardDetection.spl -module HazardDetection -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work HazardDetection.vhd -prj Project -o HazardDetection.spl -module HazardDetection -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e HazardDetection.spl {D:/VHDL/Computer Arti/Project/HazardDetection.sym} 
+vhdtdtfi -lib work HazardDetection.vhd -prj Project -o HazardDetection.spl -module HazardDetection -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e HazardDetection.spl {D:/VHDL/Computer Arti/Project/HazardDetection.sym} 

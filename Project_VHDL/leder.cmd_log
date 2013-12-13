@@ -1,0 +1,2 @@
+vhdtdtfi -lib work seg7.vhd -lib work leder.vhd -prj Project -o leder.spl -module leder -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e leder.spl {D:/VHDL/Computer Arti/Project/leder.sym} 

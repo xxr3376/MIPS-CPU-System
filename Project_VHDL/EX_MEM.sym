@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="EX_MEM">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2012-11-17T6:36:52</timestamp>
+    <pin polarity="Input" x="0" y="-608" name="MemReadInput" />
+    <pin polarity="Input" x="0" y="-544" name="MemWriteInput" />
+    <pin polarity="Input" x="0" y="-480" name="RegWriteInput" />
+    <pin polarity="Input" x="0" y="-416" name="MemtoRegInput" />
+    <pin polarity="Input" x="0" y="-288" name="clock" />
+    <pin polarity="Input" x="0" y="-32" name="rst" />
+    <pin polarity="Input" x="0" y="-224" name="AddressInput(15:0)" />
+    <pin polarity="Input" x="0" y="-160" name="DataInput(15:0)" />
+    <pin polarity="Input" x="0" y="-96" name="RegDestInput(3:0)" />
+    <pin polarity="Output" x="544" y="-672" name="MemtoRegOutput" />
+    <pin polarity="Output" x="544" y="-608" name="RegWriteOutput" />
+    <pin polarity="Output" x="544" y="-480" name="MemReadOutput" />
+    <pin polarity="Output" x="544" y="-416" name="MemWriteOutput" />
+    <pin polarity="Output" x="544" y="-288" name="AddressOutput(15:0)" />
+    <pin polarity="Output" x="544" y="-224" name="DataOutput(15:0)" />
+    <pin polarity="Output" x="544" y="-160" name="RegDestOutput(3:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="272" y="-712" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin MemReadInput" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin MemWriteInput" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin RegWriteInput" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin MemtoRegInput" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin clock" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin rst" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin AddressInput(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin DataInput(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin RegDestInput(3:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-672" type="pin MemtoRegOutput" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-608" type="pin RegWriteOutput" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-480" type="pin MemReadOutput" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-416" type="pin MemWriteOutput" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-288" type="pin AddressOutput(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-224" type="pin DataOutput(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-160" type="pin RegDestOutput(3:0)" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <line x2="544" y1="-672" y2="-672" x1="480" />
+        <line x2="544" y1="-608" y2="-608" x1="480" />
+        <line x2="544" y1="-480" y2="-480" x1="480" />
+        <line x2="544" y1="-416" y2="-416" x1="480" />
+        <rect width="64" x="480" y="-300" height="24" />
+        <line x2="544" y1="-288" y2="-288" x1="480" />
+        <rect width="64" x="480" y="-236" height="24" />
+        <line x2="544" y1="-224" y2="-224" x1="480" />
+        <rect width="64" x="480" y="-172" height="24" />
+        <line x2="544" y1="-160" y2="-160" x1="480" />
+        <rect width="416" x="64" y="-704" height="768" />
+    </graph>
+</symbol>

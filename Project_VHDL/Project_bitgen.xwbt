@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/pithorn/Project/Project.ncd
+OUTFILE=/home/pithorn/Project/Project.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=/home/pithorn/Project
+LICENSE=WebPack
+USER_INFO=__0_0_0

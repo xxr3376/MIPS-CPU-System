@@ -1,0 +1,13 @@
+vhdtdtfi -lib work Controller.vhd -prj tmp -o Controller.spl -module Controller -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {D:/VHDL/Computer Arti/tmp/Controller.sym} 
+vhdtdtfi -lib work Controller.vhd -prj Project -o Controller.spl -module Controller -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {D:/VHDL/Computer Arti/Project/Controller.sym} 
+vhdtdtfi -lib work Controller.vhd -prj Project -o Controller.spl -module Controller -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {D:/VHDL/Computer Arti/Project/Controller.sym} 
+vhdtdtfi -lib work Controller.vhd -prj Project -o Controller.spl -module Controller -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {D:/VHDL/Computer Arti/Project/Controller.sym} 
+vhdtdtfi -lib work Controller.vhd -prj Project -o Controller.spl -module Controller -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work Controller.vhd -prj Project -o Controller.spl -module Controller -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {D:/VHDL/Computer Arti/Project/Controller.sym} 
+vhdtdtfi -lib work Controller.vhd -prj Project -o Controller.spl -module Controller -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Controller.spl {D:/VHDL/Computer Arti/Project/Controller.sym} 

@@ -601,3 +601,5 @@ map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o Projec
 par -w -intstyle ise -ol high -t 1 Project_map.ncd Project.ncd Project.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Project.twx Project.ncd -o Project.twr Project.pcf -ucf Project.ucf 
 bitgen -intstyle ise -f Project.ut Project.ncd 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Project.vhf -w /home/pithorn/git/MIPS-CPU-System/Project/Project.sch 
+sch2vhdl -intstyle ise -family spartan3e -tionly -w /home/pithorn/git/MIPS-CPU-System/Project/Project.sch Project.vhi 

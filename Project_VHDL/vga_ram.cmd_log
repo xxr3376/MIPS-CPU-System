@@ -1,0 +1,8 @@
+vhdtdtfi -lib work vga_640480.vhd -lib work ipcore_dir/blk_mem_gen_v7_2.vhd -lib work vga_ram.vhd -prj Project -o vga_ram.spl -module vga_ram -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e vga_ram.spl {D:/VHDL/Computer Arti/Project/vga_ram.sym} 
+vhdtdtfi -lib work vga_mem.vhd -lib work vga_640480.vhd -lib work blk_mem_gen_v6_1.vhd -lib work vga_ram.vhd -prj Project -o vga_ram.spl -module vga_ram -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e vga_ram.spl {D:/VHDL/Computer Arti/Project/vga_ram.sym} 
+vhdtdtfi -lib work vga_mem.vhd -lib work vga_640480.vhd -lib work blk_mem_gen_v6_1.vhd -lib work vga_ram.vhd -prj Project -o vga_ram.spl -module vga_ram -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e vga_ram.spl {D:/VHDL/Computer Arti/Project/vga_ram.sym} 
+vhdtdtfi -lib work vga_mem.vhd -lib work vga_640480.vhd -lib work blk_mem_gen_v6_1.vhd -lib work vga_ram.vhd -prj Project -o vga_ram.spl -module vga_ram -template D:/Xilinx/14.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e vga_ram.spl {D:/VHDL/Computer Arti/Project/vga_ram.sym} 
